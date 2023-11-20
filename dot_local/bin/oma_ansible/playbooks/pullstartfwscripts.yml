@@ -1,0 +1,13 @@
+---
+- hosts: general_servers
+  tasks:
+    - name: Specifying a path directly
+      ansible.builtin.fetch:
+        src: /root/scripts/start.fw
+        dest: /tmp/ansible/startfw-{{ inventory_hostname | quote }}
+        validate_checksum: false
+          
+       
+
+
+

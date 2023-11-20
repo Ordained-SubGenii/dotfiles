@@ -1,0 +1,35 @@
+# Exclude patterns
+- .thumbnails/***
+- node_modules/***
+- venv/***
+- .git/***
+- *.iso
+- *cache/***
+- *tmp/***
+- *mozilla/***
+- *chromium/***
+- .cargo/registry/index/***
+- Template/***
+- .electron-gyp/***
+- .cert/***
+- man/***
+- *.lock
+- *.pkg
+- font/***
+# Include patterns
++ /$HOME/***
++ /root/***
++ /bin/***
++ /usr/local/***
++ /usr/share/***
++ /usr/lib/***
++ /usr/lib32/***
++ /usr/bin/***
++ /var/log/***
++ /var/lib/***
++ /var/run/***
++ /etc/***
++ /boot/***
+ 
+# Exclude everything else
+- /**

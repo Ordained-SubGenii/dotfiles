@@ -1,0 +1,20 @@
+---
+- hosts: general_servers
+  tasks:
+    # This will only retrieve information
+  - name: get current state of the firewall
+    community.general.iptables_state:
+      state: saved
+      path: /tmp/iptables
+    check_mode: true
+    changed_when: false
+    register: iptables_state
+
+  - name: show current state of the firewall
+    ansible.builtin.debug:
+      var: iptables_state.initial_state
+
+      
+
+
+

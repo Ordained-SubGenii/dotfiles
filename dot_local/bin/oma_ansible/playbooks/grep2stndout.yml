@@ -1,0 +1,19 @@
+---
+- hosts: general_servers
+  tasks:
+    - name: get values
+      ansible.builtin.shell: 
+        cmd: (find . -type f -name .env -print0 | xargs -0 grep noreply@omatech;) || printf "%s Not found %n"
+        chdir: /var/www/
+        executable: /bin/bash 
+      register: grep_output
+      ignore_errors: true
+    
+    - name: Print   
+      debug:
+        msg: "{{ inventory_hostname }}: '{{ grep_output.stdout }}'"
+
+      
+
+
+

@@ -1,0 +1,48 @@
+# This is the default ansible 'hosts' file.
+#
+# It should live in /etc/ansible/hosts
+#
+#   - Comments begin with the '#' character
+#   - Blank lines are ignored
+#   - Groups of hosts are delimited by [header] elements
+#   - You can enter hostnames or ip addresses
+#   - A hostname/ip can be a member of multiple groups
+
+# Ex 1: Ungrouped hosts, specify before any group headers:
+
+# ATENCION - lA CLAVE QUE SE UTILIZA PARA CONFIGURAR LOS EQUIPOS DE EDIVERSA ES --- .ssh/id_rsa_ansible_ediversa
+# ATENCION - lA CLAVE QUE SE UTILIZA PARA CONFIGURAR LOS EQUIPOS DE OMATECH ES --- .ssh/id_rsa_ansible_omatech
+
+#LOCALHOST
+localhost ansible_connection=local
+
+[general_servers]
+omafront49.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront48.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible 
+omafront47.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront46.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront45.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront44.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront43.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront42.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront41.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront40.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront39.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront38.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront37.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront36.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront34.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront33.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront32.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront31.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible 
+omafront30.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront29.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront28.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront26.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront24.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront17.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront15.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+omafront13.omatech.com ansible_ssh_private_key_file=~/.ssh/id_rsa_ansible_omatech ansible_ssh_user=ansible
+# special servers omadocker, proxmox
+[special_servers]
+omadocker.omatech.com ansible_ssh_user=ansible

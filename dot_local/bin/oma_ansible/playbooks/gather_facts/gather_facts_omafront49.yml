@@ -1,0 +1,11 @@
+
+- name: Creación fichero actualizaciones
+  hosts: omafront49.omatech.com
+  user: ansible
+  become: true
+  gather_facts: true
+  vars:
+  tasks:
+  - name: Print all available facts
+    ansible.builtin.debug:
+      var: ansible_facts

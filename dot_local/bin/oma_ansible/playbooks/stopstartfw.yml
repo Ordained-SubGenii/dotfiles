@@ -1,0 +1,15 @@
+---
+- hosts: general_servers
+  tasks:
+    - name: appenwhite
+      ansible.builtin.shell: 
+        cmd: echo "46.26.240.16" >> /root/scripts/whitelist.txt
+        chdir: /root/scripts/
+        executable: /bin/bash 
+      ignore_errors: true
+        #debug:
+        #msg: "{{ inventory_hostname }}:"
+
+   
+
+

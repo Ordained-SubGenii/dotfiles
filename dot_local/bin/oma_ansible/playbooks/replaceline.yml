@@ -1,0 +1,16 @@
+---
+- hosts: general_servers
+  tasks:
+  - name: Replace server address for zabbix 
+    ansible.builtin.lineinfile:
+      path: /etc/zabbix/zabbix_agentd.conf 
+      search_string: 'Server=62.97.114.53,213.97.62.44' 
+      line: Server=217.125.26.129
+      #backup: true  
+  
+  - name: Replace serveractive address for zabbix
+    ansible.builtin.lineinfile:
+      path: /etc/zabbix/zabbix_agentd.conf  
+      search_string: 'ServerActive=62.97.114.53,213.97.62.44' 
+      line: ServerActive=217.125.26.129
+      #backup: true   

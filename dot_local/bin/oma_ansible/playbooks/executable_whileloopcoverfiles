@@ -1,0 +1,20 @@
+#!/usr/bin/bash
+files=(
+"index.php"
+"license.txt"
+"wp-activate.php"
+"wp-admin/about.php"
+"wp-admin/admin-ajax.php"
+"wp-admin/admin-footer.php"
+"wp-admin/admin-functions.php"
+"wp-admin/admin-header.php"
+"wp-admin/admin-post.php"
+"wp-admin/admin.php"
+"wp-includes/wp-db.php"
+"wp-includes/wp-diff.php"
+"wp-links-opml.php"
+  )
+
+for file in "${files[@]}"; do
+  getfacl $file 
+done  

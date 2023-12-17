@@ -1,0 +1,77 @@
+
+ok: [omafront49.omatech.com] => {
+    "msg": "omafront49.omatech.com: ' Not found '"
+}
+ok: [omafront48.omatech.com] => {
+    "msg": "omafront48.omatech.com: ' Not found '"
+}
+ok: [omafront47.omatech.com] => {
+    "msg": "omafront47.omatech.com: ' Not found '"
+}
+ok: [omafront46.omatech.com] => {
+    "msg": "omafront46.omatech.com: ' Not found '"
+}
+ok: [omafront45.omatech.com] => {
+    "msg": "omafront45.omatech.com: ' Not found '"
+}
+ok: [omafront44.omatech.com] => {
+    "msg": "omafront44.omatech.com: './itwreagents_devel/.env:#MAIL_FROM_ADDRESS=noreply@omatech.com\n./itwreagents_devel_20220711/.env:#MAIL_FROM_ADDRESS=noreply@omatech.com\n./itwreagents/.env:MAIL_FROM_ADDRESS=noreply@omatech.com'"
+}
+ok: [omafront43.omatech.com] => {
+    "msg": "omafront43.omatech.com: ' Not found '"
+}
+ok: [omafront42.omatech.com] => {
+    "msg": "omafront42.omatech.com: ' Not found '"
+}
+ok: [omafront41.omatech.com] => {
+    "msg": "omafront41.omatech.com: ' Not found '"
+}
+ok: [omafront40.omatech.com] => {
+    "msg": "omafront40.omatech.com: ' Not found '"
+}
+ok: [omafront38.omatech.com] => {
+    "msg": "omafront38.omatech.com: ' Not found '"
+}
+ok: [omafront37.omatech.com] => {
+    "msg": "omafront37.omatech.com: ' Not found '"
+}
+ok: [omafront36.omatech.com] => {
+    "msg": "omafront36.omatech.com: ' Not found '"
+}
+ok: [omafront34.omatech.com] => {
+    "msg": "omafront34.omatech.com: ' Not found '"
+}
+ok: [omafront33.omatech.com] => {
+    "msg": "omafront33.omatech.com: ' Not found '"
+}
+ok: [omafront32.omatech.com] => {
+    "msg": "omafront32.omatech.com: './summa/.env:MAIL_FROM_ADDRESS=noreply@omatech.com\n./ems/.env:MAIL_USERNAME=noreply@omatech.com\n./axioma/.env:MAIL_USERNAME=noreply@omatech.com\n./axioma/.env:MAIL_FROM_ADDRESS=noreply@omatech.com\n./ediversa-main-dev/.env:#MAIL_FROM_ADDRESS=noreply@omatech.com\n./ivi-ginecologos/.env:MAIL_USERNAME=noreply@omatech.com\n./ivi-ginecologos/.env:MAIL_FROM_ADDRESS=noreply@omatech.com\n./synlab/.env:MAIL_FROM_ADDRESS=noreply@omatech.com\n./web-serveis/.env:MAIL_FROM_ADDRESS=noreply@omatech.com\n./omatech2022/.env:MAIL_FROM_ADDRESS=noreply@omatech.com\n./lot-nadal/api-lot-nadal-store.omatech.com/shared/.env:MAIL_FROM_ADDRESS=noreply@omatech.com\n./lot-nadal/lot-cms-backoffice/.env:MAIL_FROM_ADDRESS=noreply@omatech.com\n./lot-nadal/lot-cms-backoffice/.env:MAIL_FROM=noreply@omatech.com\n./mutua_intranet/.env:MAIL_USERNAME=noreply@omatech.com\n./pmo-monstar-lab/.env:MAIL_FROM_ADDRESS=noreply@omatech.com'"
+}
+ok: [omafront31.omatech.com] => {
+    "msg": "omafront31.omatech.com: ' Not found '"
+}
+ok: [omafront30.omatech.com] => {
+    "msg": "omafront30.omatech.com: './lavanguardia-graella/.env:SMTP_USERNAME=noreply@omatech.com\n./lavanguardia-horoscop/.env:SMTP_USERNAME=noreply@omatech.com\n./lavanguardia-horoscop.20210730/.env:SMTP_USERNAME=noreply@omatech.com'"
+}
+ok: [omafront29.omatech.com] => {
+    "msg": "omafront29.omatech.com: './kabi/.env:MAIL_USERNAME=noreply@omatech.com'"
+}
+ok: [omafront28.omatech.com] => {
+    "msg": "omafront28.omatech.com: './advancing/.env:MAIL_USERNAME=noreply@omatech.com\n./control-horari/.env:MAIL_FROM_ADDRESS=noreply@omatech.com\n./icarweb/marketing/.env:MAIL_USERNAME=noreply@omatech.com\n./icarweb/marketing/.env:MAIL_FROM_ADDRESS=noreply@omatech.com\n./icarweb/intranet/.env:MAIL_USERNAME=noreply@omatech.com\n./icarweb/intranet/.env:MAIL_FROM_ADDRESS=noreply@omatech.com\n./omatech2022/.env:MAIL_FROM_ADDRESS=noreply@omatech.com\n./lavanguardia-graella-devel/.env:SMTP_USERNAME=noreply@omatech.com\n./advancing_test/.env:MAIL_USERNAME=noreply@omatech.com'"
+}
+ok: [omafront26.omatech.com] => {
+    "msg": "omafront26.omatech.com: './ediversa/.env:MAIL_FROM_ADDRESS=noreply@omatech.com\n./flaxandkale/.env:MAIL_USERNAME=noreply@omatech.com\n./flaxandkale/.env:MAIL_FROM_ADDRESS=noreply@omatech.com'"
+}
+ok: [omafront17.omatech.com] => {
+    "msg": "omafront17.omatech.com: './mutua_sociosanitaria_frontend.bkp/mutua_sociosanitaria_frontend/.env:MAIL_USERNAME=noreply@omatech.com\n./mutua_sociosanitaria_frontend.bkp/.env:MAIL_USERNAME=noreply@omatech.com\n./mutua_aptima_frontend_dev/.env:#MAIL_USERNAME=noreply@omatech.com\n./mutua_aptima_frontend_dev/.env:#MAIL_FROM_ADDRESS=noreply@omatech.com\n./mutua_sociosanitaria_frontend_nogit/.env:MAIL_USERNAME=noreply@omatech.com\n./mutua_aptima_frontend/.env:#MAIL_USERNAME=noreply@omatech.com\n./mutua_aptima_frontend/.env:#MAIL_FROM_ADDRESS=noreply@omatech.com\n./mutua_sociosanitaria_frontend/.env:MAIL_USERNAME=noreply@omatech.com\n./mutua_sociosanitaria_frontend.20210426/.env:MAIL_USERNAME=noreply@omatech.com\n./mutuaterrassa_blogs/.env:MAIL_FROM_ADDRESS=noreply@omatech.com\n./mutua_sociosanitaria_frontend_dev/.env:MAIL_USERNAME=noreply@omatech.com'"
+}
+ok: [omafront15.omatech.com] => {
+    "msg": "omafront15.omatech.com: ' Not found '"
+}
+ok: [omafront13.omatech.com] => {
+    "msg": "omafront13.omatech.com: ' Not found '"
+}
+
+ok: [omafront39.omatech.com] => {
+    "msg": "omafront39.omatech.com: ' Not found '"
+}

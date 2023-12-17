@@ -1,0 +1,45 @@
+---
+all:
+  children:  
+    localhost:
+      vars:
+        ansible_connection: local
+    general_servers:
+      hosts:
+        omafront49.omatech.com:
+        omafront48.omatech.com:
+        omafront47.omatech.com: 
+        omafront46.omatech.com: 
+        omafront45.omatech.com: 
+        omafront44.omatech.com: 
+        omafront43.omatech.com: 
+        omafront42.omatech.com: 
+        omafront41.omatech.com: 
+        omafront40.omatech.com: 
+        omafront39.omatech.com: 
+        omafront38.omatech.com: 
+        omafront37.omatech.com: 
+        omafront36.omatech.com: 
+        omafront34.omatech.com: 
+        omafront33.omatech.com: 
+        omafront32.omatech.com: 
+        omafront31.omatech.com:  
+        omafront30.omatech.com: 
+        omafront29.omatech.com: 
+        omafront28.omatech.com: 
+        omafront26.omatech.com: 
+        omafront24.omatech.com: 
+        omafront17.omatech.com: 
+        omafront15.omatech.com: 
+        omafront13.omatech.com: 
+      vars:
+        ansible_user: ansible
+        ansible_ssh_private_key_file: ~/.ssh/id_rsa_ansible_omatech   
+        ansible_port: 33233
+        ansible_become: true
+    special_servers:
+      hosts:
+        omadocker.omatech.com 
+      vars:
+        ansible_user: ansible
+        ansible_ssh_private_key_file: ~/.ssh/id_rsa_ansible_omatech   

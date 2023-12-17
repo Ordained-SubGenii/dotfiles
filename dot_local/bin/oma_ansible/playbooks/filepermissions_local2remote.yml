@@ -1,0 +1,11 @@
+---
+- hosts: omafront49.omatech.com 
+  tasks:
+    - name: Run a script using an executable in a system path
+      ansible.builtin.script: /home/omatech/.local/bin/oma_ansible/playbooks/whileloopcoverfiles &> /tmp/outfile.txt
+      args:
+        executable: /usr/bin/bash 
+        chdir: /app/coverfy/coverfy-web
+        creates: /tmp/outfile.txt   
+          #debug:
+          #msg: "{{ inventory_hostname }}: "

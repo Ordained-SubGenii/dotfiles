@@ -1,0 +1,43 @@
+---
+- hosts: general_servers
+  tasks:
+    - name: get values from apache vhosts
+      ansible.builtin.shell: 
+        cmd: apache2ctl -S | awk '/(server|namevhost|alias)/'  
+        chdir: /etc/apache2/sites-available
+        executable: /bin/bash 
+      register: awk_output
+      ignore_errors: true
+    - name: Print   
+      debug:
+        msg: "{{ awk_output.stdout_lines }}"
+#- hosts: general_servers
+#  tasks:
+#    - name: get values sites-available
+#      ansible.builtin.shell: 
+#        cmd: find . -maxdepth 1 -type f  
+#        chdir: /etc/apache2/sites-available
+#        executable: /bin/bash 
+#      register: find_output
+#      ignore_errors: true
+#    - name: Print   
+#      debug:
+#        msg: "{{ find_output.stdout_lines }}"
+#  
+#
+#    - name: get values sites-enabled 
+#      ansible.builtin.shell: 
+#        cmd: find . -maxdepth 1 -type l  
+#        chdir: /etc/apache2/sites-enabled
+#        executable: /bin/bash 
+#      register: find_outputenable
+#      ignore_errors: true
+#    - name: Print2   
+#      debug:
+#        msg: "{{ find_outputenable.stdout_lines }}"
+#     
+
+      
+
+
+

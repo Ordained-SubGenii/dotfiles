@@ -1,0 +1,118 @@
+##########    HOSTNAME E IP    ##########
+omafront36.omatech.com
+85.17.4.169
+
+##########    PHP VERSION LIST    ##########
+php7.3-fpm.service
+php7.4-fpm.service
+php8.0-fpm.service
+php8.1-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+   
+##########    OS VERSION     ##########
+  Operating System: Ubuntu 18.04.6 LTS
+     
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+alfemo.com.sa.conf -> ../sites-available/alfemo.com.sa.conf
+alfemo.com.sa-le-ssl.conf -> /etc/apache2/sites-available/alfemo.com.sa-le-ssl.conf
+proyectoalgoritmia.es-le-ssl.conf  
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+omafront36.omatech.com
+85.17.4.169
+php7.3-fpm.service
+php7.4-fpm.service
+php8.0-fpm.service
+php8.1-fpm.service
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+  Operating System: Ubuntu 18.04.6 LTS
+##########    CPU      ##########
+Filesystem     Type      Size  Used Avail Use% Mounted on
+udev           devtmpfs   34G     0   34G   0% /dev
+tmpfs          tmpfs     6.8G  1.3M  6.8G   1% /run
+/dev/sda5      ext4      2.0T   65G  1.8T   4% /
+tmpfs          tmpfs      34G  1.3M   34G   1% /dev/shm
+tmpfs          tmpfs     5.3M     0  5.3M   0% /run/lock
+tmpfs          tmpfs      34G     0   34G   0% /sys/fs/cgroup
+/dev/sdb1      ext4      2.0T   29k  1.9T   1% /mnt/sdb1
+/dev/sdh1      ext4      2.0T   29k  1.9T   1% /mnt/sdh1
+/dev/sdd1      ext4      2.0T   29k  1.9T   1% /mnt/sdd1
+/dev/sdc1      ext4      2.0T   29k  1.9T   1% /mnt/sdc1
+/dev/sdg1      ext4      2.0T   29k  1.9T   1% /mnt/sdg1
+/dev/sdf1      ext4      2.0T   29k  1.9T   1% /mnt/sdf1
+/dev/sde1      ext4      2.0T   29k  1.9T   1% /mnt/sde1
+/dev/sda4      ext4      4.1G  197k  3.9G   1% /tmp
+/dev/sda2      ext2      1.1G  119M  884M  12% /boot
+tmpfs          tmpfs     6.8G     0  6.8G   0% /run/user/1002
+##########    MEM      ##########
+              total        used        free      shared  buff/cache   available
+Mem:          64411        2949       56430          15        5032       60808
+Swap:          4095           0        4095
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+  
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+alfemo.com.sa.conf -> ../sites-available/alfemo.com.sa.conf
+alfemo.com.sa-le-ssl.conf -> /etc/apache2/sites-available/alfemo.com.sa-le-ssl.conf
+proyectoalgoritmia.es-le-ssl.conf  
+/etc/apache2/sites-enabled/alfemo.com.sa.conf
+/etc/apache2/sites-enabled/alfemo.com.sa.conf
+El nslookup SI coincide con la misma IP del servidor
+www.alfemo.com.sa	canonical name = alfemo.com.sa.
+Name:	alfemo.com.sa
+Address: 85.17.4.169
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	alfemo.com.sa
+Address: 85.17.4.169
+
+/etc/apache2/sites-enabled/alfemo.com.sa-le-ssl.conf
+/etc/apache2/sites-enabled/alfemo.com.sa-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.alfemo.com.sa	canonical name = alfemo.com.sa.
+Name:	alfemo.com.sa
+Address: 85.17.4.169
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	alfemo.com.sa
+Address: 85.17.4.169
+
+/etc/apache2/sites-enabled/omatechinternal.conf
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.omafront36.omatech.com
+Address: 85.17.4.169
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront36.omatech.com
+Address: 85.17.4.169
+
+/etc/apache2/sites-enabled/proyectoalgoritmia.es-le-ssl.conf
+/etc/apache2/sites-enabled/proyectoalgoritmia.es-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+www.proyectoalgoritmia.es	canonical name = proyectoalgoritmia.es.
+Name:	proyectoalgoritmia.es
+Address: 95.211.160.85
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	proyectoalgoritmia.es
+Address: 95.211.160.85
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+alfemo.com.sa-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+alfemo.com.sa.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+omatechinternal.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+proyectoalgoritmia.es-le-ssl.conf:   SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+         
+##########    VERSION DE NODE     ##########
+v8.17.0
+           

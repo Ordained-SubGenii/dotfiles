@@ -1,0 +1,62 @@
+- name: Obtención de información del host de servidores OMATECH
+  hosts: general_servers 
+  become: yes
+  gather_facts: true
+  tasks:
+  - name: Creación fichero versiones software
+    shell: touch get_addedinfo_mac_cpu_{{inventory_hostname}}.txt
+    args:
+      chdir: /root/scripts
+
+  - name: Creación cabecera HOSTNAME
+    lineinfile: 
+     path: /root/scripts/get_addedinfo_mac_cpu_{{inventory_hostname}}.txt
+     line: '##########    HOSTNAME  ##########'
+
+  - name: Inserción del nombre de host en el fichero /root/scripts/get_addedinfo_mac_cpu_nombre_servidor.txt
+    shell: hostname >> /root/scripts/get_addedinfo_mac_cpu_{{inventory_hostname}}.txt
+  
+  # - name: Crear nueva linea
+  #  lineinfile: 
+  #   path: /root/scripts/get_addedinfo_mac_cpu_{{inventory_hostname}}.txt
+  #   line: "{{ item }}"
+  #   insertbefore: EOF
+  #  with_items: "\n"
+
+  - name: Creación cabecera PROCESSOR INFO 
+    lineinfile: 
+     path: /root/scripts/get_addedinfo_mac_cpu_{{inventory_hostname}}.txt
+     line: '##########    PROCESSOR INFO    ##########'
+  
+  - name: obtener cpu info con lshw e insertar en el fichero /root/scripts/get_addedinfo_mac_cpu_nombre_servidor.txt
+    shell: lshw -c cpu | grep "product\|cores.*threads" >> /root/scripts/get_addedinfo_mac_cpu_{{inventory_hostname}}.txt
+
+  - name: Crear nueva linea
+    lineinfile: 
+     path: /root/scripts/get_addedinfo_mac_cpu_{{inventory_hostname}}.txt
+     line: ' '
+
+  - name: Creación cabecera MAC ADDRESS 
+    lineinfile: 
+     path: /root/scripts/get_addedinfo_mac_cpu_{{inventory_hostname}}.txt
+     line: '##########    MAC ADDRESSES     ##########'
+  
+  - name: Escanear e inserter mac addresses en el fichero /root/scripts/get_addedinfo_mac_cpu_nombre_servidor.txt
+    shell: ip link | awk -F" " '/ether/ {print $1,$2}+/eno/ {print}' >> /root/scripts/get_addedinfo_mac_cpu_{{inventory_hostname}}.txt
+  
+  #- name: Crear nueva linea
+  #  lineinfile: 
+  #   path: /root/scripts/get_addedinfo_mac_cpu_{{inventory_hostname}}.txt
+  #   line: '   '
+
+  - name: Copia de fichero del servidor origen hacia local.
+    ansible.builtin.fetch:
+     src: /root/scripts/get_addedinfo_mac_cpu_{{inventory_hostname}}.txt
+       #dest: /data/scripts-control/ansible/get_addedinfo_mac_cpu_OMATECH/reports_servidores/
+     dest: /home/omatech/.local/bin/oma_ansible/get_addedinfo_mac_cpu_OMATECH/reports_servidores/
+     flat: true
+  
+  - name: borrar los ficheros individuales
+    ansible.builtin.shell: rm -f get_addedinfo_mac_cpu_{{inventory_hostname}}.txt
+    args:
+      chdir: /root/scripts/

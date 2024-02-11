@@ -1,0 +1,195 @@
+##########    HOSTNAME E IP    ##########
+omafront37.omatech.com
+94.75.240.85
+
+##########    PHP VERSION LIST    ##########
+php5.6-fpm.service
+php7.4-fpm.service
+php8.1-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 8.0.36-0ubuntu0.22.04.1 for Linux on x86_64 ((Ubuntu))
+   
+##########    OS VERSION     ##########
+Operating System: Ubuntu 22.04.2 LTS
+     
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:56:02
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+000-default.conf -> ../sites-available/000-default.conf
+auditors-censors.com-le-ssl.conf -> ../sites-available/auditors-censors.com-le-ssl.conf
+auditor.auditorscensors.com.conf -> ../sites-available/auditor.auditorscensors.com.conf
+auditors-censors.com.conf -> ../sites-available/auditors-censors.com.conf
+auditorscensors.20171211.conf -> ../sites-available/auditorscensors.20171211.conf
+auditorscensors.com-le-ssl.conf -> ../sites-available/auditorscensors.com-le-ssl.conf
+auditorscensors.com.conf -> ../sites-available/auditorscensors.com.conf
+auditorscensors.conf -> ../sites-available/auditorscensors.conf
+jovesimobilitat.conf -> ../sites-available/jovesimobilitat.conf
+auditor.auditorscensors.com-le-ssl.conf -> ../sites-available/auditor.auditorscensors.com-le-ssl.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+omafront37.omatech.com
+94.75.240.85
+php5.6-fpm.service
+php7.4-fpm.service
+php8.1-fpm.service
+mysql  Ver 8.0.36-0ubuntu0.22.04.1 for Linux on x86_64 ((Ubuntu))
+Operating System: Ubuntu 22.04.2 LTS
+##########    CPU      ##########
+Filesystem     Type   Size  Used Avail Use% Mounted on
+tmpfs          tmpfs  6.8G  1.7M  6.8G   1% /run
+/dev/sda5      ext4   2.0T   21G  1.9T   2% /
+tmpfs          tmpfs   34G  1.3M   34G   1% /dev/shm
+tmpfs          tmpfs  5.3M     0  5.3M   0% /run/lock
+/dev/sda2      ext2   1.1G  265M  738M  27% /boot
+/dev/sda4      ext4   4.2G  263k  4.0G   1% /tmp
+tmpfs          tmpfs  6.8G  4.1k  6.8G   1% /run/user/1000
+##########    MEM      ##########
+               total        used        free      shared  buff/cache   available
+Mem:           64396        1673       41924          78       20797       61985
+Swap:           4095           0        4095
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:56:02
+  
+000-default.conf -> ../sites-available/000-default.conf
+auditors-censors.com-le-ssl.conf -> ../sites-available/auditors-censors.com-le-ssl.conf
+auditor.auditorscensors.com.conf -> ../sites-available/auditor.auditorscensors.com.conf
+auditors-censors.com.conf -> ../sites-available/auditors-censors.com.conf
+auditorscensors.20171211.conf -> ../sites-available/auditorscensors.20171211.conf
+auditorscensors.com-le-ssl.conf -> ../sites-available/auditorscensors.com-le-ssl.conf
+auditorscensors.com.conf -> ../sites-available/auditorscensors.com.conf
+auditorscensors.conf -> ../sites-available/auditorscensors.conf
+jovesimobilitat.conf -> ../sites-available/jovesimobilitat.conf
+auditor.auditorscensors.com-le-ssl.conf -> ../sites-available/auditor.auditorscensors.com-le-ssl.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/auditor.auditorscensors.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	auditor.auditorscensors.com
+Address: 94.75.240.85
+
+/etc/apache2/sites-enabled/auditor.auditorscensors.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	auditor.auditorscensors.com
+Address: 94.75.240.85
+
+/etc/apache2/sites-enabled/auditorscensors.20171211.conf
+/etc/apache2/sites-enabled/auditorscensors.20171211.conf
+El nslookup SI coincide con la misma IP del servidor
+www.auditorscensors.com	canonical name = auditorscensors.com.
+Name:	auditorscensors.com
+Address: 94.75.240.85
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	auditorscensors.com
+Address: 94.75.240.85
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.auditors-censors.com
+Address: 208.91.197.132
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	auditors-censors.com
+Address: 208.91.197.132
+
+El nslookup SI coincide con la misma IP del servidor
+www.auditorscensors.com	canonical name = auditorscensors.com.
+Name:	auditorscensors.com
+Address: 94.75.240.85
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	auditorscensors.com
+Address: 94.75.240.85
+
+/etc/apache2/sites-enabled/auditors-censors.com.conf
+/etc/apache2/sites-enabled/auditors-censors.com.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.auditors-censors.com
+Address: 208.91.197.132
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.auditors-censors.com
+Address: 208.91.197.132
+
+/etc/apache2/sites-enabled/auditorscensors.com.conf
+/etc/apache2/sites-enabled/auditorscensors.com.conf
+El nslookup SI coincide con la misma IP del servidor
+www.auditorscensors.com	canonical name = auditorscensors.com.
+Name:	auditorscensors.com
+Address: 94.75.240.85
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	auditorscensors.com
+Address: 94.75.240.85
+
+/etc/apache2/sites-enabled/auditors-censors.com-le-ssl.conf
+/etc/apache2/sites-enabled/auditors-censors.com-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.auditors-censors.com
+Address: 208.91.197.132
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	auditors-censors.com
+Address: 208.91.197.132
+
+/etc/apache2/sites-enabled/auditorscensors.com-le-ssl.conf
+/etc/apache2/sites-enabled/auditorscensors.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.auditorscensors.com	canonical name = auditorscensors.com.
+Name:	auditorscensors.com
+Address: 94.75.240.85
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	auditorscensors.com
+Address: 94.75.240.85
+
+/etc/apache2/sites-enabled/auditorscensors.conf
+/etc/apache2/sites-enabled/auditorscensors.conf
+El nslookup SI coincide con la misma IP del servidor
+www.auditorscensors.com	canonical name = auditorscensors.com.
+Name:	auditorscensors.com
+Address: 94.75.240.85
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	auditorscensors.com
+Address: 94.75.240.85
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.auditors-censors.com
+Address: 208.91.197.132
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	auditors-censors.com
+Address: 208.91.197.132
+
+El nslookup SI coincide con la misma IP del servidor
+www.auditorscensors.com	canonical name = auditorscensors.com.
+Name:	auditorscensors.com
+Address: 94.75.240.85
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	auditorscensors.com
+Address: 94.75.240.85
+
+/etc/apache2/sites-enabled/jovesimobilitat.conf
+El nslookup NO coincide con la misma IP del servidor
+jovesimobilitat.omatech.com	canonical name = omafront15.omatech.com.
+Name:	omafront15.omatech.com
+Address: 95.211.160.85
+
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront37.omatech.com
+Address: 94.75.240.85
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+omatechinternal.conf:    SetHandler pagespeed_admin
+omatechinternal.conf:    SetHandler pagespeed_global_admin
+         
+##########    VERSION DE NODE     ##########
+           

@@ -1,0 +1,360 @@
+##########    HOSTNAME E IP    ##########
+omafront24.omatech.com
+83.149.126.81
+
+##########    PHP VERSION LIST    ##########
+php7.0-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 14.14 Distrib 5.7.33, for Linux (x86_64) using  EditLine wrapper
+   
+##########    OS VERSION     ##########
+  Operating System: Ubuntu 16.04.7 LTS
+     
+##########    CPU      ##########
+Filesystem            Type      Size  Used Avail Use% Mounted on
+udev                  devtmpfs  8.4G     0  8.4G   0% /dev
+tmpfs                 tmpfs     1.7G  189M  1.5G  12% /run
+/dev/mapper/vg00-root ext4      2.0T  123G  1.8T   7% /
+tmpfs                 tmpfs     8.5G  4.1k  8.5G   1% /dev/shm
+tmpfs                 tmpfs     5.3M     0  5.3M   0% /run/lock
+tmpfs                 tmpfs     8.5G     0  8.5G   0% /sys/fs/cgroup
+/dev/md0              ext2      485M  183M  277M  40% /boot
+/dev/mapper/vg00-tmp  ext4      4.0G  8.2M  3.8G   1% /tmp
+tmpfs                 tmpfs     1.7G     0  1.7G   0% /run/user/0
+tmpfs                 tmpfs     1.7G     0  1.7G   0% /run/user/1001
+##########    MEM      ##########
+              total        used        free      shared  buff/cache   available
+Mem:          16038        1979        6621         262        7436       13378
+Swap:          3903           0        3903
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.46 (Ubuntu)
+Server built:   2020-09-08T10:12:22
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+bendix.conf -> ../sites-available/bendix.conf
+bendix-web.conf -> ../sites-available/bendix-web.conf
+bendix-le-ssl.conf -> /etc/apache2/sites-available/bendix-le-ssl.conf
+bendix-web-le-ssl.conf -> /etc/apache2/sites-available/bendix-web-le-ssl.conf
+electronet.conf -> ../sites-available/electronet.conf
+elbosquedemaya.conf -> ../sites-available/elbosquedemaya.conf
+ygroup.conf -> ../sites-available/ygroup.conf
+sosabejas.conf -> ../sites-available/sosabejas.conf
+sosabejas-le-ssl.conf -> /etc/apache2/sites-available/sosabejas-le-ssl.conf
+erc-le-ssl.conf -> ../sites-available/erc-le-ssl.conf
+erc.conf -> ../sites-available/erc.conf
+electronet-le-ssl.conf -> /etc/apache2/sites-available/electronet-le-ssl.conf
+babyheidi-le-ssl.conf -> /etc/apache2/sites-available/babyheidi-le-ssl.conf
+baby-heidi.com.conf -> ../sites-available/baby-heidi.com.conf
+babyheidi.es.conf -> ../sites-available/babyheidi.es.conf
+baby-heidi.es.conf -> ../sites-available/baby-heidi.es.conf
+babyheidi.it.conf -> ../sites-available/babyheidi.it.conf
+baby-heidi.it.conf -> ../sites-available/baby-heidi.it.conf
+baby-heidi.com-le-ssl.conf -> /etc/apache2/sites-available/baby-heidi.com-le-ssl.conf
+baby-heidi.es-le-ssl.conf -> /etc/apache2/sites-available/baby-heidi.es-le-ssl.conf
+babyheidi.es-le-ssl.conf -> /etc/apache2/sites-available/babyheidi.es-le-ssl.conf
+cocaadvocats.conf -> ../sites-available/cocaadvocats.conf
+cocaadvocats-le-ssl.conf -> /etc/apache2/sites-available/cocaadvocats-le-ssl.conf
+cocaadvocats.com.conf -> ../sites-available/cocaadvocats.com.conf
+cocaadvocats.com-le-ssl.conf -> /etc/apache2/sites-available/cocaadvocats.com-le-ssl.conf
+cocaabogados.com.conf -> ../sites-available/cocaabogados.com.conf
+cocalawyers.com.conf -> ../sites-available/cocalawyers.com.conf
+pmo-monstar-lab.omatech.com.conf -> ../sites-available/pmo-monstar-lab.omatech.com.conf
+pmo-monstar-lab.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/pmo-monstar-lab.omatech.com-le-ssl.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/baby-heidi.com.conf
+/etc/apache2/sites-enabled/baby-heidi.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.baby-heidi.com
+Address: 83.149.126.81
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	baby-heidi.com
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/baby-heidi.com-le-ssl.conf
+/etc/apache2/sites-enabled/baby-heidi.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.baby-heidi.com
+Address: 83.149.126.81
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	baby-heidi.com
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/baby-heidi.es.conf
+/etc/apache2/sites-enabled/baby-heidi.es.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.baby-heidi.es
+Address: 83.149.126.81
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	baby-heidi.es
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/babyheidi.es.conf
+/etc/apache2/sites-enabled/babyheidi.es.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.babyheidi.es
+Address: 83.149.126.81
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	babyheidi.es
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/baby-heidi.es-le-ssl.conf
+/etc/apache2/sites-enabled/baby-heidi.es-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.baby-heidi.es
+Address: 83.149.126.81
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	baby-heidi.es
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/babyheidi.es-le-ssl.conf
+/etc/apache2/sites-enabled/babyheidi.es-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.babyheidi.es
+Address: 83.149.126.81
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	babyheidi.es
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/baby-heidi.it.conf
+/etc/apache2/sites-enabled/baby-heidi.it.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.baby-heidi.it
+Address: 83.149.126.81
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	baby-heidi.it
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/babyheidi.it.conf
+/etc/apache2/sites-enabled/babyheidi.it.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.babyheidi.it
+Address: 83.149.126.81
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	babyheidi.it
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/babyheidi-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+babyheidi.omatech.com	canonical name = omafront24.omatech.com.
+Name:	omafront24.omatech.com
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/bendix.conf
+/etc/apache2/sites-enabled/bendix.conf
+El nslookup SI coincide con la misma IP del servidor
+intranet.bendixconsulting.com	canonical name = bendixconsulting.com.
+Name:	bendixconsulting.com
+Address: 83.149.126.81
+
+El nslookup SI coincide con la misma IP del servidor
+bendix.omatech.com	canonical name = omafront24.omatech.com.
+Name:	omafront24.omatech.com
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/bendix-le-ssl.conf
+/etc/apache2/sites-enabled/bendix-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+intranet.bendixconsulting.com	canonical name = bendixconsulting.com.
+Name:	bendixconsulting.com
+Address: 83.149.126.81
+
+El nslookup SI coincide con la misma IP del servidor
+bendix.omatech.com	canonical name = omafront24.omatech.com.
+Name:	omafront24.omatech.com
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/bendix-web.conf
+/etc/apache2/sites-enabled/bendix-web.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	bendixconsulting.com
+Address: 83.149.126.81
+
+El nslookup SI coincide con la misma IP del servidor
+www.bendixconsulting.com	canonical name = bendixconsulting.com.
+Name:	bendixconsulting.com
+Address: 83.149.126.81
+
+El nslookup SI coincide con la misma IP del servidor
+bendixweb.omatech.com	canonical name = omafront24.omatech.com.
+Name:	omafront24.omatech.com
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/bendix-web-le-ssl.conf
+/etc/apache2/sites-enabled/bendix-web-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	bendixconsulting.com
+Address: 83.149.126.81
+
+El nslookup SI coincide con la misma IP del servidor
+www.bendixconsulting.com	canonical name = bendixconsulting.com.
+Name:	bendixconsulting.com
+Address: 83.149.126.81
+
+El nslookup SI coincide con la misma IP del servidor
+bendixweb.omatech.com	canonical name = omafront24.omatech.com.
+Name:	omafront24.omatech.com
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/cocaabogados.com.conf
+/etc/apache2/sites-enabled/cocaabogados.com.conf
+El nslookup NO coincide con la misma IP del servidor
+www.cocaabogados.com	canonical name = cocaabogados.com.
+Name:	cocaabogados.com
+Address: 185.177.154.219
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	cocaabogados.com
+Address: 185.177.154.219
+
+/etc/apache2/sites-enabled/cocaadvocats.com.conf
+/etc/apache2/sites-enabled/cocaadvocats.com.conf
+El nslookup SI coincide con la misma IP del servidor
+www.cocaadvocats.com	canonical name = cocaadvocats.com.
+Name:	cocaadvocats.com
+Address: 83.149.126.81
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	cocaadvocats.com
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/cocaadvocats.com-le-ssl.conf
+/etc/apache2/sites-enabled/cocaadvocats.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.cocaadvocats.com	canonical name = cocaadvocats.com.
+Name:	cocaadvocats.com
+Address: 83.149.126.81
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	cocaadvocats.com
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/cocaadvocats.conf
+El nslookup SI coincide con la misma IP del servidor
+cocaadvocats.omatech.com	canonical name = omafront24.omatech.com.
+Name:	omafront24.omatech.com
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/cocaadvocats-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+cocaadvocats.omatech.com	canonical name = omafront24.omatech.com.
+Name:	omafront24.omatech.com
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/cocalawyers.com.conf
+/etc/apache2/sites-enabled/cocalawyers.com.conf
+El nslookup NO coincide con la misma IP del servidor
+www.cocalawyers.com	canonical name = cocalawyers.com.
+Name:	cocalawyers.com
+Address: 185.177.154.219
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	cocalawyers.com
+Address: 185.177.154.219
+
+/etc/apache2/sites-enabled/elbosquedemaya.conf
+El nslookup SI coincide con la misma IP del servidor
+elbosquedemaya.omatech.com	canonical name = omafront24.omatech.com.
+Name:	omafront24.omatech.com
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/electronet.conf
+El nslookup SI coincide con la misma IP del servidor
+electronet.omatech.com	canonical name = omafront24.omatech.com.
+Name:	omafront24.omatech.com
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/electronet-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+electronet.omatech.com	canonical name = omafront24.omatech.com.
+Name:	omafront24.omatech.com
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/erc.conf
+/etc/apache2/sites-enabled/erc.conf
+El nslookup NO coincide con la misma IP del servidor
+www.erc.omatech.com	canonical name = omafront27.omatech.com.
+Name:	omafront27.omatech.com
+Address: 95.211.95.21
+
+El nslookup NO coincide con la misma IP del servidor
+erc.omatech.com	canonical name = omafront27.omatech.com.
+Name:	omafront27.omatech.com
+Address: 95.211.95.21
+
+/etc/apache2/sites-enabled/erc-le-ssl.conf
+/etc/apache2/sites-enabled/erc-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+www.erc.omatech.com	canonical name = omafront27.omatech.com.
+Name:	omafront27.omatech.com
+Address: 95.211.95.21
+
+El nslookup NO coincide con la misma IP del servidor
+erc.omatech.com	canonical name = omafront27.omatech.com.
+Name:	omafront27.omatech.com
+Address: 95.211.95.21
+
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront24.omatech.com
+Address: 83.149.126.81
+
+/etc/apache2/sites-enabled/pmo-monstar-lab.omatech.com.conf
+El nslookup NO coincide con la misma IP del servidor
+pmo-monstar-lab.omatech.com	canonical name = omafront32.omatech.com.
+Name:	omafront32.omatech.com
+Address: 212.32.229.214
+
+/etc/apache2/sites-enabled/pmo-monstar-lab.omatech.com-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+pmo-monstar-lab.omatech.com	canonical name = omafront32.omatech.com.
+Name:	omafront32.omatech.com
+Address: 212.32.229.214
+
+/etc/apache2/sites-enabled/sosabejas.conf
+/etc/apache2/sites-enabled/sosabejas.conf
+El nslookup NO coincide con la misma IP del servidor
+;; Got SERVFAIL reply from 8.8.8.8, trying next server
+** server can't find www.sosabejamaya.com: SERVFAIL
+
+El nslookup NO coincide con la misma IP del servidor
+;; Got SERVFAIL reply from 8.8.8.8, trying next server
+** server can't find sosabejamaya.com: SERVFAIL
+
+/etc/apache2/sites-enabled/sosabejas-le-ssl.conf
+/etc/apache2/sites-enabled/sosabejas-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+;; Got SERVFAIL reply from 8.8.8.8, trying next server
+** server can't find www.sosabejamaya.com: SERVFAIL
+
+El nslookup NO coincide con la misma IP del servidor
+;; Got SERVFAIL reply from 8.8.8.8, trying next server
+** server can't find sosabejamaya.com: SERVFAIL
+
+/etc/apache2/sites-enabled/ygroup.conf
+El nslookup NO coincide con la misma IP del servidor
+ygroup.omatech.com	canonical name = omafront27.omatech.com.
+Name:	omafront27.omatech.com
+Address: 95.211.95.21
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+omatechinternal.conf:    SetHandler pagespeed_admin
+omatechinternal.conf:    SetHandler pagespeed_global_admin
+         
+##########    VERSION DE NODE     ##########
+v9.11.2
+           

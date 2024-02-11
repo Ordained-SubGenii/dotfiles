@@ -1,0 +1,1092 @@
+##########    HOSTNAME E IP    ##########
+omafront28.omatech.com
+85.17.78.99
+
+##########    PHP VERSION LIST    ##########
+php5.6-fpm.service
+php7.2-fpm.service
+php7.3-fpm.service
+php7.4-fpm.service
+php8.0-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+   
+##########    OS VERSION     ##########
+  Operating System: Ubuntu 18.04.6 LTS
+     
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+php56.example.com.conf -> ../sites-available/php56.example.com.conf
+php72.example.com.conf -> ../sites-available/php72.example.com.conf
+doctodata.conf -> ../sites-available/doctodata.conf
+estudiouci.conf -> ../sites-available/estudiouci.conf
+estudiouci-le-ssl.conf -> /etc/apache2/sites-available/estudiouci-le-ssl.conf
+scur.cat.conf -> ../sites-available/scur.cat.conf
+scur.cat-le-ssl.conf -> /etc/apache2/sites-available/scur.cat-le-ssl.conf
+bridge.conf -> ../sites-available/bridge.conf
+ilikebridge.conf -> ../sites-available/ilikebridge.conf
+esadescreensaver.conf -> ../sites-available/esadescreensaver.conf
+joyacorona.conf -> ../sites-available/joyacorona.conf
+bridge-le-ssl.conf -> /etc/apache2/sites-available/bridge-le-ssl.conf
+ilikebridge-le-ssl.conf -> /etc/apache2/sites-available/ilikebridge-le-ssl.conf
+redireccio.conf -> ../sites-available/redireccio.conf
+redireccio-le-ssl.conf -> /etc/apache2/sites-available/redireccio-le-ssl.conf
+annalindh.conf -> ../sites-available/annalindh.conf
+annalindh_redirect.conf -> ../sites-available/annalindh_redirect.conf
+annalindh_redirect2.conf -> ../sites-available/annalindh_redirect2.conf
+annalindh_redirect2-le-ssl.conf -> /etc/apache2/sites-available/annalindh_redirect2-le-ssl.conf
+annalindh_redirect-le-ssl.conf -> /etc/apache2/sites-available/annalindh_redirect-le-ssl.conf
+annalindh-le-ssl.conf -> /etc/apache2/sites-available/annalindh-le-ssl.conf
+blogdasler.conf -> ../sites-available/blogdasler.conf
+dasler2017.conf -> ../sites-available/dasler2017.conf
+newdasler.conf -> ../sites-available/newdasler.conf
+nutrictrofic.conf -> ../sites-available/nutrictrofic.conf
+newdasler-le-ssl.conf -> /etc/apache2/sites-available/newdasler-le-ssl.conf
+blogdasler-le-ssl.conf -> /etc/apache2/sites-available/blogdasler-le-ssl.conf
+dasler2017-le-ssl.conf -> /etc/apache2/sites-available/dasler2017-le-ssl.conf
+annalindh_redirect3.conf -> ../sites-available/annalindh_redirect3.conf
+annalindh_redirect3-le-ssl.conf -> /etc/apache2/sites-available/annalindh_redirect3-le-ssl.conf
+nutrictrofic-le-ssl.conf -> /etc/apache2/sites-available/nutrictrofic-le-ssl.conf
+metalcaucho.omatech.com.conf -> ../sites-available/metalcaucho.omatech.com.conf
+lavanguardiagraella.omatech.com.conf -> ../sites-available/lavanguardiagraella.omatech.com.conf
+advancing.omatech.com.conf -> ../sites-available/advancing.omatech.com.conf
+lavanguardiagraella.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/lavanguardiagraella.omatech.com-le-ssl.conf
+lavanguardiagraelladevel.omatech.com.conf -> ../sites-available/lavanguardiagraelladevel.omatech.com.conf
+lavanguardiagraelladevel.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/lavanguardiagraelladevel.omatech.com-le-ssl.conf
+admin.advancing.es.conf -> ../sites-available/admin.advancing.es.conf
+admin.advancing.es-le-ssl.conf -> /etc/apache2/sites-available/admin.advancing.es-le-ssl.conf
+lavanguardiaagrupadordevel.omatech.com.conf -> ../sites-available/lavanguardiaagrupadordevel.omatech.com.conf
+lavanguardiaagrupadordevel.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/lavanguardiaagrupadordevel.omatech.com-le-ssl.conf
+lavanguardiahoroscopodevel.omatech.com.conf -> ../sites-available/lavanguardiahoroscopodevel.omatech.com.conf
+lavanguardiahoroscopodevel.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/lavanguardiahoroscopodevel.omatech.com-le-ssl.conf
+lagaleraeditorial.com.conf -> ../sites-available/lagaleraeditorial.com.conf
+lagalera_otros.conf -> ../sites-available/lagalera_otros.conf
+mudanzaslopez.net.conf -> ../sites-available/mudanzaslopez.net.conf
+lagaleraeditorial.com-le-ssl.conf -> /etc/apache2/sites-available/lagaleraeditorial.com-le-ssl.conf
+mudanzaslopez.net-le-ssl.conf -> /etc/apache2/sites-available/mudanzaslopez.net-le-ssl.conf
+puccaweb.com.conf -> ../sites-available/puccaweb.com.conf
+botiga.tram.cat.conf -> ../sites-available/botiga.tram.cat.conf
+advancingtest.omatech.com.conf -> ../sites-available/advancingtest.omatech.com.conf
+autotalleruiz.es-le-ssl.conf -> /etc/apache2/sites-available/autotalleruiz.es-le-ssl.conf
+develtrenensenyament.omatech.com.conf -> ../sites-available/develtrenensenyament.omatech.com.conf
+factureitor.omatech.com.conf -> ../sites-available/factureitor.omatech.com.conf
+factureitor.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/factureitor.omatech.com-le-ssl.conf
+institutjaume1er.omatech.conf -> ../sites-available/institutjaume1er.omatech.conf
+institutjaume1er.omatech-le-ssl.conf -> /etc/apache2/sites-available/institutjaume1er.omatech-le-ssl.conf
+relatsencatala.cat.conf -> ../sites-available/relatsencatala.cat.conf
+relataires.com.conf -> ../sites-available/relataires.com.conf
+relatsencatala.com.conf -> ../sites-available/relatsencatala.com.conf
+relatsencatala.cat-le-ssl.conf -> /etc/apache2/sites-available/relatsencatala.cat-le-ssl.conf
+relataires.com-le-ssl.conf -> /etc/apache2/sites-available/relataires.com-le-ssl.conf
+relatsencatala.com-le-ssl.conf -> /etc/apache2/sites-available/relatsencatala.com-le-ssl.conf
+memoriapersonal.eu.conf -> ../sites-available/memoriapersonal.eu.conf
+memoriapersonal.es.conf -> ../sites-available/memoriapersonal.es.conf
+memoriapersonal.eu-le-ssl.conf -> /etc/apache2/sites-available/memoriapersonal.eu-le-ssl.conf
+memoriapersonal.es-le-ssl.conf -> /etc/apache2/sites-available/memoriapersonal.es-le-ssl.conf
+eltrendelensenyament.cat.conf -> ../sites-available/eltrendelensenyament.cat.conf
+catlab.cat.conf -> ../sites-available/catlab.cat.conf
+espaiprovenca.cat.conf -> ../sites-available/espaiprovenca.cat.conf
+espaiprovenca.com.conf -> ../sites-available/espaiprovenca.com.conf
+espaiprovenca.es.conf -> ../sites-available/espaiprovenca.es.conf
+reindesa.com.conf -> ../sites-available/reindesa.com.conf
+secretariat.cat.conf -> ../sites-available/secretariat.cat.conf
+reindesa.com-le-ssl.conf -> /etc/apache2/sites-available/reindesa.com-le-ssl.conf
+catlab.cat-le-ssl.conf -> /etc/apache2/sites-available/catlab.cat-le-ssl.conf
+secretariat.cat-le-ssl.conf -> /etc/apache2/sites-available/secretariat.cat-le-ssl.conf
+eltrendelensenyament.cat-le-ssl.conf -> /etc/apache2/sites-available/eltrendelensenyament.cat-le-ssl.conf
+memoriapersonal.cat.conf -> ../sites-available/memoriapersonal.cat.conf
+memoriapersonal.cat-le-ssl.conf -> /etc/apache2/sites-available/memoriapersonal.cat-le-ssl.conf
+pre.omatech.com.conf -> ../sites-available/pre.omatech.com.conf
+slackcommander.omatech.com.conf -> ../sites-available/slackcommander.omatech.com.conf
+slackcommander.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/slackcommander.omatech.com-le-ssl.conf
+joyacorona-le-ssl.conf -> /etc/apache2/sites-available/joyacorona-le-ssl.conf
+trenensenyament.omatech.com.conf -> ../sites-available/trenensenyament.omatech.com.conf
+trenensenyament.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/trenensenyament.omatech.com-le-ssl.conf
+controlasmapp.conf -> ../sites-available/controlasmapp.conf
+controlasmapp-le-ssl.conf -> ../sites-available/controlasmapp-le-ssl.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+omafront28.omatech.com
+85.17.78.99
+php5.6-fpm.service
+php7.2-fpm.service
+php7.3-fpm.service
+php7.4-fpm.service
+php8.0-fpm.service
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+  Operating System: Ubuntu 18.04.6 LTS
+##########    CPU      ##########
+Filesystem     Type      Size  Used Avail Use% Mounted on
+udev           devtmpfs  8.4G     0  8.4G   0% /dev
+tmpfs          tmpfs     1.7G  1.4M  1.7G   1% /run
+/dev/md5       ext4      976G  428G  498G  47% /
+tmpfs          tmpfs     8.5G  1.3M  8.5G   1% /dev/shm
+tmpfs          tmpfs     5.3M     0  5.3M   0% /run/lock
+tmpfs          tmpfs     8.5G     0  8.5G   0% /sys/fs/cgroup
+/dev/loop2     squashfs   19M   19M     0 100% /snap/pdftk/9
+/dev/md2       ext2      506M  161M  319M  34% /boot
+/dev/md4       ext4      4.2G   40M  3.9G   2% /tmp
+/dev/loop0     squashfs  112M  112M     0 100% /snap/core/16091
+/dev/loop3     squashfs  112M  112M     0 100% /snap/core/16202
+tmpfs          tmpfs     1.7G     0  1.7G   0% /run/user/1000
+tmpfs          tmpfs     1.7G     0  1.7G   0% /run/user/1001
+##########    MEM      ##########
+              total        used        free      shared  buff/cache   available
+Mem:          16031       12475         295         115        3260        3114
+Swap:          4090        1487        2603
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+php56.example.com.conf -> ../sites-available/php56.example.com.conf
+php72.example.com.conf -> ../sites-available/php72.example.com.conf
+doctodata.conf -> ../sites-available/doctodata.conf
+estudiouci.conf -> ../sites-available/estudiouci.conf
+estudiouci-le-ssl.conf -> /etc/apache2/sites-available/estudiouci-le-ssl.conf
+scur.cat.conf -> ../sites-available/scur.cat.conf
+scur.cat-le-ssl.conf -> /etc/apache2/sites-available/scur.cat-le-ssl.conf
+bridge.conf -> ../sites-available/bridge.conf
+ilikebridge.conf -> ../sites-available/ilikebridge.conf
+esadescreensaver.conf -> ../sites-available/esadescreensaver.conf
+joyacorona.conf -> ../sites-available/joyacorona.conf
+bridge-le-ssl.conf -> /etc/apache2/sites-available/bridge-le-ssl.conf
+ilikebridge-le-ssl.conf -> /etc/apache2/sites-available/ilikebridge-le-ssl.conf
+redireccio.conf -> ../sites-available/redireccio.conf
+redireccio-le-ssl.conf -> /etc/apache2/sites-available/redireccio-le-ssl.conf
+annalindh.conf -> ../sites-available/annalindh.conf
+annalindh_redirect.conf -> ../sites-available/annalindh_redirect.conf
+annalindh_redirect2.conf -> ../sites-available/annalindh_redirect2.conf
+annalindh_redirect2-le-ssl.conf -> /etc/apache2/sites-available/annalindh_redirect2-le-ssl.conf
+annalindh_redirect-le-ssl.conf -> /etc/apache2/sites-available/annalindh_redirect-le-ssl.conf
+annalindh-le-ssl.conf -> /etc/apache2/sites-available/annalindh-le-ssl.conf
+blogdasler.conf -> ../sites-available/blogdasler.conf
+dasler2017.conf -> ../sites-available/dasler2017.conf
+newdasler.conf -> ../sites-available/newdasler.conf
+nutrictrofic.conf -> ../sites-available/nutrictrofic.conf
+newdasler-le-ssl.conf -> /etc/apache2/sites-available/newdasler-le-ssl.conf
+blogdasler-le-ssl.conf -> /etc/apache2/sites-available/blogdasler-le-ssl.conf
+dasler2017-le-ssl.conf -> /etc/apache2/sites-available/dasler2017-le-ssl.conf
+annalindh_redirect3.conf -> ../sites-available/annalindh_redirect3.conf
+annalindh_redirect3-le-ssl.conf -> /etc/apache2/sites-available/annalindh_redirect3-le-ssl.conf
+nutrictrofic-le-ssl.conf -> /etc/apache2/sites-available/nutrictrofic-le-ssl.conf
+metalcaucho.omatech.com.conf -> ../sites-available/metalcaucho.omatech.com.conf
+lavanguardiagraella.omatech.com.conf -> ../sites-available/lavanguardiagraella.omatech.com.conf
+advancing.omatech.com.conf -> ../sites-available/advancing.omatech.com.conf
+lavanguardiagraella.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/lavanguardiagraella.omatech.com-le-ssl.conf
+lavanguardiagraelladevel.omatech.com.conf -> ../sites-available/lavanguardiagraelladevel.omatech.com.conf
+lavanguardiagraelladevel.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/lavanguardiagraelladevel.omatech.com-le-ssl.conf
+admin.advancing.es.conf -> ../sites-available/admin.advancing.es.conf
+admin.advancing.es-le-ssl.conf -> /etc/apache2/sites-available/admin.advancing.es-le-ssl.conf
+lavanguardiaagrupadordevel.omatech.com.conf -> ../sites-available/lavanguardiaagrupadordevel.omatech.com.conf
+lavanguardiaagrupadordevel.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/lavanguardiaagrupadordevel.omatech.com-le-ssl.conf
+lavanguardiahoroscopodevel.omatech.com.conf -> ../sites-available/lavanguardiahoroscopodevel.omatech.com.conf
+lavanguardiahoroscopodevel.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/lavanguardiahoroscopodevel.omatech.com-le-ssl.conf
+lagaleraeditorial.com.conf -> ../sites-available/lagaleraeditorial.com.conf
+lagalera_otros.conf -> ../sites-available/lagalera_otros.conf
+mudanzaslopez.net.conf -> ../sites-available/mudanzaslopez.net.conf
+lagaleraeditorial.com-le-ssl.conf -> /etc/apache2/sites-available/lagaleraeditorial.com-le-ssl.conf
+mudanzaslopez.net-le-ssl.conf -> /etc/apache2/sites-available/mudanzaslopez.net-le-ssl.conf
+puccaweb.com.conf -> ../sites-available/puccaweb.com.conf
+botiga.tram.cat.conf -> ../sites-available/botiga.tram.cat.conf
+advancingtest.omatech.com.conf -> ../sites-available/advancingtest.omatech.com.conf
+autotalleruiz.es-le-ssl.conf -> /etc/apache2/sites-available/autotalleruiz.es-le-ssl.conf
+develtrenensenyament.omatech.com.conf -> ../sites-available/develtrenensenyament.omatech.com.conf
+factureitor.omatech.com.conf -> ../sites-available/factureitor.omatech.com.conf
+factureitor.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/factureitor.omatech.com-le-ssl.conf
+institutjaume1er.omatech.conf -> ../sites-available/institutjaume1er.omatech.conf
+institutjaume1er.omatech-le-ssl.conf -> /etc/apache2/sites-available/institutjaume1er.omatech-le-ssl.conf
+relatsencatala.cat.conf -> ../sites-available/relatsencatala.cat.conf
+relataires.com.conf -> ../sites-available/relataires.com.conf
+relatsencatala.com.conf -> ../sites-available/relatsencatala.com.conf
+relatsencatala.cat-le-ssl.conf -> /etc/apache2/sites-available/relatsencatala.cat-le-ssl.conf
+relataires.com-le-ssl.conf -> /etc/apache2/sites-available/relataires.com-le-ssl.conf
+relatsencatala.com-le-ssl.conf -> /etc/apache2/sites-available/relatsencatala.com-le-ssl.conf
+memoriapersonal.eu.conf -> ../sites-available/memoriapersonal.eu.conf
+memoriapersonal.es.conf -> ../sites-available/memoriapersonal.es.conf
+memoriapersonal.eu-le-ssl.conf -> /etc/apache2/sites-available/memoriapersonal.eu-le-ssl.conf
+memoriapersonal.es-le-ssl.conf -> /etc/apache2/sites-available/memoriapersonal.es-le-ssl.conf
+eltrendelensenyament.cat.conf -> ../sites-available/eltrendelensenyament.cat.conf
+catlab.cat.conf -> ../sites-available/catlab.cat.conf
+espaiprovenca.cat.conf -> ../sites-available/espaiprovenca.cat.conf
+espaiprovenca.com.conf -> ../sites-available/espaiprovenca.com.conf
+espaiprovenca.es.conf -> ../sites-available/espaiprovenca.es.conf
+reindesa.com.conf -> ../sites-available/reindesa.com.conf
+secretariat.cat.conf -> ../sites-available/secretariat.cat.conf
+reindesa.com-le-ssl.conf -> /etc/apache2/sites-available/reindesa.com-le-ssl.conf
+catlab.cat-le-ssl.conf -> /etc/apache2/sites-available/catlab.cat-le-ssl.conf
+secretariat.cat-le-ssl.conf -> /etc/apache2/sites-available/secretariat.cat-le-ssl.conf
+eltrendelensenyament.cat-le-ssl.conf -> /etc/apache2/sites-available/eltrendelensenyament.cat-le-ssl.conf
+memoriapersonal.cat.conf -> ../sites-available/memoriapersonal.cat.conf
+memoriapersonal.cat-le-ssl.conf -> /etc/apache2/sites-available/memoriapersonal.cat-le-ssl.conf
+pre.omatech.com.conf -> ../sites-available/pre.omatech.com.conf
+slackcommander.omatech.com.conf -> ../sites-available/slackcommander.omatech.com.conf
+slackcommander.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/slackcommander.omatech.com-le-ssl.conf
+joyacorona-le-ssl.conf -> /etc/apache2/sites-available/joyacorona-le-ssl.conf
+trenensenyament.omatech.com.conf -> ../sites-available/trenensenyament.omatech.com.conf
+trenensenyament.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/trenensenyament.omatech.com-le-ssl.conf
+controlasmapp.conf -> ../sites-available/controlasmapp.conf
+controlasmapp-le-ssl.conf -> ../sites-available/controlasmapp-le-ssl.conf
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/admin.advancing.es.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	admin.advancing.es
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/admin.advancing.es-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	admin.advancing.es
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/advancing.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+advancing.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/advancingtest.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+advancingtest.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/annalindh.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	redespanolafal.iemed.org
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/annalindh-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	redespanolafal.iemed.org
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/annalindh_redirect2.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	xarxaespanolafal.iemed.org
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/annalindh_redirect2-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	xarxaespanolafal.iemed.org
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/annalindh_redirect3.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.redespanolafal.iemed.org
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/annalindh_redirect3-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.redespanolafal.iemed.org
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/annalindh_redirect.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	xarxaespanyolafal.iemed.org
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/annalindh_redirect-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	xarxaespanyolafal.iemed.org
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/autotalleruiz.es-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	autotalleruiz.es
+Address: 151.80.21.88
+
+/etc/apache2/sites-enabled/blogdasler.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	blog.dasler.es
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/blogdasler-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	blog.dasler.es
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/botiga.tram.cat.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	botiga.tram.cat
+Address: 95.211.161.236
+
+/etc/apache2/sites-enabled/bridge.conf
+/etc/apache2/sites-enabled/bridge.conf
+El nslookup SI coincide con la misma IP del servidor
+www.ireadbridge.com	canonical name = ireadbridge.com.
+Name:	ireadbridge.com
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	ireadbridge.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/bridge-le-ssl.conf
+/etc/apache2/sites-enabled/bridge-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.ireadbridge.com	canonical name = ireadbridge.com.
+Name:	ireadbridge.com
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	ireadbridge.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/catlab.cat.conf
+/etc/apache2/sites-enabled/catlab.cat.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.catlab.cat
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	catlab.cat
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/catlab.cat-le-ssl.conf
+/etc/apache2/sites-enabled/catlab.cat-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.catlab.cat
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	catlab.cat
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/controlasmapp.conf
+/etc/apache2/sites-enabled/controlasmapp.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.controlasmapp.com
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	controlasmapp.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/controlasmapp-le-ssl.conf
+/etc/apache2/sites-enabled/controlasmapp-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.controlasmapp.com
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	controlasmapp.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/dasler2017.conf
+El nslookup SI coincide con la misma IP del servidor
+dasler.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/dasler2017-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+dasler.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/develtrenensenyament.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+develtrenensenyament.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/doctodata.conf
+/etc/apache2/sites-enabled/doctodata.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	doctodata.com
+Address: 76.76.21.21
+
+El nslookup NO coincide con la misma IP del servidor
+www.doctodata.com	canonical name = cname.vercel-dns.com.
+Name:	cname.vercel-dns.com
+Address: 76.76.21.98
+Name:	cname.vercel-dns.com
+Address: 76.76.21.93
+
+El nslookup NO coincide con la misma IP del servidor
+doctodata.omatech.com	canonical name = leaseweb10.omatech.com.
+Name:	leaseweb10.omatech.com
+Address: 95.211.127.69
+
+/etc/apache2/sites-enabled/eltrendelensenyament.cat.conf
+/etc/apache2/sites-enabled/eltrendelensenyament.cat.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.eltrendelensenyament.cat
+Address: 188.114.96.0
+Name:	www.eltrendelensenyament.cat
+Address: 188.114.97.0
+Name:	www.eltrendelensenyament.cat
+Address: 2a06:98c1:3120::
+Name:	www.eltrendelensenyament.cat
+Address: 2a06:98c1:3121::
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	eltrendelensenyament.cat
+Address: 188.114.96.0
+Name:	eltrendelensenyament.cat
+Address: 188.114.97.0
+Name:	eltrendelensenyament.cat
+Address: 2a06:98c1:3120::
+Name:	eltrendelensenyament.cat
+Address: 2a06:98c1:3121::
+
+/etc/apache2/sites-enabled/eltrendelensenyament.cat-le-ssl.conf
+/etc/apache2/sites-enabled/eltrendelensenyament.cat-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.eltrendelensenyament.cat
+Address: 188.114.96.0
+Name:	www.eltrendelensenyament.cat
+Address: 188.114.97.0
+Name:	www.eltrendelensenyament.cat
+Address: 2a06:98c1:3120::
+Name:	www.eltrendelensenyament.cat
+Address: 2a06:98c1:3121::
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	eltrendelensenyament.cat
+Address: 188.114.96.0
+Name:	eltrendelensenyament.cat
+Address: 188.114.97.0
+Name:	eltrendelensenyament.cat
+Address: 2a06:98c1:3120::
+Name:	eltrendelensenyament.cat
+Address: 2a06:98c1:3121::
+
+/etc/apache2/sites-enabled/esadescreensaver.conf
+El nslookup SI coincide con la misma IP del servidor
+esadescreensaver.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/espaiprovenca.cat.conf
+/etc/apache2/sites-enabled/espaiprovenca.cat.conf
+El nslookup NO coincide con la misma IP del servidor
+www.espaiprovenca.cat	canonical name = parkingsrv0.dondominio.com.
+Name:	parkingsrv0.dondominio.com
+Address: 31.214.178.54
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	espaiprovenca.cat
+Address: 31.214.178.55
+
+/etc/apache2/sites-enabled/espaiprovenca.com.conf
+/etc/apache2/sites-enabled/espaiprovenca.com.conf
+El nslookup NO coincide con la misma IP del servidor
+** server can't find www.espaiprovenca.com: NXDOMAIN
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find espaiprovenca.com: NXDOMAIN
+
+/etc/apache2/sites-enabled/espaiprovenca.es.conf
+/etc/apache2/sites-enabled/espaiprovenca.es.conf
+El nslookup NO coincide con la misma IP del servidor
+** server can't find www.espaiprovenca.es: NXDOMAIN
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find espaiprovenca.es: NXDOMAIN
+
+/etc/apache2/sites-enabled/estudiouci.conf
+El nslookup NO coincide con la misma IP del servidor
+estudiouci.omatech.com	canonical name = omafront29.omatech.com.
+Name:	omafront29.omatech.com
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/estudiouci-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+estudiouci.omatech.com	canonical name = omafront29.omatech.com.
+Name:	omafront29.omatech.com
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/factureitor.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+factureitor.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/factureitor.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+factureitor.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/ilikebridge.conf
+/etc/apache2/sites-enabled/ilikebridge.conf
+El nslookup NO coincide con la misma IP del servidor
+** server can't find www.ilikebridge.com: NXDOMAIN
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find ilikebridge.com: NXDOMAIN
+
+/etc/apache2/sites-enabled/ilikebridge-le-ssl.conf
+/etc/apache2/sites-enabled/ilikebridge-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+** server can't find www.ilikebridge.com: NXDOMAIN
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find ilikebridge.com: NXDOMAIN
+
+/etc/apache2/sites-enabled/institutjaume1er.omatech.conf
+El nslookup SI coincide con la misma IP del servidor
+institutjaume1er.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/institutjaume1er.omatech-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+institutjaume1er.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/joyacorona.conf
+El nslookup SI coincide con la misma IP del servidor
+joyacorona.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/joyacorona-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+joyacorona.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/lagaleraeditorial.com.conf
+/etc/apache2/sites-enabled/lagaleraeditorial.com.conf
+El nslookup SI coincide con la misma IP del servidor
+www.lagaleraeditorial.com	canonical name = lagaleraeditorial.com.
+Name:	lagaleraeditorial.com
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	lagaleraeditorial.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/lagaleraeditorial.com-le-ssl.conf
+/etc/apache2/sites-enabled/lagaleraeditorial.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.lagaleraeditorial.com	canonical name = lagaleraeditorial.com.
+Name:	lagaleraeditorial.com
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	lagaleraeditorial.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/lagalera_otros.conf
+/etc/apache2/sites-enabled/lagalera_otros.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.lagalera.cat
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	lagalera.cat
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.editorial-lagalera.com
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	editorial-lagalera.com
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+www.plalector.cat	canonical name = plalector.cat.
+Name:	plalector.cat
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	plalector.cat
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.planlector.org
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	planlector.org
+Address: 85.17.78.99
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find www.premsalagalera.cat: NXDOMAIN
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find premsalagalera.cat: NXDOMAIN
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find www.prensalagalera.com: NXDOMAIN
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find prensalagalera.com: NXDOMAIN
+
+El nslookup NO coincide con la misma IP del servidor
+lagalera.omatech.com	canonical name = leaseweb11.omatech.com.
+Name:	leaseweb11.omatech.com
+Address: 62.212.68.153
+
+/etc/apache2/sites-enabled/lavanguardiaagrupadordevel.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+lavanguardiaagrupadordevel.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/lavanguardiaagrupadordevel.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+lavanguardiaagrupadordevel.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/lavanguardiagraelladevel.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+lavanguardiagraelladevel.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/lavanguardiagraelladevel.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+lavanguardiagraelladevel.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/lavanguardiagraella.omatech.com.conf
+El nslookup NO coincide con la misma IP del servidor
+lavanguardiagraella.omatech.com	canonical name = omafront30.omatech.com.
+Name:	omafront30.omatech.com
+Address: 217.20.115.29
+
+/etc/apache2/sites-enabled/lavanguardiagraella.omatech.com-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+lavanguardiagraella.omatech.com	canonical name = omafront30.omatech.com.
+Name:	omafront30.omatech.com
+Address: 217.20.115.29
+
+/etc/apache2/sites-enabled/lavanguardiahoroscopodevel.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+lavanguardiahoroscopodevel.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/lavanguardiahoroscopodevel.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+lavanguardiahoroscopodevel.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/memoriapersonal.cat.conf
+/etc/apache2/sites-enabled/memoriapersonal.cat.conf
+El nslookup SI coincide con la misma IP del servidor
+www.memoriapersonal.cat	canonical name = memoriapersonal.cat.
+Name:	memoriapersonal.cat
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	memoriapersonal.cat
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/memoriapersonal.cat-le-ssl.conf
+/etc/apache2/sites-enabled/memoriapersonal.cat-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.memoriapersonal.cat	canonical name = memoriapersonal.cat.
+Name:	memoriapersonal.cat
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	memoriapersonal.cat
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/memoriapersonal.es.conf
+/etc/apache2/sites-enabled/memoriapersonal.es.conf
+El nslookup NO coincide con la misma IP del servidor
+** server can't find www.memoriapersonal.es: SERVFAIL
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find memoriapersonal.es: SERVFAIL
+
+/etc/apache2/sites-enabled/memoriapersonal.es-le-ssl.conf
+/etc/apache2/sites-enabled/memoriapersonal.es-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+** server can't find www.memoriapersonal.es: SERVFAIL
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find memoriapersonal.es: SERVFAIL
+
+/etc/apache2/sites-enabled/memoriapersonal.eu.conf
+/etc/apache2/sites-enabled/memoriapersonal.eu.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.memoriapersonal.eu
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	memoriapersonal.eu
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/memoriapersonal.eu-le-ssl.conf
+/etc/apache2/sites-enabled/memoriapersonal.eu-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.memoriapersonal.eu
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	memoriapersonal.eu
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/metalcaucho.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+metalcaucho.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/mudanzaslopez.net.conf
+/etc/apache2/sites-enabled/mudanzaslopez.net.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.mudanzaslopez.net
+Address: 141.94.135.80
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	mudanzaslopez.net
+Address: 141.94.135.80
+
+/etc/apache2/sites-enabled/mudanzaslopez.net-le-ssl.conf
+/etc/apache2/sites-enabled/mudanzaslopez.net-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.mudanzaslopez.net
+Address: 141.94.135.80
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	mudanzaslopez.net
+Address: 141.94.135.80
+
+/etc/apache2/sites-enabled/newdasler.conf
+/etc/apache2/sites-enabled/newdasler.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.dasler.es
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	dasler.es
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/newdasler-le-ssl.conf
+/etc/apache2/sites-enabled/newdasler-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.dasler.es
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	dasler.es
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/nutrictrofic.conf
+/etc/apache2/sites-enabled/nutrictrofic.conf
+El nslookup NO coincide con la misma IP del servidor
+www.nutrictrofic.es	canonical name = nutrictrofic.es.
+Name:	nutrictrofic.es
+Address: 5.79.110.131
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	nutrictrofic.es
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/nutrictrofic-le-ssl.conf
+/etc/apache2/sites-enabled/nutrictrofic-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+www.nutrictrofic.es	canonical name = nutrictrofic.es.
+Name:	nutrictrofic.es
+Address: 5.79.110.131
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	nutrictrofic.es
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/php56.example.com.conf
+El nslookup SI coincide con la misma IP del servidor
+php56.omafront28.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/php72.example.com.conf
+El nslookup SI coincide con la misma IP del servidor
+php72.omafront28.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/pre.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+pre.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/puccaweb.com.conf
+El nslookup SI coincide con la misma IP del servidor
+puccaweb.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/redireccio.conf
+/etc/apache2/sites-enabled/redireccio.conf
+El nslookup NO coincide con la misma IP del servidor
+** server can't find www.redirecc.io: NXDOMAIN
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find redirecc.io: NXDOMAIN
+
+/etc/apache2/sites-enabled/redireccio-le-ssl.conf
+/etc/apache2/sites-enabled/redireccio-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+** server can't find www.redirecc.io: NXDOMAIN
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find redirecc.io: NXDOMAIN
+
+/etc/apache2/sites-enabled/reindesa.com.conf
+/etc/apache2/sites-enabled/reindesa.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	reindesa.com
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.reindesa.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/reindesa.com-le-ssl.conf
+/etc/apache2/sites-enabled/reindesa.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	reindesa.com
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.reindesa.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/relataires.com.conf
+/etc/apache2/sites-enabled/relataires.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.relataires.com
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	relataires.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/relataires.com-le-ssl.conf
+/etc/apache2/sites-enabled/relataires.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.relataires.com
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	relataires.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/relatsencatala.cat.conf
+/etc/apache2/sites-enabled/relatsencatala.cat.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.relatsencatala.cat
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	relatsencatala.cat
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/relatsencatala.cat-le-ssl.conf
+/etc/apache2/sites-enabled/relatsencatala.cat-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.relatsencatala.cat
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	relatsencatala.cat
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/relatsencatala.com.conf
+/etc/apache2/sites-enabled/relatsencatala.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.relatsencatala.com
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	relatsencatala.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/relatsencatala.com-le-ssl.conf
+/etc/apache2/sites-enabled/relatsencatala.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.relatsencatala.com
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	relatsencatala.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/scur.cat.conf
+/etc/apache2/sites-enabled/scur.cat.conf
+El nslookup SI coincide con la misma IP del servidor
+www.scur.cat	canonical name = scur.cat.
+Name:	scur.cat
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	scur.cat
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/scur.cat-le-ssl.conf
+/etc/apache2/sites-enabled/scur.cat-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.scur.cat	canonical name = scur.cat.
+Name:	scur.cat
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	scur.cat
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/secretariat.cat.conf
+/etc/apache2/sites-enabled/secretariat.cat.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.secretariat.cat
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	secretariat.cat
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/secretariat.cat-le-ssl.conf
+/etc/apache2/sites-enabled/secretariat.cat-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.secretariat.cat
+Address: 85.17.78.99
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	secretariat.cat
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/slackcommander.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+slackcommander.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/slackcommander.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+slackcommander.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/trenensenyament.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+trenensenyament.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+/etc/apache2/sites-enabled/trenensenyament.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+trenensenyament.omatech.com	canonical name = omafront28.omatech.com.
+Name:	omafront28.omatech.com
+Address: 85.17.78.99
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+admin.advancing.es-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+admin.advancing.es.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+advancing.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+advancingtest.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+annalindh-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+annalindh.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+annalindh_redirect-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+annalindh_redirect.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+annalindh_redirect2-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+annalindh_redirect2.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+annalindh_redirect3-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+annalindh_redirect3.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+autotalleruiz.es-le-ssl.conf:        SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+blogdasler-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+blogdasler.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+botiga.tram.cat.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+bridge-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+bridge.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+catlab.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+catlab.cat.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+controlasmapp-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+controlasmapp.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+dasler2017-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+dasler2017.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+develtrenensenyament.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+doctodata.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+eltrendelensenyament.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+eltrendelensenyament.cat.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+esadescreensaver.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espaiprovenca.cat.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espaiprovenca.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espaiprovenca.es.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+estudiouci-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+estudiouci.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+factureitor.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+factureitor.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+ilikebridge-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+ilikebridge.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+institutjaume1er.omatech-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+institutjaume1er.omatech.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+joyacorona-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+joyacorona.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+lagalera_otros.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+lagaleraeditorial.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+lagaleraeditorial.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+lavanguardiaagrupadordevel.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+lavanguardiaagrupadordevel.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+lavanguardiagraella.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+lavanguardiagraella.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+lavanguardiagraelladevel.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+lavanguardiagraelladevel.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+lavanguardiahoroscopodevel.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+lavanguardiahoroscopodevel.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+memoriapersonal.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+memoriapersonal.cat.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+memoriapersonal.es-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+memoriapersonal.es.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+memoriapersonal.eu-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+memoriapersonal.eu.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+metalcaucho.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+mudanzaslopez.net-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+mudanzaslopez.net.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+newdasler-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+newdasler.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+nutrictrofic-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+nutrictrofic.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+omatechinternal.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+php56.example.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+php72.example.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+pre.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.0-fpm.sock|fcgi://localhost/"
+puccaweb.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+redireccio-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+redireccio.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+reindesa.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+reindesa.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+relataires.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+relataires.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+relatsencatala.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+relatsencatala.cat.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+relatsencatala.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+relatsencatala.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+scur.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+scur.cat.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+secretariat.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+secretariat.cat.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+slackcommander.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.0-fpm.sock|fcgi://localhost/"
+slackcommander.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.0-fpm.sock|fcgi://localhost/"
+trenensenyament.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+trenensenyament.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+         
+##########    VERSION DE NODE     ##########
+v12.22.12
+           

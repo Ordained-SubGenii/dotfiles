@@ -1,0 +1,77 @@
+##########    HOSTNAME E IP    ##########
+omafront38.omatech.com
+81.171.6.82
+
+##########    PHP VERSION LIST    ##########
+php7.4-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+   
+##########    OS VERSION     ##########
+  Operating System: Ubuntu 18.04.6 LTS
+     
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+app.lasseguradora.com.conf -> ../sites-available/app.lasseguradora.com.conf
+app.lasseguradora.com-le-ssl.conf -> /etc/apache2/sites-available/app.lasseguradora.com-le-ssl.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+omafront38.omatech.com
+81.171.6.82
+php7.4-fpm.service
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+  Operating System: Ubuntu 18.04.6 LTS
+##########    CPU      ##########
+Filesystem     Type      Size  Used Avail Use% Mounted on
+udev           devtmpfs   17G     0   17G   0% /dev
+tmpfs          tmpfs     3.4G  1.2M  3.4G   1% /run
+/dev/sda5      ext4      463G   24G  417G   6% /
+tmpfs          tmpfs      17G  1.3M   17G   1% /dev/shm
+tmpfs          tmpfs     5.3M     0  5.3M   0% /run/lock
+tmpfs          tmpfs      17G     0   17G   0% /sys/fs/cgroup
+/dev/sda2      ext2      1.1G  121M  883M  12% /boot
+/dev/sda4      ext4      4.1G   18M  3.9G   1% /tmp
+tmpfs          tmpfs     3.4G     0  3.4G   0% /run/user/1001
+##########    MEM      ##########
+              total        used        free      shared  buff/cache   available
+Mem:          32042        1565        8408          27       22069       30032
+Swap:          4095           0        4095
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+app.lasseguradora.com.conf -> ../sites-available/app.lasseguradora.com.conf
+app.lasseguradora.com-le-ssl.conf -> /etc/apache2/sites-available/app.lasseguradora.com-le-ssl.conf
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/app.lasseguradora.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	app.lasseguradora.com
+Address: 81.171.6.82
+
+/etc/apache2/sites-enabled/app.lasseguradora.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	app.lasseguradora.com
+Address: 81.171.6.82
+
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront38.omatech.com
+Address: 81.171.6.82
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+app.lasseguradora.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+app.lasseguradora.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+omatechinternal.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+         
+##########    VERSION DE NODE     ##########
+v8.17.0
+           

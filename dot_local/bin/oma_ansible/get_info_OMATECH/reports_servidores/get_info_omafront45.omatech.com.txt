@@ -1,0 +1,84 @@
+##########    HOSTNAME E IP    ##########
+omafront45.omatech.com
+95.211.198.69
+
+##########    PHP VERSION LIST    ##########
+php7.4-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+   
+##########    OS VERSION     ##########
+  Operating System: Ubuntu 18.04.6 LTS
+     
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+test.kabisoft.com.conf -> ../sites-available/test.kabisoft.com.conf
+test.kabisoft.com-le-ssl.conf -> /etc/apache2/sites-available/test.kabisoft.com-le-ssl.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+omafront45.omatech.com
+95.211.198.69
+php7.4-fpm.service
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+  Operating System: Ubuntu 18.04.6 LTS
+##########    CPU      ##########
+Filesystem     Type      Size  Used Avail Use% Mounted on
+udev           devtmpfs   17G     0   17G   0% /dev
+tmpfs          tmpfs     3.4G  1.2M  3.4G   1% /run
+/dev/sda5      ext4      463G   39G  402G   9% /
+tmpfs          tmpfs      17G  1.3M   17G   1% /dev/shm
+tmpfs          tmpfs     5.3M     0  5.3M   0% /run/lock
+tmpfs          tmpfs      17G     0   17G   0% /sys/fs/cgroup
+/dev/sda2      ext2      1.1G  122M  881M  13% /boot
+/dev/sda4      ext4      4.1G   39M  3.9G   2% /tmp
+/dev/sdb1      ext4      472G   29k  448G   1% /mnt/sdb1
+/dev/loop6     squashfs   67M   67M     0 100% /snap/core20/2015
+/dev/loop1     squashfs  112M  112M     0 100% /snap/core/16091
+/dev/loop5     squashfs  112M  112M     0 100% /snap/core/16202
+/dev/loop0     squashfs   48M   48M     0 100% /snap/certbot/3462
+/dev/loop3     squashfs   48M   48M     0 100% /snap/certbot/3566
+/dev/loop2     squashfs   68M   68M     0 100% /snap/core20/2105
+tmpfs          tmpfs     3.4G     0  3.4G   0% /run/user/0
+tmpfs          tmpfs     3.4G     0  3.4G   0% /run/user/1002
+##########    MEM      ##########
+              total        used        free      shared  buff/cache   available
+Mem:          32120        6039        1939           7       24141       25636
+Swap:          4095           1        4094
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+test.kabisoft.com.conf -> ../sites-available/test.kabisoft.com.conf
+test.kabisoft.com-le-ssl.conf -> /etc/apache2/sites-available/test.kabisoft.com-le-ssl.conf
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront45.omatech.com
+Address: 95.211.198.69
+
+/etc/apache2/sites-enabled/test.kabisoft.com.conf
+El nslookup SI coincide con la misma IP del servidor
+test.kabisoft.com	canonical name = omafront45.omatech.com.
+Name:	omafront45.omatech.com
+Address: 95.211.198.69
+
+/etc/apache2/sites-enabled/test.kabisoft.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+test.kabisoft.com	canonical name = omafront45.omatech.com.
+Name:	omafront45.omatech.com
+Address: 95.211.198.69
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+omatechinternal.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+         
+##########    VERSION DE NODE     ##########
+           

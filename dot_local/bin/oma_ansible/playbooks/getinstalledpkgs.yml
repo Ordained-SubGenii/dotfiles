@@ -1,0 +1,19 @@
+---
+- hosts: general_servers
+  tasks:
+    - name: search installed programs 
+      ansible.builtin.shell:
+        #cmd: $(type -P apt) list --installed | awk -F "/" '{print $1} END{print "\n"}' 
+        cmd: dpkg-query -W -f '${status} ${package} ${version}\n' | sed -n 's/^install ok installed //p'
+        chdir: /   
+        executable: /bin/bash 
+      register: results
+      ignore_errors: true
+
+    - name: Print   
+      debug:
+        #msg: "{{ inventory_hostname }}: '{{ results.stdout.split('\n') }}'"
+        #msg: "{{ inventory_hostname }}: '{{ results.stdout_lines }}'"
+        msg: "{{ results.stdout_lines }}"
+
+

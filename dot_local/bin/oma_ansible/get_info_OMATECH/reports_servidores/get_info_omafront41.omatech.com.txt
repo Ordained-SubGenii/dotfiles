@@ -1,0 +1,438 @@
+##########    HOSTNAME E IP    ##########
+omafront41.omatech.com
+37.48.70.150
+
+##########    PHP VERSION LIST    ##########
+php5.6-fpm.service
+php7.4-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+   
+##########    OS VERSION     ##########
+  Operating System: Ubuntu 18.04.6 LTS
+     
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+lletra.uoc.edu.conf -> ../sites-available/lletra.uoc.edu.conf
+argus.uoc.edu.conf -> ../sites-available/argus.uoc.edu.conf
+catalanliterature.net.conf -> ../sites-available/catalanliterature.net.conf
+catalanliterature.org.conf -> ../sites-available/catalanliterature.org.conf
+literaturacatalana.cat.conf -> ../sites-available/literaturacatalana.cat.conf
+literaturacatalana.net.conf -> ../sites-available/literaturacatalana.net.conf
+literaturacatalana.org.conf -> ../sites-available/literaturacatalana.org.conf
+lletra.cat.conf -> ../sites-available/lletra.cat.conf
+lletra.net.conf -> ../sites-available/lletra.net.conf
+lletraestatics.uoc.edu.conf -> ../sites-available/lletraestatics.uoc.edu.conf
+lletrafitxers.uoc.edu.conf -> ../sites-available/lletrafitxers.uoc.edu.conf
+poesiacatalana.cat.conf -> ../sites-available/poesiacatalana.cat.conf
+topobiografies.cat.conf -> ../sites-available/topobiografies.cat.conf
+viquilletra.com.conf -> ../sites-available/viquilletra.com.conf
+lletra.uoc.edu-le-ssl.conf -> /etc/apache2/sites-available/lletra.uoc.edu-le-ssl.conf
+viquilletra.com-le-ssl.conf -> /etc/apache2/sites-available/viquilletra.com-le-ssl.conf
+literaturacatalana.cat-le-ssl.conf -> /etc/apache2/sites-available/literaturacatalana.cat-le-ssl.conf
+lletra.net-le-ssl.conf -> /etc/apache2/sites-available/lletra.net-le-ssl.conf
+lletra.cat-le-ssl.conf -> /etc/apache2/sites-available/lletra.cat-le-ssl.conf
+poesiacatalana.cat-le-ssl.conf -> /etc/apache2/sites-available/poesiacatalana.cat-le-ssl.conf
+argus.uoc.edu-le-ssl.conf -> /etc/apache2/sites-available/argus.uoc.edu-le-ssl.conf
+lletraestatics.uoc.edu-le-ssl.conf -> /etc/apache2/sites-available/lletraestatics.uoc.edu-le-ssl.conf
+lletrafitxers.uoc.edu-le-ssl.conf -> /etc/apache2/sites-available/lletrafitxers.uoc.edu-le-ssl.conf
+topobiografies.cat-le-ssl.conf -> /etc/apache2/sites-available/topobiografies.cat-le-ssl.conf
+catalanliterature.net-le-ssl.conf -> /etc/apache2/sites-available/catalanliterature.net-le-ssl.conf
+catalanliterature.org-le-ssl.conf -> /etc/apache2/sites-available/catalanliterature.org-le-ssl.conf
+literaturacatalana.net-le-ssl.conf -> /etc/apache2/sites-available/literaturacatalana.net-le-ssl.conf
+literaturacatalana.org-le-ssl.conf -> /etc/apache2/sites-available/literaturacatalana.org-le-ssl.conf
+viquilletra.cat.conf -> ../sites-available/viquilletra.cat.conf
+viquilletra.cat-le-ssl.conf -> /etc/apache2/sites-available/viquilletra.cat-le-ssl.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+omafront41.omatech.com
+37.48.70.150
+php5.6-fpm.service
+php7.4-fpm.service
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+  Operating System: Ubuntu 18.04.6 LTS
+##########    CPU      ##########
+Filesystem     Type      Size  Used Avail Use% Mounted on
+udev           devtmpfs  8.4G     0  8.4G   0% /dev
+tmpfs          tmpfs     1.7G  754k  1.7G   1% /run
+/dev/sda5      ext4      936G   59G  830G   7% /
+tmpfs          tmpfs     8.4G  1.3M  8.4G   1% /dev/shm
+tmpfs          tmpfs     5.3M     0  5.3M   0% /run/lock
+tmpfs          tmpfs     8.4G     0  8.4G   0% /sys/fs/cgroup
+/dev/sda2      ext2      1.1G  120M  883M  12% /boot
+/dev/sda4      ext4      4.1G  193k  3.9G   1% /tmp
+/dev/sdb1      ext4      944G  6.0G  891G   1% /mnt/sdb1
+tmpfs          tmpfs     1.7G     0  1.7G   0% /run/user/1001
+##########    MEM      ##########
+              total        used        free      shared  buff/cache   available
+Mem:          15992        3559        1169          62       11264       12046
+Swap:          4095          23        4072
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+lletra.uoc.edu.conf -> ../sites-available/lletra.uoc.edu.conf
+argus.uoc.edu.conf -> ../sites-available/argus.uoc.edu.conf
+catalanliterature.net.conf -> ../sites-available/catalanliterature.net.conf
+catalanliterature.org.conf -> ../sites-available/catalanliterature.org.conf
+literaturacatalana.cat.conf -> ../sites-available/literaturacatalana.cat.conf
+literaturacatalana.net.conf -> ../sites-available/literaturacatalana.net.conf
+literaturacatalana.org.conf -> ../sites-available/literaturacatalana.org.conf
+lletra.cat.conf -> ../sites-available/lletra.cat.conf
+lletra.net.conf -> ../sites-available/lletra.net.conf
+lletraestatics.uoc.edu.conf -> ../sites-available/lletraestatics.uoc.edu.conf
+lletrafitxers.uoc.edu.conf -> ../sites-available/lletrafitxers.uoc.edu.conf
+poesiacatalana.cat.conf -> ../sites-available/poesiacatalana.cat.conf
+topobiografies.cat.conf -> ../sites-available/topobiografies.cat.conf
+viquilletra.com.conf -> ../sites-available/viquilletra.com.conf
+lletra.uoc.edu-le-ssl.conf -> /etc/apache2/sites-available/lletra.uoc.edu-le-ssl.conf
+viquilletra.com-le-ssl.conf -> /etc/apache2/sites-available/viquilletra.com-le-ssl.conf
+literaturacatalana.cat-le-ssl.conf -> /etc/apache2/sites-available/literaturacatalana.cat-le-ssl.conf
+lletra.net-le-ssl.conf -> /etc/apache2/sites-available/lletra.net-le-ssl.conf
+lletra.cat-le-ssl.conf -> /etc/apache2/sites-available/lletra.cat-le-ssl.conf
+poesiacatalana.cat-le-ssl.conf -> /etc/apache2/sites-available/poesiacatalana.cat-le-ssl.conf
+argus.uoc.edu-le-ssl.conf -> /etc/apache2/sites-available/argus.uoc.edu-le-ssl.conf
+lletraestatics.uoc.edu-le-ssl.conf -> /etc/apache2/sites-available/lletraestatics.uoc.edu-le-ssl.conf
+lletrafitxers.uoc.edu-le-ssl.conf -> /etc/apache2/sites-available/lletrafitxers.uoc.edu-le-ssl.conf
+topobiografies.cat-le-ssl.conf -> /etc/apache2/sites-available/topobiografies.cat-le-ssl.conf
+catalanliterature.net-le-ssl.conf -> /etc/apache2/sites-available/catalanliterature.net-le-ssl.conf
+catalanliterature.org-le-ssl.conf -> /etc/apache2/sites-available/catalanliterature.org-le-ssl.conf
+literaturacatalana.net-le-ssl.conf -> /etc/apache2/sites-available/literaturacatalana.net-le-ssl.conf
+literaturacatalana.org-le-ssl.conf -> /etc/apache2/sites-available/literaturacatalana.org-le-ssl.conf
+viquilletra.cat.conf -> ../sites-available/viquilletra.cat.conf
+viquilletra.cat-le-ssl.conf -> /etc/apache2/sites-available/viquilletra.cat-le-ssl.conf
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/argus.uoc.edu.conf
+/etc/apache2/sites-enabled/argus.uoc.edu.conf
+El nslookup NO coincide con la misma IP del servidor
+www.argus.uoc.edu	canonical name = lletra.uoc.edu.
+Name:	lletra.uoc.edu
+Address: 81.88.53.79
+
+El nslookup NO coincide con la misma IP del servidor
+argus.uoc.edu	canonical name = lletra.uoc.edu.
+Name:	lletra.uoc.edu
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/argus.uoc.edu-le-ssl.conf
+/etc/apache2/sites-enabled/argus.uoc.edu-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+www.argus.uoc.edu	canonical name = lletra.uoc.edu.
+Name:	lletra.uoc.edu
+Address: 81.88.53.79
+
+El nslookup NO coincide con la misma IP del servidor
+argus.uoc.edu	canonical name = lletra.uoc.edu.
+Name:	lletra.uoc.edu
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/catalanliterature.net.conf
+/etc/apache2/sites-enabled/catalanliterature.net.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.catalanliterature.net
+Address: 81.88.53.79
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	catalanliterature.net
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/catalanliterature.net-le-ssl.conf
+/etc/apache2/sites-enabled/catalanliterature.net-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.catalanliterature.net
+Address: 81.88.53.79
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	catalanliterature.net
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/catalanliterature.org.conf
+/etc/apache2/sites-enabled/catalanliterature.org.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.catalanliterature.org
+Address: 81.88.53.79
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	catalanliterature.org
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/catalanliterature.org-le-ssl.conf
+/etc/apache2/sites-enabled/catalanliterature.org-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.catalanliterature.org
+Address: 81.88.53.79
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	catalanliterature.org
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/literaturacatalana.cat.conf
+/etc/apache2/sites-enabled/literaturacatalana.cat.conf
+El nslookup NO coincide con la misma IP del servidor
+www.literaturacatalana.cat	canonical name = lletra.uoc.edu.
+Name:	lletra.uoc.edu
+Address: 81.88.53.79
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	literaturacatalana.cat
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/literaturacatalana.cat-le-ssl.conf
+/etc/apache2/sites-enabled/literaturacatalana.cat-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+www.literaturacatalana.cat	canonical name = lletra.uoc.edu.
+Name:	lletra.uoc.edu
+Address: 81.88.53.79
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	literaturacatalana.cat
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/literaturacatalana.net.conf
+/etc/apache2/sites-enabled/literaturacatalana.net.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.literaturacatalana.net
+Address: 81.88.53.79
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	literaturacatalana.net
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/literaturacatalana.net-le-ssl.conf
+/etc/apache2/sites-enabled/literaturacatalana.net-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.literaturacatalana.net
+Address: 81.88.53.79
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	literaturacatalana.net
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/literaturacatalana.org.conf
+/etc/apache2/sites-enabled/literaturacatalana.org.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.literaturacatalana.org
+Address: 81.88.53.79
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	literaturacatalana.org
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/literaturacatalana.org-le-ssl.conf
+/etc/apache2/sites-enabled/literaturacatalana.org-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.literaturacatalana.org
+Address: 81.88.53.79
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	literaturacatalana.org
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/lletra.cat.conf
+/etc/apache2/sites-enabled/lletra.cat.conf
+El nslookup NO coincide con la misma IP del servidor
+www.lletra.cat	canonical name = lletra.uoc.edu.
+Name:	lletra.uoc.edu
+Address: 81.88.53.79
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	lletra.cat
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/lletra.cat-le-ssl.conf
+/etc/apache2/sites-enabled/lletra.cat-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+www.lletra.cat	canonical name = lletra.uoc.edu.
+Name:	lletra.uoc.edu
+Address: 81.88.53.79
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	lletra.cat
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/lletraestatics.uoc.edu.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	lletraestatics.uoc.edu
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/lletraestatics.uoc.edu-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	lletraestatics.uoc.edu
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/lletrafitxers.uoc.edu.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	lletrafitxers.uoc.edu
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/lletrafitxers.uoc.edu-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	lletrafitxers.uoc.edu
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/lletra.net.conf
+/etc/apache2/sites-enabled/lletra.net.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.lletra.net
+Address: 37.48.70.150
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	lletra.net
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/lletra.net-le-ssl.conf
+/etc/apache2/sites-enabled/lletra.net-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.lletra.net
+Address: 37.48.70.150
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	lletra.net
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/lletra.uoc.edu.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	lletra.uoc.edu
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/lletra.uoc.edu-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	lletra.uoc.edu
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront41.omatech.com
+Address: 37.48.70.150
+
+/etc/apache2/sites-enabled/poesiacatalana.cat.conf
+/etc/apache2/sites-enabled/poesiacatalana.cat.conf
+El nslookup NO coincide con la misma IP del servidor
+www.poesiacatalana.cat	canonical name = lletra.uoc.edu.
+Name:	lletra.uoc.edu
+Address: 81.88.53.79
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	poesiacatalana.cat
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/poesiacatalana.cat-le-ssl.conf
+/etc/apache2/sites-enabled/poesiacatalana.cat-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+www.poesiacatalana.cat	canonical name = lletra.uoc.edu.
+Name:	lletra.uoc.edu
+Address: 81.88.53.79
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	poesiacatalana.cat
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/topobiografies.cat.conf
+/etc/apache2/sites-enabled/topobiografies.cat.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.topobiografies.cat
+Address: 37.48.70.150
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	topobiografies.cat
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/topobiografies.cat-le-ssl.conf
+/etc/apache2/sites-enabled/topobiografies.cat-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.topobiografies.cat
+Address: 37.48.70.150
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	topobiografies.cat
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/viquilletra.cat.conf
+/etc/apache2/sites-enabled/viquilletra.cat.conf
+El nslookup NO coincide con la misma IP del servidor
+www.viquilletra.cat	canonical name = viquilletra.cat.
+Name:	viquilletra.cat
+Address: 81.88.53.79
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	viquilletra.cat
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/viquilletra.cat-le-ssl.conf
+/etc/apache2/sites-enabled/viquilletra.cat-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+www.viquilletra.cat	canonical name = viquilletra.cat.
+Name:	viquilletra.cat
+Address: 81.88.53.79
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	viquilletra.cat
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/viquilletra.com.conf
+/etc/apache2/sites-enabled/viquilletra.com.conf
+El nslookup NO coincide con la misma IP del servidor
+www.viquilletra.com	canonical name = viquilletra.com.
+Name:	viquilletra.com
+Address: 81.88.53.79
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	viquilletra.com
+Address: 81.88.53.79
+
+/etc/apache2/sites-enabled/viquilletra.com-le-ssl.conf
+/etc/apache2/sites-enabled/viquilletra.com-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+www.viquilletra.com	canonical name = viquilletra.com.
+Name:	viquilletra.com
+Address: 81.88.53.79
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	viquilletra.com
+Address: 81.88.53.79
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+argus.uoc.edu-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+argus.uoc.edu.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+catalanliterature.net-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+catalanliterature.net.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+catalanliterature.org-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+catalanliterature.org.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+literaturacatalana.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+literaturacatalana.cat.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+literaturacatalana.net-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+literaturacatalana.net.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+literaturacatalana.org-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+literaturacatalana.org.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+lletra.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+lletra.cat.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+lletra.net-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+lletra.net.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+lletra.uoc.edu-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+lletra.uoc.edu.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+lletraestatics.uoc.edu-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+lletraestatics.uoc.edu.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+lletrafitxers.uoc.edu-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+lletrafitxers.uoc.edu.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+omatechinternal.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+poesiacatalana.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+poesiacatalana.cat.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+topobiografies.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+topobiografies.cat.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+viquilletra.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+viquilletra.cat.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+viquilletra.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+viquilletra.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+         
+##########    VERSION DE NODE     ##########
+v8.17.0
+           

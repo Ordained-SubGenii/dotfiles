@@ -1,0 +1,136 @@
+##########    HOSTNAME E IP    ##########
+omafront39.omatech.com
+37.48.86.133
+
+##########    PHP VERSION LIST    ##########
+php7.4-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+   
+##########    OS VERSION     ##########
+  Operating System: Ubuntu 18.04.6 LTS
+     
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+devel.provetsa.com.conf -> ../sites-available/devel.provetsa.com.conf
+devel.provetsa.com-le-ssl.conf -> /etc/apache2/sites-available/devel.provetsa.com-le-ssl.conf
+provetsa.com.conf -> ../sites-available/provetsa.com.conf
+provetsa.com-le-ssl.conf -> /etc/apache2/sites-available/provetsa.com-le-ssl.conf
+provetsa.es.conf -> ../sites-available/provetsa.es.conf
+provetsa.es-le-ssl.conf -> /etc/apache2/sites-available/provetsa.es-le-ssl.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+omafront39.omatech.com
+37.48.86.133
+php7.4-fpm.service
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+  Operating System: Ubuntu 18.04.6 LTS
+##########    CPU      ##########
+Filesystem     Type      Size  Used Avail Use% Mounted on
+udev           devtmpfs  8.4G     0  8.4G   0% /dev
+tmpfs          tmpfs     1.7G  840k  1.7G   1% /run
+/dev/sda5      ext4      2.0T   30G  1.9T   2% /
+tmpfs          tmpfs     8.4G  1.3M  8.4G   1% /dev/shm
+tmpfs          tmpfs     5.3M     0  5.3M   0% /run/lock
+tmpfs          tmpfs     8.4G     0  8.4G   0% /sys/fs/cgroup
+/dev/sdb1      ext4      2.0T   80M  1.9T   1% /mnt/sdb1
+/dev/sda2      ext2      1.1G  121M  883M  12% /boot
+/dev/sda4      ext4      4.1G   50M  3.9G   2% /tmp
+tmpfs          tmpfs     1.7G     0  1.7G   0% /run/user/1002
+##########    MEM      ##########
+              total        used        free      shared  buff/cache   available
+Mem:          16010       11754        2272          39        1982        3886
+Swap:          4095         508        3587
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+devel.provetsa.com.conf -> ../sites-available/devel.provetsa.com.conf
+devel.provetsa.com-le-ssl.conf -> /etc/apache2/sites-available/devel.provetsa.com-le-ssl.conf
+provetsa.com.conf -> ../sites-available/provetsa.com.conf
+provetsa.com-le-ssl.conf -> /etc/apache2/sites-available/provetsa.com-le-ssl.conf
+provetsa.es.conf -> ../sites-available/provetsa.es.conf
+provetsa.es-le-ssl.conf -> /etc/apache2/sites-available/provetsa.es-le-ssl.conf
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/devel.provetsa.com.conf
+El nslookup SI coincide con la misma IP del servidor
+devel.provetsa.com	canonical name = omafront39.omatech.com.
+Name:	omafront39.omatech.com
+Address: 37.48.86.133
+
+/etc/apache2/sites-enabled/devel.provetsa.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+devel.provetsa.com	canonical name = omafront39.omatech.com.
+Name:	omafront39.omatech.com
+Address: 37.48.86.133
+
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront39.omatech.com
+Address: 37.48.86.133
+
+/etc/apache2/sites-enabled/provetsa.com.conf
+/etc/apache2/sites-enabled/provetsa.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	provetsa.com
+Address: 37.48.86.133
+
+El nslookup SI coincide con la misma IP del servidor
+www.provetsa.com	canonical name = provetsa.com.
+Name:	provetsa.com
+Address: 37.48.86.133
+
+/etc/apache2/sites-enabled/provetsa.com-le-ssl.conf
+/etc/apache2/sites-enabled/provetsa.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	provetsa.com
+Address: 37.48.86.133
+
+El nslookup SI coincide con la misma IP del servidor
+www.provetsa.com	canonical name = provetsa.com.
+Name:	provetsa.com
+Address: 37.48.86.133
+
+/etc/apache2/sites-enabled/provetsa.es.conf
+/etc/apache2/sites-enabled/provetsa.es.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	provetsa.es
+Address: 37.48.86.133
+
+El nslookup SI coincide con la misma IP del servidor
+www.provetsa.es	canonical name = provetsa.com.
+Name:	provetsa.com
+Address: 37.48.86.133
+
+/etc/apache2/sites-enabled/provetsa.es-le-ssl.conf
+/etc/apache2/sites-enabled/provetsa.es-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	provetsa.es
+Address: 37.48.86.133
+
+El nslookup SI coincide con la misma IP del servidor
+www.provetsa.es	canonical name = provetsa.com.
+Name:	provetsa.com
+Address: 37.48.86.133
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+devel.provetsa.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+devel.provetsa.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+omatechinternal.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+provetsa.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+provetsa.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+provetsa.es-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+provetsa.es.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+         
+##########    VERSION DE NODE     ##########
+v8.17.0
+           

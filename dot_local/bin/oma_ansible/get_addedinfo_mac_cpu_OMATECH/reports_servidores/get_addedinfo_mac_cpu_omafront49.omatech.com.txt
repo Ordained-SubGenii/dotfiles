@@ -1,0 +1,11 @@
+##########    HOSTNAME  ##########
+omafront49.omatech.com
+##########    PROCESSOR INFO    ##########
+       product: Intel(R) Xeon(R) E-2274G CPU @ 4.00GHz
+       configuration: cores=4 enabledcores=4 microcode=244 threads=8
+ 
+##########    MAC ADDRESSES     ##########
+2: eno1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP mode DEFAULT group default qlen 1000
+link/ether b8:cb:29:aa:df:cf
+3: eno2: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9000 qdisc mq state UP mode DEFAULT group default qlen 1000
+link/ether b8:cb:29:aa:df:d0

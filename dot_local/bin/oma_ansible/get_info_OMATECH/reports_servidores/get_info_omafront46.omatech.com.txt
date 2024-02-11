@@ -1,0 +1,351 @@
+##########    HOSTNAME E IP    ##########
+omafront46.omatech.com
+212.32.235.131
+
+##########    PHP VERSION LIST    ##########
+php8.1-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 8.0.35-0ubuntu0.22.04.1 for Linux on x86_64 ((Ubuntu))
+   
+##########    OS VERSION     ##########
+Operating System: Ubuntu 22.04.2 LTS
+     
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:56:02
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+omatechinternal-le-ssl.conf -> /etc/apache2/sites-available/omatechinternal-le-ssl.conf
+esquerra8.omatech.com.conf -> ../sites-available/esquerra8.omatech.com.conf
+facturaelectronica.omatech.com.conf -> ../sites-available/facturaelectronica.omatech.com.conf
+facturaelectronica.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/facturaelectronica.omatech.com-le-ssl.conf
+esquerra8.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/esquerra8.omatech.com-le-ssl.conf
+monitor.omatech.com.conf -> ../sites-available/monitor.omatech.com.conf
+monitor.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/monitor.omatech.com-le-ssl.conf
+socialwise.omatech.com.conf -> ../sites-available/socialwise.omatech.com.conf
+socialwise.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/socialwise.omatech.com-le-ssl.conf
+api.maskota.omatech.com.conf -> ../sites-available/api.maskota.omatech.com.conf
+backoffice.maskota.omatech.com.conf -> ../sites-available/backoffice.maskota.omatech.com.conf
+backoffice.maskota.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/backoffice.maskota.omatech.com-le-ssl.conf
+api.maskota.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/api.maskota.omatech.com-le-ssl.conf
+api.appkota.com.conf -> ../sites-available/api.appkota.com.conf
+api.appkota.com-le-ssl.conf -> /etc/apache2/sites-available/api.appkota.com-le-ssl.conf
+back.appkota.com.conf -> ../sites-available/back.appkota.com.conf
+back.appkota.com-le-ssl.conf -> /etc/apache2/sites-available/back.appkota.com-le-ssl.conf
+socialwiseapp.omatech.com.conf -> ../sites-available/socialwiseapp.omatech.com.conf
+esquerra8en.omatech.com.conf -> ../sites-available/esquerra8en.omatech.com.conf
+esquerra8en.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/esquerra8en.omatech.com-le-ssl.conf
+socialwiseapp.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/socialwiseapp.omatech.com-le-ssl.conf
+socialwiseapp.com.conf -> ../sites-available/socialwiseapp.com.conf
+socialwiseapp.com-le-ssl.conf -> /etc/apache2/sites-available/socialwiseapp.com-le-ssl.conf
+app.socialwiseapp.com.conf -> ../sites-available/app.socialwiseapp.com.conf
+app.socialwiseapp.com-le-ssl.conf -> /etc/apache2/sites-available/app.socialwiseapp.com-le-ssl.conf
+mutua.omatech.com.conf -> ../sites-available/mutua.omatech.com.conf
+mutua.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/mutua.omatech.com-le-ssl.conf
+smarttmessenger.com.conf -> ../sites-available/smarttmessenger.com.conf
+smarttmessenger.com-le-ssl.conf -> ../sites-available/smarttmessenger.com-le-ssl.conf
+app.smarttmessenger.com.conf -> ../sites-available/app.smarttmessenger.com.conf
+app.smarttmessenger.com-le-ssl.conf -> ../sites-available/app.smarttmessenger.com-le-ssl.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+omafront46.omatech.com
+212.32.235.131
+php8.1-fpm.service
+mysql  Ver 8.0.35-0ubuntu0.22.04.1 for Linux on x86_64 ((Ubuntu))
+Operating System: Ubuntu 22.04.2 LTS
+##########    CPU      ##########
+Filesystem     Type   Size  Used Avail Use% Mounted on
+tmpfs          tmpfs  3.4G  3.1M  3.4G   1% /run
+/dev/sda5      ext4   463G   47G  393G  11% /
+tmpfs          tmpfs   17G  1.3M   17G   1% /dev/shm
+tmpfs          tmpfs  5.3M     0  5.3M   0% /run/lock
+/dev/sda2      ext2   1.1G  264M  739M  27% /boot
+/dev/sda4      ext4   4.1G  7.2M  3.9G   1% /tmp
+/dev/sdb1      ext4   472G  6.0G  442G   2% /mnt/sdb1
+tmpfs          tmpfs  3.4G  4.1k  3.4G   1% /run/user/1000
+tmpfs          tmpfs  3.4G  4.1k  3.4G   1% /run/user/0
+tmpfs          tmpfs  3.4G  4.1k  3.4G   1% /run/user/1001
+##########    MEM      ##########
+               total        used        free      shared  buff/cache   available
+Mem:           31979       21439        3112         234        7426        9845
+Swap:           4095        4095           0
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:56:02
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+omatechinternal-le-ssl.conf -> /etc/apache2/sites-available/omatechinternal-le-ssl.conf
+esquerra8.omatech.com.conf -> ../sites-available/esquerra8.omatech.com.conf
+facturaelectronica.omatech.com.conf -> ../sites-available/facturaelectronica.omatech.com.conf
+facturaelectronica.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/facturaelectronica.omatech.com-le-ssl.conf
+esquerra8.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/esquerra8.omatech.com-le-ssl.conf
+monitor.omatech.com.conf -> ../sites-available/monitor.omatech.com.conf
+monitor.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/monitor.omatech.com-le-ssl.conf
+socialwise.omatech.com.conf -> ../sites-available/socialwise.omatech.com.conf
+socialwise.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/socialwise.omatech.com-le-ssl.conf
+api.maskota.omatech.com.conf -> ../sites-available/api.maskota.omatech.com.conf
+backoffice.maskota.omatech.com.conf -> ../sites-available/backoffice.maskota.omatech.com.conf
+backoffice.maskota.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/backoffice.maskota.omatech.com-le-ssl.conf
+api.maskota.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/api.maskota.omatech.com-le-ssl.conf
+api.appkota.com.conf -> ../sites-available/api.appkota.com.conf
+api.appkota.com-le-ssl.conf -> /etc/apache2/sites-available/api.appkota.com-le-ssl.conf
+back.appkota.com.conf -> ../sites-available/back.appkota.com.conf
+back.appkota.com-le-ssl.conf -> /etc/apache2/sites-available/back.appkota.com-le-ssl.conf
+socialwiseapp.omatech.com.conf -> ../sites-available/socialwiseapp.omatech.com.conf
+esquerra8en.omatech.com.conf -> ../sites-available/esquerra8en.omatech.com.conf
+esquerra8en.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/esquerra8en.omatech.com-le-ssl.conf
+socialwiseapp.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/socialwiseapp.omatech.com-le-ssl.conf
+socialwiseapp.com.conf -> ../sites-available/socialwiseapp.com.conf
+socialwiseapp.com-le-ssl.conf -> /etc/apache2/sites-available/socialwiseapp.com-le-ssl.conf
+app.socialwiseapp.com.conf -> ../sites-available/app.socialwiseapp.com.conf
+app.socialwiseapp.com-le-ssl.conf -> /etc/apache2/sites-available/app.socialwiseapp.com-le-ssl.conf
+mutua.omatech.com.conf -> ../sites-available/mutua.omatech.com.conf
+mutua.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/mutua.omatech.com-le-ssl.conf
+smarttmessenger.com.conf -> ../sites-available/smarttmessenger.com.conf
+smarttmessenger.com-le-ssl.conf -> ../sites-available/smarttmessenger.com-le-ssl.conf
+app.smarttmessenger.com.conf -> ../sites-available/app.smarttmessenger.com.conf
+app.smarttmessenger.com-le-ssl.conf -> ../sites-available/app.smarttmessenger.com-le-ssl.conf
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/api.appkota.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	api.appkota.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/api.appkota.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	api.appkota.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/api.maskota.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+api.maskota.omatech.com	canonical name = omafront46.omatech.com.
+Name:	omafront46.omatech.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/api.maskota.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+api.maskota.omatech.com	canonical name = omafront46.omatech.com.
+Name:	omafront46.omatech.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/app.smarttmessenger.com.conf
+/etc/apache2/sites-enabled/app.smarttmessenger.com.conf
+El nslookup NO coincide con la misma IP del servidor
+** server can't find app.smarttmessenger.com: NXDOMAIN
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find app.smarttmessenger.com: NXDOMAIN
+
+/etc/apache2/sites-enabled/app.smarttmessenger.com-le-ssl.conf
+/etc/apache2/sites-enabled/app.smarttmessenger.com-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	app.smartmessenger.com
+Address: 108.35.244.11
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find app.smarttmessenger.com: NXDOMAIN
+
+/etc/apache2/sites-enabled/app.socialwiseapp.com.conf
+/etc/apache2/sites-enabled/app.socialwiseapp.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	app.socialwiseapp.com
+Address: 212.32.235.131
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	app.socialwiseapp.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/app.socialwiseapp.com-le-ssl.conf
+/etc/apache2/sites-enabled/app.socialwiseapp.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	app.socialwiseapp.com
+Address: 212.32.235.131
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	app.socialwiseapp.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/back.appkota.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	back.appkota.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/back.appkota.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	back.appkota.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/backoffice.maskota.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+backoffice.maskota.omatech.com	canonical name = omafront46.omatech.com.
+Name:	omafront46.omatech.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/backoffice.maskota.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+backoffice.maskota.omatech.com	canonical name = omafront46.omatech.com.
+Name:	omafront46.omatech.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/esquerra8en.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+esquerra8en.omatech.com	canonical name = omafront46.omatech.com.
+Name:	omafront46.omatech.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/esquerra8en.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+esquerra8en.omatech.com	canonical name = omafront46.omatech.com.
+Name:	omafront46.omatech.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/esquerra8.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+esquerra8.omatech.com	canonical name = omafront46.omatech.com.
+Name:	omafront46.omatech.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/esquerra8.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+esquerra8.omatech.com	canonical name = omafront46.omatech.com.
+Name:	omafront46.omatech.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/facturaelectronica.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+facturaelectronica.omatech.com	canonical name = omafront46.omatech.com.
+Name:	omafront46.omatech.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/facturaelectronica.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+facturaelectronica.omatech.com	canonical name = omafront46.omatech.com.
+Name:	omafront46.omatech.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/monitor.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+monitor.omatech.com	canonical name = omafront46.omatech.com.
+Name:	omafront46.omatech.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/monitor.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+monitor.omatech.com	canonical name = omafront46.omatech.com.
+Name:	omafront46.omatech.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/mutua.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+mutua.omatech.com	canonical name = omafront46.omatech.com.
+Name:	omafront46.omatech.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/mutua.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+mutua.omatech.com	canonical name = omafront46.omatech.com.
+Name:	omafront46.omatech.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront46.omatech.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/omatechinternal-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront46.omatech.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/smarttmessenger.com.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	smarttmessenger.com
+Address: 3.33.130.190
+Name:	smarttmessenger.com
+Address: 15.197.148.33
+
+/etc/apache2/sites-enabled/smarttmessenger.com-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	smarttmessenger.com
+Address: 15.197.148.33
+Name:	smarttmessenger.com
+Address: 3.33.130.190
+
+/etc/apache2/sites-enabled/socialwiseapp.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	socialwiseapp.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/socialwiseapp.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	socialwiseapp.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/socialwiseapp.omatech.com.conf
+/etc/apache2/sites-enabled/socialwiseapp.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	socialwiseapp.omatech.com
+Address: 212.32.235.131
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	socialwiseapp.omatech.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/socialwiseapp.omatech.com-le-ssl.conf
+/etc/apache2/sites-enabled/socialwiseapp.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	socialwiseapp.omatech.com
+Address: 212.32.235.131
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	socialwiseapp.omatech.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/socialwise.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+socialwise.omatech.com	canonical name = omafront46.omatech.com.
+Name:	omafront46.omatech.com
+Address: 212.32.235.131
+
+/etc/apache2/sites-enabled/socialwise.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+socialwise.omatech.com	canonical name = omafront46.omatech.com.
+Name:	omafront46.omatech.com
+Address: 212.32.235.131
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+api.appkota.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+api.appkota.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+api.maskota.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+api.maskota.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+back.appkota.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+back.appkota.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+backoffice.maskota.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+backoffice.maskota.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+esquerra8.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+esquerra8.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+esquerra8en.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+esquerra8en.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+facturaelectronica.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+facturaelectronica.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+monitor.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+monitor.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+mutua.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+mutua.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+omatechinternal-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+omatechinternal.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+smarttmessenger.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+smarttmessenger.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+socialwise.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+socialwise.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+socialwiseapp.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+socialwiseapp.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+         
+##########    VERSION DE NODE     ##########
+v12.22.9
+           

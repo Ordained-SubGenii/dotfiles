@@ -1,0 +1,100 @@
+##########    HOSTNAME E IP    ##########
+omafront43.omatech.com
+81.171.25.110
+
+##########    PHP VERSION LIST    ##########
+php7.4-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+   
+##########    OS VERSION     ##########
+  Operating System: Ubuntu 18.04.6 LTS
+     
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+freseniusportugal.omatech.com.conf -> ../sites-available/freseniusportugal.omatech.com.conf
+freseniusportugal.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/freseniusportugal.omatech.com-le-ssl.conf
+pt.kabisoft.com.conf -> ../sites-available/pt.kabisoft.com.conf
+pt.kabisoft.com-le-ssl.conf -> /etc/apache2/sites-available/pt.kabisoft.com-le-ssl.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+omafront43.omatech.com
+81.171.25.110
+php7.4-fpm.service
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+  Operating System: Ubuntu 18.04.6 LTS
+##########    CPU      ##########
+Filesystem     Type      Size  Used Avail Use% Mounted on
+udev           devtmpfs   17G     0   17G   0% /dev
+tmpfs          tmpfs     3.4G  1.2M  3.4G   1% /run
+/dev/sda5      ext4      463G   88G  353G  20% /
+tmpfs          tmpfs      17G  1.3M   17G   1% /dev/shm
+tmpfs          tmpfs     5.3M     0  5.3M   0% /run/lock
+tmpfs          tmpfs      17G     0   17G   0% /sys/fs/cgroup
+/dev/sda2      ext2      1.1G  124M  881M  13% /boot
+/dev/sda4      ext4      4.1G   67M  3.8G   2% /tmp
+/dev/loop3     squashfs   67M   67M     0 100% /snap/core20/2015
+/dev/loop0     squashfs  112M  112M     0 100% /snap/core/16091
+/dev/loop1     squashfs  112M  112M     0 100% /snap/core/16202
+/dev/loop4     squashfs   48M   48M     0 100% /snap/certbot/3462
+/dev/loop5     squashfs   48M   48M     0 100% /snap/certbot/3566
+/dev/loop2     squashfs   68M   68M     0 100% /snap/core20/2105
+tmpfs          tmpfs     3.4G     0  3.4G   0% /run/user/0
+tmpfs          tmpfs     3.4G     0  3.4G   0% /run/user/1002
+##########    MEM      ##########
+              total        used        free      shared  buff/cache   available
+Mem:          32137        7749        1093           7       23294       23934
+Swap:          4095           0        4095
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+  
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+freseniusportugal.omatech.com.conf -> ../sites-available/freseniusportugal.omatech.com.conf
+freseniusportugal.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/freseniusportugal.omatech.com-le-ssl.conf
+pt.kabisoft.com.conf -> ../sites-available/pt.kabisoft.com.conf
+pt.kabisoft.com-le-ssl.conf -> /etc/apache2/sites-available/pt.kabisoft.com-le-ssl.conf
+/etc/apache2/sites-enabled/freseniusportugal.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+freseniusportugal.omatech.com	canonical name = omafront43.omatech.com.
+Name:	omafront43.omatech.com
+Address: 81.171.25.110
+
+/etc/apache2/sites-enabled/freseniusportugal.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+freseniusportugal.omatech.com	canonical name = omafront43.omatech.com.
+Name:	omafront43.omatech.com
+Address: 81.171.25.110
+
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront43.omatech.com
+Address: 81.171.25.110
+
+/etc/apache2/sites-enabled/pt.kabisoft.com.conf
+El nslookup SI coincide con la misma IP del servidor
+pt.kabisoft.com	canonical name = omafront43.omatech.com.
+Name:	omafront43.omatech.com
+Address: 81.171.25.110
+
+/etc/apache2/sites-enabled/pt.kabisoft.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+pt.kabisoft.com	canonical name = omafront43.omatech.com.
+Name:	omafront43.omatech.com
+Address: 81.171.25.110
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+freseniusportugal.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.0-fpm.sock|fcgi://localhost/"
+freseniusportugal.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.0-fpm.sock|fcgi://localhost/"
+omatechinternal.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+pt.kabisoft.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.0-fpm.sock|fcgi://localhost/"
+pt.kabisoft.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.0-fpm.sock|fcgi://localhost/"
+         
+##########    VERSION DE NODE     ##########
+           

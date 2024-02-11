@@ -1,0 +1,157 @@
+##########    HOSTNAME E IP    ##########
+omafront48.omatech.com
+95.211.184.211
+
+##########    PHP VERSION LIST    ##########
+php7.4-fpm.service
+php8.1-fpm.service
+php8.2-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 8.0.35-0ubuntu0.22.04.1 for Linux on x86_64 ((Ubuntu))
+   
+##########    OS VERSION     ##########
+Operating System: Ubuntu 22.04.2 LTS
+     
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:56:02
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+jovent.omatech.com.conf -> ../sites-available/jovent.omatech.com.conf
+jovent.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/jovent.omatech.com-le-ssl.conf
+prestamocapital.omatech.com.conf -> ../sites-available/prestamocapital.omatech.com.conf
+cac.omatech.com.conf -> ../sites-available/cac.omatech.com.conf
+cac.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/cac.omatech.com-le-ssl.conf
+api.cac.omatech.com.conf -> ../sites-available/api.cac.omatech.com.conf
+api.cac.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/api.cac.omatech.com-le-ssl.conf
+linearchemicals.omatech.com.conf -> ../sites-available/linearchemicals.omatech.com.conf
+linearchemicals.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/linearchemicals.omatech.com-le-ssl.conf
+goilaser.omatech.com.conf -> ../sites-available/goilaser.omatech.com.conf
+goilaser.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/goilaser.omatech.com-le-ssl.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+omafront48.omatech.com
+95.211.184.211
+php7.4-fpm.service
+php8.1-fpm.service
+php8.2-fpm.service
+mysql  Ver 8.0.35-0ubuntu0.22.04.1 for Linux on x86_64 ((Ubuntu))
+Operating System: Ubuntu 22.04.2 LTS
+##########    CPU      ##########
+Filesystem     Type   Size  Used Avail Use% Mounted on
+tmpfs          tmpfs  1.7G  1.5M  1.7G   1% /run
+/dev/md125     ext4   8.0T   22G  7.6T   1% /
+tmpfs          tmpfs  8.4G  1.3M  8.4G   1% /dev/shm
+tmpfs          tmpfs  5.3M     0  5.3M   0% /run/lock
+/dev/md2       ext2   1.1G  265M  738M  27% /boot
+/dev/md126     ext4   4.2G   42M  3.9G   2% /tmp
+tmpfs          tmpfs  1.7G  4.1k  1.7G   1% /run/user/0
+tmpfs          tmpfs  1.7G  8.2k  1.7G   1% /run/user/1000
+##########    MEM      ##########
+               total        used        free      shared  buff/cache   available
+Mem:           15949        2112        1515          96       12321       13412
+Swap:           4090           5        4085
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:56:02
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+jovent.omatech.com.conf -> ../sites-available/jovent.omatech.com.conf
+jovent.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/jovent.omatech.com-le-ssl.conf
+prestamocapital.omatech.com.conf -> ../sites-available/prestamocapital.omatech.com.conf
+cac.omatech.com.conf -> ../sites-available/cac.omatech.com.conf
+cac.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/cac.omatech.com-le-ssl.conf
+api.cac.omatech.com.conf -> ../sites-available/api.cac.omatech.com.conf
+api.cac.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/api.cac.omatech.com-le-ssl.conf
+linearchemicals.omatech.com.conf -> ../sites-available/linearchemicals.omatech.com.conf
+linearchemicals.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/linearchemicals.omatech.com-le-ssl.conf
+goilaser.omatech.com.conf -> ../sites-available/goilaser.omatech.com.conf
+goilaser.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/goilaser.omatech.com-le-ssl.conf
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/api.cac.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	api.cac.omatech.com
+Address: 95.211.184.211
+
+/etc/apache2/sites-enabled/api.cac.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	api.cac.omatech.com
+Address: 95.211.184.211
+
+/etc/apache2/sites-enabled/cac.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	cac.omatech.com
+Address: 95.211.184.211
+
+/etc/apache2/sites-enabled/cac.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	cac.omatech.com
+Address: 95.211.184.211
+
+/etc/apache2/sites-enabled/goilaser.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+goilaser.omatech.com	canonical name = omafront48.omatech.com.
+Name:	omafront48.omatech.com
+Address: 95.211.184.211
+
+/etc/apache2/sites-enabled/goilaser.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+goilaser.omatech.com	canonical name = omafront48.omatech.com.
+Name:	omafront48.omatech.com
+Address: 95.211.184.211
+
+/etc/apache2/sites-enabled/jovent.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+jovent.omatech.com	canonical name = omafront48.omatech.com.
+Name:	omafront48.omatech.com
+Address: 95.211.184.211
+
+/etc/apache2/sites-enabled/jovent.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+jovent.omatech.com	canonical name = omafront48.omatech.com.
+Name:	omafront48.omatech.com
+Address: 95.211.184.211
+
+/etc/apache2/sites-enabled/linearchemicals.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+linearchemicals.omatech.com	canonical name = omafront48.omatech.com.
+Name:	omafront48.omatech.com
+Address: 95.211.184.211
+
+/etc/apache2/sites-enabled/linearchemicals.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+linearchemicals.omatech.com	canonical name = omafront48.omatech.com.
+Name:	omafront48.omatech.com
+Address: 95.211.184.211
+
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront48.omatech.com
+Address: 95.211.184.211
+
+/etc/apache2/sites-enabled/prestamocapital.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+api-prestamocapital.omatech.com	canonical name = omafront48.omatech.com.
+Name:	omafront48.omatech.com
+Address: 95.211.184.211
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+api.cac.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.2-fpm.sock|fcgi://localhost/"
+api.cac.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.2-fpm.sock|fcgi://localhost/"
+goilaser.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+goilaser.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+jovent.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+jovent.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+linearchemicals.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+linearchemicals.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+omatechinternal.conf:   SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+prestamocapital.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.2-fpm.sock|fcgi://localhost/"
+         
+##########    VERSION DE NODE     ##########
+v12.22.9
+           

@@ -1,0 +1,1258 @@
+##########    HOSTNAME E IP    ##########
+omafront26.omatech.com
+5.79.74.222
+
+##########    PHP VERSION LIST    ##########
+php5.6-fpm.service
+php7.1-fpm.service
+php7.2-fpm.service
+php7.3-fpm.service
+php7.4-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+   
+##########    OS VERSION     ##########
+  Operating System: Ubuntu 18.04.6 LTS
+     
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+cet.conf -> ../sites-available/cet.conf
+cet-le-ssl.conf -> /etc/apache2/sites-available/cet-le-ssl.conf
+espunatapasessentials.conf -> ../sites-available/espunatapasessentials.conf
+espuna-suissa.conf -> ../sites-available/espuna-suissa.conf
+espuna-suissa-le-ssl.conf -> /etc/apache2/sites-available/espuna-suissa-le-ssl.conf
+espunatapasessentials-le-ssl.conf -> /etc/apache2/sites-available/espunatapasessentials-le-ssl.conf
+espuna.cat.conf -> ../sites-available/espuna.cat.conf
+espuna-charcuterie.fr.conf -> ../sites-available/espuna-charcuterie.fr.conf
+espuna.co.uk.conf -> ../sites-available/espuna.co.uk.conf
+espuna.de.conf -> ../sites-available/espuna.de.conf
+espuna.es.conf -> ../sites-available/espuna.es.conf
+espuna.eu.conf -> ../sites-available/espuna.eu.conf
+espuna.jp.conf -> ../sites-available/espuna.jp.conf
+espuna.uk.conf -> ../sites-available/espuna.uk.conf
+espuna.cat-le-ssl.conf -> /etc/apache2/sites-available/espuna.cat-le-ssl.conf
+espuna-charcuterie.fr-le-ssl.conf -> /etc/apache2/sites-available/espuna-charcuterie.fr-le-ssl.conf
+espuna.co.uk-le-ssl.conf -> /etc/apache2/sites-available/espuna.co.uk-le-ssl.conf
+espuna.de-le-ssl.conf -> /etc/apache2/sites-available/espuna.de-le-ssl.conf
+espuna.eu-le-ssl.conf -> /etc/apache2/sites-available/espuna.eu-le-ssl.conf
+espuna.jp-le-ssl.conf -> /etc/apache2/sites-available/espuna.jp-le-ssl.conf
+espuna.uk-le-ssl.conf -> /etc/apache2/sites-available/espuna.uk-le-ssl.conf
+espuna.es-le-ssl.conf -> ../sites-available/espuna.es-le-ssl.conf
+crandon.omatech.com.conf -> ../sites-available/crandon.omatech.com.conf
+imaginator.omatech.com.conf -> ../sites-available/imaginator.omatech.com.conf
+imaginator.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/imaginator.omatech.com-le-ssl.conf
+crandon.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/crandon.omatech.com-le-ssl.conf
+thr.es.conf -> ../sites-available/thr.es.conf
+thr.es-le-ssl.conf -> /etc/apache2/sites-available/thr.es-le-ssl.conf
+dreamresorts.es.conf -> ../sites-available/dreamresorts.es.conf
+dreamresorts.es-le-ssl.conf -> /etc/apache2/sites-available/dreamresorts.es-le-ssl.conf
+teresasjuicery.com.conf -> ../sites-available/teresasjuicery.com.conf
+teresasjuicery.com-le-ssl.conf -> /etc/apache2/sites-available/teresasjuicery.com-le-ssl.conf
+dagolldagom.com.conf -> ../sites-available/dagolldagom.com.conf
+dagolldagom.cat.conf -> ../sites-available/dagolldagom.cat.conf
+terbalenganches.com.conf -> ../sites-available/terbalenganches.com.conf
+dagolldagom.com-le-ssl.conf -> /etc/apache2/sites-available/dagolldagom.com-le-ssl.conf
+terbalenganches.com-le-ssl.conf -> /etc/apache2/sites-available/terbalenganches.com-le-ssl.conf
+form.coomo.es.conf -> ../sites-available/form.coomo.es.conf
+form.coomo.es-le-ssl.conf -> ../sites-available/form.coomo.es-le-ssl.conf
+coomo.es-le-ssl.conf -> ../sites-available/coomo.es-le-ssl.conf
+coomo.es.conf -> ../sites-available/coomo.es.conf
+raffelpages.omatech.com.conf -> ../sites-available/raffelpages.omatech.com.conf
+aminolover.conf -> ../sites-available/aminolover.conf
+aminolover-le-ssl.conf -> /etc/apache2/sites-available/aminolover-le-ssl.conf
+pronokal.omatech.com.conf -> ../sites-available/pronokal.omatech.com.conf
+pronokal.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/pronokal.omatech.com-le-ssl.conf
+crandon.eu.conf -> ../sites-available/crandon.eu.conf
+crandon.eu-le-ssl.conf -> /etc/apache2/sites-available/crandon.eu-le-ssl.conf
+ama.omatech.com.conf -> ../sites-available/ama.omatech.com.conf
+ama.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/ama.omatech.com-le-ssl.conf
+28congresoama.auditorscensors.com.conf -> ../sites-available/28congresoama.auditorscensors.com.conf
+28congresoama.auditorscensors.com-le-ssl.conf -> /etc/apache2/sites-available/28congresoama.auditorscensors.com-le-ssl.conf
+arcama.conf -> ../sites-available/arcama.conf
+arcama-le-ssl.conf -> /etc/apache2/sites-available/arcama-le-ssl.conf
+veggieburguer.omatech.com.conf -> ../sites-available/veggieburguer.omatech.com.conf
+veggieburguer.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/veggieburguer.omatech.com-le-ssl.conf
+veggieburguer.espuna.es.conf -> ../sites-available/veggieburguer.espuna.es.conf
+veggieburguer.espuna.es-le-ssl.conf -> /etc/apache2/sites-available/veggieburguer.espuna.es-le-ssl.conf
+kultursistemadev.omatech.com.conf -> ../sites-available/kultursistemadev.omatech.com.conf
+arcama.org.conf -> ../sites-available/arcama.org.conf
+arcama.org-le-ssl.conf -> /etc/apache2/sites-available/arcama.org-le-ssl.conf
+pronokalprewpes.omatech.com.conf -> ../sites-available/pronokalprewpes.omatech.com.conf
+pronokalprewpes.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/pronokalprewpes.omatech.com-le-ssl.conf
+clilab.cat.conf -> ../sites-available/clilab.cat.conf
+clilab.cat-le-ssl.conf -> /etc/apache2/sites-available/clilab.cat-le-ssl.conf
+raffelpages.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/raffelpages.omatech.com-le-ssl.conf
+espunausa.omatech.conf -> ../sites-available/espunausa.omatech.conf
+espunausa.omatech-le-ssl.conf -> /etc/apache2/sites-available/espunausa.omatech-le-ssl.conf
+raffelpages.com.conf -> ../sites-available/raffelpages.com.conf
+raffelpages.com-le-ssl.conf -> /etc/apache2/sites-available/raffelpages.com-le-ssl.conf
+comedibuild.cat.conf -> ../sites-available/comedibuild.cat.conf
+comedibuild.eu.conf -> ../sites-available/comedibuild.eu.conf
+comedibuild.es.conf -> ../sites-available/comedibuild.es.conf
+comedibuild.cat-le-ssl.conf -> /etc/apache2/sites-available/comedibuild.cat-le-ssl.conf
+comedibuild.es-le-ssl.conf -> /etc/apache2/sites-available/comedibuild.es-le-ssl.conf
+comedibuild.eu-le-ssl.conf -> /etc/apache2/sites-available/comedibuild.eu-le-ssl.conf
+ediversa.omatech.com.conf -> ../sites-available/ediversa.omatech.com.conf
+comedibuild.com.conf -> ../sites-available/comedibuild.com.conf
+comedibuild.com-le-ssl.conf -> /etc/apache2/sites-available/comedibuild.com-le-ssl.conf
+ediversa.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/ediversa.omatech.com-le-ssl.conf
+app.crandon.eu.conf -> ../sites-available/app.crandon.eu.conf
+app.crandon.eu-le-ssl.conf -> /etc/apache2/sites-available/app.crandon.eu-le-ssl.conf
+kultursistemadev.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/kultursistemadev.omatech.com-le-ssl.conf
+applichemtest.omatech.com.conf -> ../sites-available/applichemtest.omatech.com.conf
+applichemtest.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/applichemtest.omatech.com-le-ssl.conf
+engine.crandon.eu.conf -> ../sites-available/engine.crandon.eu.conf
+engine.crandon.eu-le-ssl.conf -> /etc/apache2/sites-available/engine.crandon.eu-le-ssl.conf
+enginedev.crandon.eu.conf -> ../sites-available/enginedev.crandon.eu.conf
+enginedev.crandon.eu-le-ssl.conf -> /etc/apache2/sites-available/enginedev.crandon.eu-le-ssl.conf
+esquerra.omatech.com.conf -> ../sites-available/esquerra.omatech.com.conf
+esquerra.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/esquerra.omatech.com-le-ssl.conf
+espunatapasessentials.com.conf -> ../sites-available/espunatapasessentials.com.conf
+espuna.us.conf -> ../sites-available/espuna.us.conf
+espunatapasessentials.com-le-ssl.conf -> /etc/apache2/sites-available/espunatapasessentials.com-le-ssl.conf
+espuna.us-le-ssl.conf -> /etc/apache2/sites-available/espuna.us-le-ssl.conf
+clilab.omatech.com.conf -> ../sites-available/clilab.omatech.com.conf
+clilab.omatech.com-le-ssl.conf -> ../sites-available/clilab.omatech.com-le-ssl.conf
+zz_applichem.com.conf -> ../sites-available/zz_applichem.com.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+omafront26.omatech.com
+5.79.74.222
+php5.6-fpm.service
+php7.1-fpm.service
+php7.2-fpm.service
+php7.3-fpm.service
+php7.4-fpm.service
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+  Operating System: Ubuntu 18.04.6 LTS
+##########    CPU      ##########
+Filesystem     Type      Size  Used Avail Use% Mounted on
+udev           devtmpfs  8.4G     0  8.4G   0% /dev
+tmpfs          tmpfs     1.7G  910k  1.7G   1% /run
+/dev/md5       ext4      2.0T  232G  1.7T  13% /
+tmpfs          tmpfs     8.4G  2.5M  8.4G   1% /dev/shm
+tmpfs          tmpfs     5.3M     0  5.3M   0% /run/lock
+tmpfs          tmpfs     8.4G     0  8.4G   0% /sys/fs/cgroup
+/dev/md4       ext4      4.2G  713k  4.0G   1% /tmp
+tmpfs          tmpfs     1.7G     0  1.7G   0% /run/user/1002
+##########    MEM      ##########
+              total        used        free      shared  buff/cache   available
+Mem:          16009       12437         959         247        2613        3047
+Swap:          4090        1737        2353
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+cet.conf -> ../sites-available/cet.conf
+cet-le-ssl.conf -> /etc/apache2/sites-available/cet-le-ssl.conf
+espunatapasessentials.conf -> ../sites-available/espunatapasessentials.conf
+espuna-suissa.conf -> ../sites-available/espuna-suissa.conf
+espuna-suissa-le-ssl.conf -> /etc/apache2/sites-available/espuna-suissa-le-ssl.conf
+espunatapasessentials-le-ssl.conf -> /etc/apache2/sites-available/espunatapasessentials-le-ssl.conf
+espuna.cat.conf -> ../sites-available/espuna.cat.conf
+espuna-charcuterie.fr.conf -> ../sites-available/espuna-charcuterie.fr.conf
+espuna.co.uk.conf -> ../sites-available/espuna.co.uk.conf
+espuna.de.conf -> ../sites-available/espuna.de.conf
+espuna.es.conf -> ../sites-available/espuna.es.conf
+espuna.eu.conf -> ../sites-available/espuna.eu.conf
+espuna.jp.conf -> ../sites-available/espuna.jp.conf
+espuna.uk.conf -> ../sites-available/espuna.uk.conf
+espuna.cat-le-ssl.conf -> /etc/apache2/sites-available/espuna.cat-le-ssl.conf
+espuna-charcuterie.fr-le-ssl.conf -> /etc/apache2/sites-available/espuna-charcuterie.fr-le-ssl.conf
+espuna.co.uk-le-ssl.conf -> /etc/apache2/sites-available/espuna.co.uk-le-ssl.conf
+espuna.de-le-ssl.conf -> /etc/apache2/sites-available/espuna.de-le-ssl.conf
+espuna.eu-le-ssl.conf -> /etc/apache2/sites-available/espuna.eu-le-ssl.conf
+espuna.jp-le-ssl.conf -> /etc/apache2/sites-available/espuna.jp-le-ssl.conf
+espuna.uk-le-ssl.conf -> /etc/apache2/sites-available/espuna.uk-le-ssl.conf
+espuna.es-le-ssl.conf -> ../sites-available/espuna.es-le-ssl.conf
+crandon.omatech.com.conf -> ../sites-available/crandon.omatech.com.conf
+imaginator.omatech.com.conf -> ../sites-available/imaginator.omatech.com.conf
+imaginator.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/imaginator.omatech.com-le-ssl.conf
+crandon.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/crandon.omatech.com-le-ssl.conf
+thr.es.conf -> ../sites-available/thr.es.conf
+thr.es-le-ssl.conf -> /etc/apache2/sites-available/thr.es-le-ssl.conf
+dreamresorts.es.conf -> ../sites-available/dreamresorts.es.conf
+dreamresorts.es-le-ssl.conf -> /etc/apache2/sites-available/dreamresorts.es-le-ssl.conf
+teresasjuicery.com.conf -> ../sites-available/teresasjuicery.com.conf
+teresasjuicery.com-le-ssl.conf -> /etc/apache2/sites-available/teresasjuicery.com-le-ssl.conf
+dagolldagom.com.conf -> ../sites-available/dagolldagom.com.conf
+dagolldagom.cat.conf -> ../sites-available/dagolldagom.cat.conf
+terbalenganches.com.conf -> ../sites-available/terbalenganches.com.conf
+dagolldagom.com-le-ssl.conf -> /etc/apache2/sites-available/dagolldagom.com-le-ssl.conf
+terbalenganches.com-le-ssl.conf -> /etc/apache2/sites-available/terbalenganches.com-le-ssl.conf
+form.coomo.es.conf -> ../sites-available/form.coomo.es.conf
+form.coomo.es-le-ssl.conf -> ../sites-available/form.coomo.es-le-ssl.conf
+coomo.es-le-ssl.conf -> ../sites-available/coomo.es-le-ssl.conf
+coomo.es.conf -> ../sites-available/coomo.es.conf
+raffelpages.omatech.com.conf -> ../sites-available/raffelpages.omatech.com.conf
+aminolover.conf -> ../sites-available/aminolover.conf
+aminolover-le-ssl.conf -> /etc/apache2/sites-available/aminolover-le-ssl.conf
+pronokal.omatech.com.conf -> ../sites-available/pronokal.omatech.com.conf
+pronokal.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/pronokal.omatech.com-le-ssl.conf
+crandon.eu.conf -> ../sites-available/crandon.eu.conf
+crandon.eu-le-ssl.conf -> /etc/apache2/sites-available/crandon.eu-le-ssl.conf
+ama.omatech.com.conf -> ../sites-available/ama.omatech.com.conf
+ama.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/ama.omatech.com-le-ssl.conf
+28congresoama.auditorscensors.com.conf -> ../sites-available/28congresoama.auditorscensors.com.conf
+28congresoama.auditorscensors.com-le-ssl.conf -> /etc/apache2/sites-available/28congresoama.auditorscensors.com-le-ssl.conf
+arcama.conf -> ../sites-available/arcama.conf
+arcama-le-ssl.conf -> /etc/apache2/sites-available/arcama-le-ssl.conf
+veggieburguer.omatech.com.conf -> ../sites-available/veggieburguer.omatech.com.conf
+veggieburguer.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/veggieburguer.omatech.com-le-ssl.conf
+veggieburguer.espuna.es.conf -> ../sites-available/veggieburguer.espuna.es.conf
+veggieburguer.espuna.es-le-ssl.conf -> /etc/apache2/sites-available/veggieburguer.espuna.es-le-ssl.conf
+kultursistemadev.omatech.com.conf -> ../sites-available/kultursistemadev.omatech.com.conf
+arcama.org.conf -> ../sites-available/arcama.org.conf
+arcama.org-le-ssl.conf -> /etc/apache2/sites-available/arcama.org-le-ssl.conf
+pronokalprewpes.omatech.com.conf -> ../sites-available/pronokalprewpes.omatech.com.conf
+pronokalprewpes.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/pronokalprewpes.omatech.com-le-ssl.conf
+clilab.cat.conf -> ../sites-available/clilab.cat.conf
+clilab.cat-le-ssl.conf -> /etc/apache2/sites-available/clilab.cat-le-ssl.conf
+raffelpages.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/raffelpages.omatech.com-le-ssl.conf
+espunausa.omatech.conf -> ../sites-available/espunausa.omatech.conf
+espunausa.omatech-le-ssl.conf -> /etc/apache2/sites-available/espunausa.omatech-le-ssl.conf
+raffelpages.com.conf -> ../sites-available/raffelpages.com.conf
+raffelpages.com-le-ssl.conf -> /etc/apache2/sites-available/raffelpages.com-le-ssl.conf
+comedibuild.cat.conf -> ../sites-available/comedibuild.cat.conf
+comedibuild.eu.conf -> ../sites-available/comedibuild.eu.conf
+comedibuild.es.conf -> ../sites-available/comedibuild.es.conf
+comedibuild.cat-le-ssl.conf -> /etc/apache2/sites-available/comedibuild.cat-le-ssl.conf
+comedibuild.es-le-ssl.conf -> /etc/apache2/sites-available/comedibuild.es-le-ssl.conf
+comedibuild.eu-le-ssl.conf -> /etc/apache2/sites-available/comedibuild.eu-le-ssl.conf
+ediversa.omatech.com.conf -> ../sites-available/ediversa.omatech.com.conf
+comedibuild.com.conf -> ../sites-available/comedibuild.com.conf
+comedibuild.com-le-ssl.conf -> /etc/apache2/sites-available/comedibuild.com-le-ssl.conf
+ediversa.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/ediversa.omatech.com-le-ssl.conf
+app.crandon.eu.conf -> ../sites-available/app.crandon.eu.conf
+app.crandon.eu-le-ssl.conf -> /etc/apache2/sites-available/app.crandon.eu-le-ssl.conf
+kultursistemadev.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/kultursistemadev.omatech.com-le-ssl.conf
+applichemtest.omatech.com.conf -> ../sites-available/applichemtest.omatech.com.conf
+applichemtest.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/applichemtest.omatech.com-le-ssl.conf
+engine.crandon.eu.conf -> ../sites-available/engine.crandon.eu.conf
+engine.crandon.eu-le-ssl.conf -> /etc/apache2/sites-available/engine.crandon.eu-le-ssl.conf
+enginedev.crandon.eu.conf -> ../sites-available/enginedev.crandon.eu.conf
+enginedev.crandon.eu-le-ssl.conf -> /etc/apache2/sites-available/enginedev.crandon.eu-le-ssl.conf
+esquerra.omatech.com.conf -> ../sites-available/esquerra.omatech.com.conf
+esquerra.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/esquerra.omatech.com-le-ssl.conf
+espunatapasessentials.com.conf -> ../sites-available/espunatapasessentials.com.conf
+espuna.us.conf -> ../sites-available/espuna.us.conf
+espunatapasessentials.com-le-ssl.conf -> /etc/apache2/sites-available/espunatapasessentials.com-le-ssl.conf
+espuna.us-le-ssl.conf -> /etc/apache2/sites-available/espuna.us-le-ssl.conf
+clilab.omatech.com.conf -> ../sites-available/clilab.omatech.com.conf
+clilab.omatech.com-le-ssl.conf -> ../sites-available/clilab.omatech.com-le-ssl.conf
+zz_applichem.com.conf -> ../sites-available/zz_applichem.com.conf
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/28congresoama.auditorscensors.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	28congresoama.auditorscensors.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/28congresoama.auditorscensors.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	28congresoama.auditorscensors.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/ama.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+ama.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/ama.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+ama.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/aminolover.conf
+/etc/apache2/sites-enabled/aminolover.conf
+El nslookup NO coincide con la misma IP del servidor
+** server can't find www.aminolover.com: NXDOMAIN
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find aminolover.com: NXDOMAIN
+
+/etc/apache2/sites-enabled/aminolover-le-ssl.conf
+/etc/apache2/sites-enabled/aminolover-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+** server can't find www.aminolover.com: NXDOMAIN
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find aminolover.com: NXDOMAIN
+
+/etc/apache2/sites-enabled/app.crandon.eu.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	app.crandon.eu
+Address: 68.183.40.190
+
+/etc/apache2/sites-enabled/app.crandon.eu-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	app.crandon.eu
+Address: 68.183.40.190
+
+/etc/apache2/sites-enabled/applichemtest.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+applichemtest.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/applichemtest.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+applichemtest.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/arcama.conf
+El nslookup SI coincide con la misma IP del servidor
+arcama.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/arcama-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+arcama.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/arcama.org.conf
+/etc/apache2/sites-enabled/arcama.org.conf
+El nslookup SI coincide con la misma IP del servidor
+www.arcama.org	canonical name = arcama.org.
+Name:	arcama.org
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	arcama.org
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/arcama.org-le-ssl.conf
+/etc/apache2/sites-enabled/arcama.org-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.arcama.org	canonical name = arcama.org.
+Name:	arcama.org
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	arcama.org
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/cet.conf
+/etc/apache2/sites-enabled/cet.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.clubesquiterrassa.cat
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	clubesquiterrassa.cat
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/cet-le-ssl.conf
+/etc/apache2/sites-enabled/cet-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.clubesquiterrassa.cat
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	clubesquiterrassa.cat
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/clilab.cat.conf
+/etc/apache2/sites-enabled/clilab.cat.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.clilab.cat
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	clilab.cat
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/clilab.cat-le-ssl.conf
+/etc/apache2/sites-enabled/clilab.cat-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.clilab.cat
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	clilab.cat
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/clilab.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+clilab.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/clilab.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+clilab.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/comedibuild.cat.conf
+/etc/apache2/sites-enabled/comedibuild.cat.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.comedibuild.cat
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	comedibuild.cat
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/comedibuild.cat-le-ssl.conf
+/etc/apache2/sites-enabled/comedibuild.cat-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.comedibuild.cat
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	comedibuild.cat
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/comedibuild.com.conf
+/etc/apache2/sites-enabled/comedibuild.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.comedibuild.com
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	comedibuild.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/comedibuild.com-le-ssl.conf
+/etc/apache2/sites-enabled/comedibuild.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.comedibuild.com
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	comedibuild.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/comedibuild.es.conf
+/etc/apache2/sites-enabled/comedibuild.es.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.comedibuild.es
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	comedibuild.es
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/comedibuild.es-le-ssl.conf
+/etc/apache2/sites-enabled/comedibuild.es-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.comedibuild.es
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	comedibuild.es
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/comedibuild.eu.conf
+/etc/apache2/sites-enabled/comedibuild.eu.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.comedibuild.eu
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	comedibuild.eu
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/comedibuild.eu-le-ssl.conf
+/etc/apache2/sites-enabled/comedibuild.eu-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.comedibuild.eu
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	comedibuild.eu
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/coomo.es.conf
+/etc/apache2/sites-enabled/coomo.es.conf
+El nslookup SI coincide con la misma IP del servidor
+www.coomo.es	canonical name = coomo.es.
+Name:	coomo.es
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	coomo.es
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/coomo.es-le-ssl.conf
+/etc/apache2/sites-enabled/coomo.es-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.coomo.es	canonical name = coomo.es.
+Name:	coomo.es
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	coomo.es
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/crandon.eu.conf
+/etc/apache2/sites-enabled/crandon.eu.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.crandon.eu
+Address: 68.183.40.190
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	crandon.eu
+Address: 68.183.40.190
+
+/etc/apache2/sites-enabled/crandon.eu-le-ssl.conf
+/etc/apache2/sites-enabled/crandon.eu-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.crandon.eu
+Address: 68.183.40.190
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	crandon.eu
+Address: 68.183.40.190
+
+/etc/apache2/sites-enabled/crandon.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+crandon.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/crandon.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+crandon.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/dagolldagom.cat.conf
+/etc/apache2/sites-enabled/dagolldagom.cat.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.dagolldagom.cat
+Address: 217.116.5.231
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	dagolldagom.cat
+Address: 217.116.5.231
+
+/etc/apache2/sites-enabled/dagolldagom.com.conf
+/etc/apache2/sites-enabled/dagolldagom.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.dagolldagom.com
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	dagolldagom.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/dagolldagom.com-le-ssl.conf
+/etc/apache2/sites-enabled/dagolldagom.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.dagolldagom.com
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	dagolldagom.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/dreamresorts.es.conf
+/etc/apache2/sites-enabled/dreamresorts.es.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.dreamresorts.es
+Address: 104.21.28.223
+Name:	www.dreamresorts.es
+Address: 172.67.147.189
+Name:	www.dreamresorts.es
+Address: 2606:4700:3036::6815:1cdf
+Name:	www.dreamresorts.es
+Address: 2606:4700:3036::ac43:93bd
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	dreamresorts.es
+Address: 172.67.147.189
+Name:	dreamresorts.es
+Address: 104.21.28.223
+Name:	dreamresorts.es
+Address: 2606:4700:3036::6815:1cdf
+Name:	dreamresorts.es
+Address: 2606:4700:3036::ac43:93bd
+
+/etc/apache2/sites-enabled/dreamresorts.es-le-ssl.conf
+/etc/apache2/sites-enabled/dreamresorts.es-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.dreamresorts.es
+Address: 104.21.28.223
+Name:	www.dreamresorts.es
+Address: 172.67.147.189
+Name:	www.dreamresorts.es
+Address: 2606:4700:3036::6815:1cdf
+Name:	www.dreamresorts.es
+Address: 2606:4700:3036::ac43:93bd
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	dreamresorts.es
+Address: 172.67.147.189
+Name:	dreamresorts.es
+Address: 104.21.28.223
+Name:	dreamresorts.es
+Address: 2606:4700:3036::6815:1cdf
+Name:	dreamresorts.es
+Address: 2606:4700:3036::ac43:93bd
+
+/etc/apache2/sites-enabled/ediversa.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+ediversa.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/ediversa.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+ediversa.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/engine.crandon.eu.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	engine.crandon.eu
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/engine.crandon.eu-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	engine.crandon.eu
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/enginedev.crandon.eu.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	enginedev.crandon.eu
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/enginedev.crandon.eu-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	enginedev.crandon.eu
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espuna.cat.conf
+/etc/apache2/sites-enabled/espuna.cat.conf
+El nslookup SI coincide con la misma IP del servidor
+www.espuna.cat	canonical name = espuna.cat.
+Name:	espuna.cat
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna.cat
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espuna.cat-le-ssl.conf
+/etc/apache2/sites-enabled/espuna.cat-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.espuna.cat	canonical name = espuna.cat.
+Name:	espuna.cat
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna.cat
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espuna-charcuterie.fr.conf
+/etc/apache2/sites-enabled/espuna-charcuterie.fr.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.espuna-charcuterie.fr
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna-charcuterie.fr
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espuna-charcuterie.fr-le-ssl.conf
+/etc/apache2/sites-enabled/espuna-charcuterie.fr-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.espuna-charcuterie.fr
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna-charcuterie.fr
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espuna.co.uk.conf
+/etc/apache2/sites-enabled/espuna.co.uk.conf
+El nslookup SI coincide con la misma IP del servidor
+www.espuna.co.uk	canonical name = espuna.co.uk.
+Name:	espuna.co.uk
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna.co.uk
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espuna.co.uk-le-ssl.conf
+/etc/apache2/sites-enabled/espuna.co.uk-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.espuna.co.uk	canonical name = espuna.co.uk.
+Name:	espuna.co.uk
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna.co.uk
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espuna.de.conf
+/etc/apache2/sites-enabled/espuna.de.conf
+El nslookup SI coincide con la misma IP del servidor
+www.espuna.de	canonical name = espuna.de.
+Name:	espuna.de
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna.de
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espuna.de-le-ssl.conf
+/etc/apache2/sites-enabled/espuna.de-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.espuna.de	canonical name = espuna.de.
+Name:	espuna.de
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna.de
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espuna.es.conf
+/etc/apache2/sites-enabled/espuna.es.conf
+El nslookup SI coincide con la misma IP del servidor
+www.espuna.es	canonical name = web.espuna.es.
+Name:	web.espuna.es
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna.es
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espuna.es-le-ssl.conf
+/etc/apache2/sites-enabled/espuna.es-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.espuna.es	canonical name = web.espuna.es.
+Name:	web.espuna.es
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna.es
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espuna.eu.conf
+/etc/apache2/sites-enabled/espuna.eu.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.espuna.eu
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna.eu
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espuna.eu-le-ssl.conf
+/etc/apache2/sites-enabled/espuna.eu-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.espuna.eu
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna.eu
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espuna.jp.conf
+/etc/apache2/sites-enabled/espuna.jp.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.espuna.jp
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna.jp
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espuna.jp-le-ssl.conf
+/etc/apache2/sites-enabled/espuna.jp-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.espuna.jp
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna.jp
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espuna-suissa.conf
+/etc/apache2/sites-enabled/espuna-suissa.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna.ch
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+www.espuna.ch	canonical name = espuna.ch.
+Name:	espuna.ch
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espuna-suissa-le-ssl.conf
+/etc/apache2/sites-enabled/espuna-suissa-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna.ch
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+www.espuna.ch	canonical name = espuna.ch.
+Name:	espuna.ch
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espunatapasessentials.com.conf
+/etc/apache2/sites-enabled/espunatapasessentials.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.espunatapasessentials.com
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espunatapasessentials.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espunatapasessentials.com-le-ssl.conf
+/etc/apache2/sites-enabled/espunatapasessentials.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.espunatapasessentials.com
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espunatapasessentials.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espunatapasessentials.conf
+/etc/apache2/sites-enabled/espunatapasessentials.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	espunatapasessentials.ca
+Address: 5.79.74.222
+
+El nslookup NO coincide con la misma IP del servidor
+espunatapasessentials.omatech.com	canonical name = omafront7.omatech.com.
+Name:	omafront7.omatech.com
+Address: 5.79.87.136
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.espuna.ca
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna.ca
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.tapasessentials.ca
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	tapasessentials.ca
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.espunatapasessentials.ca
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espunatapasessentials-le-ssl.conf
+/etc/apache2/sites-enabled/espunatapasessentials-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	espunatapasessentials.ca
+Address: 5.79.74.222
+
+El nslookup NO coincide con la misma IP del servidor
+espunatapasessentials.omatech.com	canonical name = omafront7.omatech.com.
+Name:	omafront7.omatech.com
+Address: 5.79.87.136
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.espuna.ca
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna.ca
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.tapasessentials.ca
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	tapasessentials.ca
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.espunatapasessentials.ca
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espuna.uk.conf
+/etc/apache2/sites-enabled/espuna.uk.conf
+El nslookup SI coincide con la misma IP del servidor
+www.espuna.uk	canonical name = espuna.uk.
+Name:	espuna.uk
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna.uk
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espuna.uk-le-ssl.conf
+/etc/apache2/sites-enabled/espuna.uk-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.espuna.uk	canonical name = espuna.uk.
+Name:	espuna.uk
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna.uk
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espunausa.omatech.conf
+/etc/apache2/sites-enabled/espunausa.omatech.conf
+El nslookup NO coincide con la misma IP del servidor
+** server can't find www.espunausa.omatech.com: NXDOMAIN
+
+El nslookup SI coincide con la misma IP del servidor
+espunausa.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espunausa.omatech-le-ssl.conf
+/etc/apache2/sites-enabled/espunausa.omatech-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+** server can't find www.espunausa.omatech.com: NXDOMAIN
+
+El nslookup SI coincide con la misma IP del servidor
+espunausa.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espuna.us.conf
+/etc/apache2/sites-enabled/espuna.us.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.espuna.us
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna.us
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/espuna.us-le-ssl.conf
+/etc/apache2/sites-enabled/espuna.us-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.espuna.us
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	espuna.us
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/esquerra.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+esquerra.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/esquerra.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+esquerra.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/form.coomo.es.conf
+El nslookup SI coincide con la misma IP del servidor
+form.coomo.es	canonical name = coomo.es.
+Name:	coomo.es
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/form.coomo.es-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+form.coomo.es	canonical name = coomo.es.
+Name:	coomo.es
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/imaginator.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	imaginator.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/imaginator.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	imaginator.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/kultursistemadev.omatech.com.conf
+El nslookup NO coincide con la misma IP del servidor
+kultursistema.omatech.com	canonical name = omafront32.omatech.com.
+Name:	omafront32.omatech.com
+Address: 212.32.229.214
+
+/etc/apache2/sites-enabled/kultursistemadev.omatech.com-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+kultursistema.omatech.com	canonical name = omafront32.omatech.com.
+Name:	omafront32.omatech.com
+Address: 212.32.229.214
+
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/pronokal.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+pronokal.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/pronokal.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+pronokal.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/pronokalprewpes.omatech.com.conf
+El nslookup NO coincide con la misma IP del servidor
+pronokalprewpes.omatech.com	canonical name = omafront32.omatech.com.
+Name:	omafront32.omatech.com
+Address: 212.32.229.214
+
+/etc/apache2/sites-enabled/pronokalprewpes.omatech.com-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+pronokalprewpes.omatech.com	canonical name = omafront32.omatech.com.
+Name:	omafront32.omatech.com
+Address: 212.32.229.214
+
+/etc/apache2/sites-enabled/raffelpages.com.conf
+/etc/apache2/sites-enabled/raffelpages.com.conf
+El nslookup SI coincide con la misma IP del servidor
+www.raffelpages.com	canonical name = raffelpages.com.
+Name:	raffelpages.com
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	raffelpages.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/raffelpages.com-le-ssl.conf
+/etc/apache2/sites-enabled/raffelpages.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.raffelpages.com	canonical name = raffelpages.com.
+Name:	raffelpages.com
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	raffelpages.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/raffelpages.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+raffelpages.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/raffelpages.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+raffelpages.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/terbalenganches.com.conf
+/etc/apache2/sites-enabled/terbalenganches.com.conf
+El nslookup NO coincide con la misma IP del servidor
+** server can't find www.terbalenganches.com: NXDOMAIN
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find terbalenganches.com: NXDOMAIN
+
+/etc/apache2/sites-enabled/terbalenganches.com-le-ssl.conf
+/etc/apache2/sites-enabled/terbalenganches.com-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+** server can't find www.terbalenganches.com: NXDOMAIN
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find terbalenganches.com: NXDOMAIN
+
+/etc/apache2/sites-enabled/teresasjuicery.com.conf
+El nslookup SI coincide con la misma IP del servidor
+teresasjuicery.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/teresasjuicery.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+teresasjuicery.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/thr.es.conf
+/etc/apache2/sites-enabled/thr.es.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.thr.es
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+thr.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	thr.es
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/thr.es-le-ssl.conf
+/etc/apache2/sites-enabled/thr.es-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.thr.es
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+thr.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	thr.es
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/veggieburguer.espuna.es.conf
+El nslookup SI coincide con la misma IP del servidor
+veggieburguer.espuna.es	canonical name = espuna.es.
+Name:	espuna.es
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/veggieburguer.espuna.es-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+veggieburguer.espuna.es	canonical name = espuna.es.
+Name:	espuna.es
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/veggieburguer.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+veggieburguer.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/veggieburguer.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+veggieburguer.omatech.com	canonical name = omafront26.omatech.com.
+Name:	omafront26.omatech.com
+Address: 5.79.74.222
+
+/etc/apache2/sites-enabled/zz_applichem.com.conf
+/etc/apache2/sites-enabled/zz_applichem.com.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.applichem.com
+Address: 95.211.225.116
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	applichem.com
+Address: 95.211.225.116
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+28congresoama.auditorscensors.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+28congresoama.auditorscensors.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+ama.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+ama.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+aminolover-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+aminolover.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+app.crandon.eu-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+app.crandon.eu.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+applichemtest.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+applichemtest.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+arcama-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+arcama.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+arcama.org-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+arcama.org.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+cet-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+cet.conf:    SetHandler "proxy:unix:/var/run/php/php7,4-fpm.sock|fcgi://localhost/"
+clilab.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.1-fpm.sock|fcgi://localhost/"
+clilab.cat.conf:    SetHandler "proxy:unix:/var/run/php/php7.1-fpm.sock|fcgi://localhost/"
+clilab.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+clilab.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+comedibuild.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+comedibuild.cat.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+comedibuild.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+comedibuild.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+comedibuild.es-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+comedibuild.es.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+comedibuild.eu-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+comedibuild.eu.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+coomo.es-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.1-fpm.sock|fcgi://localhost/"
+coomo.es.conf:    SetHandler "proxy:unix:/var/run/php/php7.1-fpm.sock|fcgi://localhost/"
+crandon.eu-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+crandon.eu.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+crandon.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+crandon.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+dagolldagom.cat.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+dagolldagom.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+dagolldagom.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+dreamresorts.es-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+dreamresorts.es.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+ediversa.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+ediversa.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+engine.crandon.eu-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+engine.crandon.eu.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+enginedev.crandon.eu-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+enginedev.crandon.eu.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+espuna-charcuterie.fr-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espuna-charcuterie.fr.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espuna-suissa-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espuna-suissa.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espuna.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espuna.cat.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espuna.co.uk-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espuna.co.uk.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espuna.de-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espuna.de.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espuna.es-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espuna.es.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espuna.eu-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espuna.eu.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espuna.jp-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espuna.jp.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espuna.uk-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espuna.uk.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espuna.us-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espuna.us.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espunatapasessentials-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espunatapasessentials.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espunatapasessentials.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espunatapasessentials.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espunausa.omatech-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+espunausa.omatech.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+esquerra.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.1-fpm.sock|fcgi://localhost/"
+esquerra.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.1-fpm.sock|fcgi://localhost/"
+form.coomo.es-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+form.coomo.es.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+imaginator.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+imaginator.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+kultursistemadev.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+kultursistemadev.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+omatechinternal.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+pronokal.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+pronokal.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+pronokalprewpes.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+pronokalprewpes.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+raffelpages.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+raffelpages.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+raffelpages.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+raffelpages.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+terbalenganches.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+terbalenganches.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+teresasjuicery.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+teresasjuicery.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+thr.es-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+thr.es.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+veggieburguer.espuna.es-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+veggieburguer.espuna.es.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+veggieburguer.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+veggieburguer.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+zz_applichem.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+         
+##########    VERSION DE NODE     ##########
+v8.17.0
+           

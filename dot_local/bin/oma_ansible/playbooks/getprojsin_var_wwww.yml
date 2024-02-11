@@ -1,0 +1,19 @@
+---
+- hosts: general_servers
+  tasks:
+    - name: get values
+      ansible.builtin.shell: 
+        cmd: find . -maxdepth 1 -type d  
+        chdir: /var/www/
+        executable: /bin/bash 
+      register: find_output
+      ignore_errors: true
+    
+    - name: Print   
+      debug:
+        msg: "{{ find_output.stdout_lines }}"
+
+      
+
+
+

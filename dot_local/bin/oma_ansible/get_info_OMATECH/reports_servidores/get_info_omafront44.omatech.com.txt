@@ -1,0 +1,132 @@
+##########    HOSTNAME E IP    ##########
+omafront44.omatech.com
+95.168.175.56
+
+##########    PHP VERSION LIST    ##########
+php7.4-fpm.service
+php8.0-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 8.0.36-0ubuntu0.20.04.1 for Linux on x86_64 ((Ubuntu))
+   
+##########    OS VERSION     ##########
+  Operating System: Ubuntu 20.04.6 LTS
+     
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:47
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+itwreagents8.omatech.com.conf -> ../sites-available/itwreagents8.omatech.com.conf
+itwreagents8.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/itwreagents8.omatech.com-le-ssl.conf
+itwreagents.com.conf -> ../sites-available/itwreagents.com.conf
+itwreagents.com-le-ssl.conf -> /etc/apache2/sites-available/itwreagents.com-le-ssl.conf
+itwreagents.omatech.com.conf -> ../sites-available/itwreagents.omatech.com.conf
+itwreagents.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/itwreagents.omatech.com-le-ssl.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+omafront44.omatech.com
+95.168.175.56
+php7.4-fpm.service
+php8.0-fpm.service
+mysql  Ver 8.0.36-0ubuntu0.20.04.1 for Linux on x86_64 ((Ubuntu))
+  Operating System: Ubuntu 20.04.6 LTS
+##########    CPU      ##########
+Filesystem     Type      Size  Used Avail Use% Mounted on
+udev           devtmpfs   17G     0   17G   0% /dev
+tmpfs          tmpfs     3.4G  1.2M  3.4G   1% /run
+/dev/sda5      ext4      936G   62G  827G   7% /
+tmpfs          tmpfs      17G  2.5M   17G   1% /dev/shm
+tmpfs          tmpfs     5.3M     0  5.3M   0% /run/lock
+tmpfs          tmpfs      17G     0   17G   0% /sys/fs/cgroup
+/dev/sda2      ext2      1.1G  157M  847M  16% /boot
+/dev/sda4      ext4      4.1G  148M  3.8G   4% /tmp
+/dev/sdb1      ext4      2.2T  429G  1.7T  21% /mnt/sdb1
+/dev/loop5     squashfs   67M   67M     0 100% /snap/core20/2015
+/dev/loop0     squashfs  112M  112M     0 100% /snap/core/16091
+/dev/loop3     squashfs  112M  112M     0 100% /snap/core/16202
+/dev/loop2     squashfs   48M   48M     0 100% /snap/certbot/3462
+/dev/loop4     squashfs   48M   48M     0 100% /snap/certbot/3566
+/dev/loop1     squashfs   68M   68M     0 100% /snap/core20/2105
+tmpfs          tmpfs     3.4G     0  3.4G   0% /run/user/1001
+##########    MEM      ##########
+              total        used        free      shared  buff/cache   available
+Mem:          32062        6279        7679          87       18104       25250
+Swap:          4095         658        3437
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:47
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+itwreagents8.omatech.com.conf -> ../sites-available/itwreagents8.omatech.com.conf
+itwreagents8.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/itwreagents8.omatech.com-le-ssl.conf
+itwreagents.com.conf -> ../sites-available/itwreagents.com.conf
+itwreagents.com-le-ssl.conf -> /etc/apache2/sites-available/itwreagents.com-le-ssl.conf
+itwreagents.omatech.com.conf -> ../sites-available/itwreagents.omatech.com.conf
+itwreagents.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/itwreagents.omatech.com-le-ssl.conf
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/itwreagents8.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+itwreagents8.omatech.com	canonical name = omafront44.omatech.com.
+Name:	omafront44.omatech.com
+Address: 95.168.175.56
+
+/etc/apache2/sites-enabled/itwreagents8.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+itwreagents8.omatech.com	canonical name = omafront44.omatech.com.
+Name:	omafront44.omatech.com
+Address: 95.168.175.56
+
+/etc/apache2/sites-enabled/itwreagents.com.conf
+/etc/apache2/sites-enabled/itwreagents.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.itwreagents.com
+Address: 95.168.175.56
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	itwreagents.com
+Address: 95.168.175.56
+
+/etc/apache2/sites-enabled/itwreagents.com-le-ssl.conf
+/etc/apache2/sites-enabled/itwreagents.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.itwreagents.com
+Address: 95.168.175.56
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	itwreagents.com
+Address: 95.168.175.56
+
+/etc/apache2/sites-enabled/itwreagents.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+itwreagents.omatech.com	canonical name = omafront44.omatech.com.
+Name:	omafront44.omatech.com
+Address: 95.168.175.56
+
+/etc/apache2/sites-enabled/itwreagents.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+itwreagents.omatech.com	canonical name = omafront44.omatech.com.
+Name:	omafront44.omatech.com
+Address: 95.168.175.56
+
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront44.omatech.com
+Address: 95.168.175.56
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+itwreagents.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.0-fpm.sock|fcgi://localhost/"
+itwreagents.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.0-fpm.sock|fcgi://localhost/"
+itwreagents.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.0-fpm.sock|fcgi://localhost/"
+itwreagents.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.0-fpm.sock|fcgi://localhost/"
+itwreagents8.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.0-fpm.sock|fcgi://localhost/"
+itwreagents8.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php8.0-fpm.sock|fcgi://localhost/"
+omatechinternal.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+         
+##########    VERSION DE NODE     ##########
+v10.19.0
+           

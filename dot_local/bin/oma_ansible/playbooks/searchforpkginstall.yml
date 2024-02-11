@@ -1,0 +1,19 @@
+---
+- hosts: general_servers
+  tasks:
+    - name: get values
+      ansible.builtin.shell: 
+        cmd: $(type -P which) unattended-upgrades || printf %s "not found \n" 
+        chdir: /
+        executable: /bin/bash 
+      register: results
+      ignore_errors: true
+    
+    - name: Print   
+      debug:
+        msg: "{{ inventory_hostname }}: '{{ results.stdout }}'"
+
+      
+
+
+

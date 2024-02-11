@@ -1,0 +1,854 @@
+##########    HOSTNAME E IP    ##########
+omafront17.omatech.com
+95.211.162.29
+
+##########    PHP VERSION LIST    ##########
+php5.6-fpm.service
+php7.1-fpm.service
+php7.2-fpm.service
+php7.4-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+   
+##########    OS VERSION     ##########
+  Operating System: Ubuntu 18.04.6 LTS
+     
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+aptimacentreclinic.cat.conf -> ../sites-available/aptimacentreclinic.cat.conf
+aptimacentreclinic.com.conf -> ../sites-available/aptimacentreclinic.com.conf
+aptimacentreclinic.cat-le-ssl.conf -> /etc/apache2/sites-available/aptimacentreclinic.cat-le-ssl.conf
+aptimacentreclinic.com-le-ssl.conf -> /etc/apache2/sites-available/aptimacentreclinic.com-le-ssl.conf
+aptimacentreclinic.es.conf -> ../sites-available/aptimacentreclinic.es.conf
+aptimacentreclinic.es-le-ssl.conf -> /etc/apache2/sites-available/aptimacentreclinic.es-le-ssl.conf
+mutuaterrassa.com.conf -> ../sites-available/mutuaterrassa.com.conf
+mutuaterrassa.com-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.com-le-ssl.conf
+mutuaterrassa.cat.conf -> ../sites-available/mutuaterrassa.cat.conf
+mutuaterrassa.cat-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.cat-le-ssl.conf
+lasseguradora.cat.conf -> ../sites-available/lasseguradora.cat.conf
+lasseguradora.cat-le-ssl.conf -> /etc/apache2/sites-available/lasseguradora.cat-le-ssl.conf
+mutuaterrassa.es.conf -> ../sites-available/mutuaterrassa.es.conf
+mutuaterrassa.eu.conf -> ../sites-available/mutuaterrassa.eu.conf
+mutuaterrassa.org.conf -> ../sites-available/mutuaterrassa.org.conf
+mutuaterrassa.es-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.es-le-ssl.conf
+mutuaterrassa.eu-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.eu-le-ssl.conf
+mutuaterrassa.org-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.org-le-ssl.conf
+cambrils-suite.cat.conf -> ../sites-available/cambrils-suite.cat.conf
+cambrils-suite.cat-le-ssl.conf -> /etc/apache2/sites-available/cambrils-suite.cat-le-ssl.conf
+casamarques.com.conf -> ../sites-available/casamarques.com.conf
+casavaporgran.com.conf -> ../sites-available/casavaporgran.com.conf
+casavaporgran.cat.conf -> ../sites-available/casavaporgran.cat.conf
+casavaporgran.es.conf -> ../sites-available/casavaporgran.es.conf
+casavaporgran.cat-le-ssl.conf -> /etc/apache2/sites-available/casavaporgran.cat-le-ssl.conf
+casavaporgran.com-le-ssl.conf -> /etc/apache2/sites-available/casavaporgran.com-le-ssl.conf
+casavaporgran.es-le-ssl.conf -> /etc/apache2/sites-available/casavaporgran.es-le-ssl.conf
+fundaciovallparadis.cat.conf -> ../sites-available/fundaciovallparadis.cat.conf
+fundaciovallparadis.cat-le-ssl.conf -> /etc/apache2/sites-available/fundaciovallparadis.cat-le-ssl.conf
+fundaciovallparadis.com.conf -> ../sites-available/fundaciovallparadis.com.conf
+fundaciovallparadis.com-le-ssl.conf -> /etc/apache2/sites-available/fundaciovallparadis.com-le-ssl.conf
+fundaciovallparadis.es.conf -> ../sites-available/fundaciovallparadis.es.conf
+fundaciovallparadis.es-le-ssl.conf -> /etc/apache2/sites-available/fundaciovallparadis.es-le-ssl.conf
+lasseguradora.com.conf -> ../sites-available/lasseguradora.com.conf
+lasseguradora.com-le-ssl.conf -> /etc/apache2/sites-available/lasseguradora.com-le-ssl.conf
+residentsmutuaterrassa.com.conf -> ../sites-available/residentsmutuaterrassa.com.conf
+residentsmutuaterrassa.com-le-ssl.conf -> /etc/apache2/sites-available/residentsmutuaterrassa.com-le-ssl.conf
+asseguradora.omatech.com.conf -> ../sites-available/asseguradora.omatech.com.conf
+asseguradora.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/asseguradora.omatech.com-le-ssl.conf
+mutuarequests.omatech.com.conf -> ../sites-available/mutuarequests.omatech.com.conf
+mutuarequests.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/mutuarequests.omatech.com-le-ssl.conf
+fundaciovallparadis.omatech.com.conf -> ../sites-available/fundaciovallparadis.omatech.com.conf
+fundaciovallparadis.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/fundaciovallparadis.omatech.com-le-ssl.conf
+aptima.omatech.com.conf -> ../sites-available/aptima.omatech.com.conf
+aptima.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/aptima.omatech.com-le-ssl.conf
+mutuaterrassa.omatech.com.conf -> ../sites-available/mutuaterrassa.omatech.com.conf
+mutuaterrassa.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.omatech.com-le-ssl.conf
+mutuaprevisora.com.conf -> ../sites-available/mutuaprevisora.com.conf
+simpleauth.omatech.com.conf -> ../sites-available/simpleauth.omatech.com.conf
+simpleauth.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/simpleauth.omatech.com-le-ssl.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+omafront17.omatech.com
+95.211.162.29
+php5.6-fpm.service
+php7.1-fpm.service
+php7.2-fpm.service
+php7.4-fpm.service
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+  Operating System: Ubuntu 18.04.6 LTS
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+aptimacentreclinic.cat.conf -> ../sites-available/aptimacentreclinic.cat.conf
+aptimacentreclinic.com.conf -> ../sites-available/aptimacentreclinic.com.conf
+aptimacentreclinic.cat-le-ssl.conf -> /etc/apache2/sites-available/aptimacentreclinic.cat-le-ssl.conf
+aptimacentreclinic.com-le-ssl.conf -> /etc/apache2/sites-available/aptimacentreclinic.com-le-ssl.conf
+aptimacentreclinic.es.conf -> ../sites-available/aptimacentreclinic.es.conf
+aptimacentreclinic.es-le-ssl.conf -> /etc/apache2/sites-available/aptimacentreclinic.es-le-ssl.conf
+mutuaterrassa.com.conf -> ../sites-available/mutuaterrassa.com.conf
+mutuaterrassa.com-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.com-le-ssl.conf
+mutuaterrassa.cat.conf -> ../sites-available/mutuaterrassa.cat.conf
+mutuaterrassa.cat-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.cat-le-ssl.conf
+lasseguradora.cat.conf -> ../sites-available/lasseguradora.cat.conf
+lasseguradora.cat-le-ssl.conf -> /etc/apache2/sites-available/lasseguradora.cat-le-ssl.conf
+mutuaterrassa.es.conf -> ../sites-available/mutuaterrassa.es.conf
+mutuaterrassa.eu.conf -> ../sites-available/mutuaterrassa.eu.conf
+mutuaterrassa.org.conf -> ../sites-available/mutuaterrassa.org.conf
+mutuaterrassa.es-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.es-le-ssl.conf
+mutuaterrassa.eu-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.eu-le-ssl.conf
+mutuaterrassa.org-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.org-le-ssl.conf
+cambrils-suite.cat.conf -> ../sites-available/cambrils-suite.cat.conf
+cambrils-suite.cat-le-ssl.conf -> /etc/apache2/sites-available/cambrils-suite.cat-le-ssl.conf
+casamarques.com.conf -> ../sites-available/casamarques.com.conf
+casavaporgran.com.conf -> ../sites-available/casavaporgran.com.conf
+casavaporgran.cat.conf -> ../sites-available/casavaporgran.cat.conf
+casavaporgran.es.conf -> ../sites-available/casavaporgran.es.conf
+casavaporgran.cat-le-ssl.conf -> /etc/apache2/sites-available/casavaporgran.cat-le-ssl.conf
+casavaporgran.com-le-ssl.conf -> /etc/apache2/sites-available/casavaporgran.com-le-ssl.conf
+casavaporgran.es-le-ssl.conf -> /etc/apache2/sites-available/casavaporgran.es-le-ssl.conf
+fundaciovallparadis.cat.conf -> ../sites-available/fundaciovallparadis.cat.conf
+fundaciovallparadis.cat-le-ssl.conf -> /etc/apache2/sites-available/fundaciovallparadis.cat-le-ssl.conf
+fundaciovallparadis.com.conf -> ../sites-available/fundaciovallparadis.com.conf
+fundaciovallparadis.com-le-ssl.conf -> /etc/apache2/sites-available/fundaciovallparadis.com-le-ssl.conf
+fundaciovallparadis.es.conf -> ../sites-available/fundaciovallparadis.es.conf
+fundaciovallparadis.es-le-ssl.conf -> /etc/apache2/sites-available/fundaciovallparadis.es-le-ssl.conf
+lasseguradora.com.conf -> ../sites-available/lasseguradora.com.conf
+lasseguradora.com-le-ssl.conf -> /etc/apache2/sites-available/lasseguradora.com-le-ssl.conf
+residentsmutuaterrassa.com.conf -> ../sites-available/residentsmutuaterrassa.com.conf
+residentsmutuaterrassa.com-le-ssl.conf -> /etc/apache2/sites-available/residentsmutuaterrassa.com-le-ssl.conf
+asseguradora.omatech.com.conf -> ../sites-available/asseguradora.omatech.com.conf
+asseguradora.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/asseguradora.omatech.com-le-ssl.conf
+mutuarequests.omatech.com.conf -> ../sites-available/mutuarequests.omatech.com.conf
+mutuarequests.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/mutuarequests.omatech.com-le-ssl.conf
+fundaciovallparadis.omatech.com.conf -> ../sites-available/fundaciovallparadis.omatech.com.conf
+fundaciovallparadis.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/fundaciovallparadis.omatech.com-le-ssl.conf
+aptima.omatech.com.conf -> ../sites-available/aptima.omatech.com.conf
+aptima.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/aptima.omatech.com-le-ssl.conf
+mutuaterrassa.omatech.com.conf -> ../sites-available/mutuaterrassa.omatech.com.conf
+mutuaterrassa.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.omatech.com-le-ssl.conf
+mutuaprevisora.com.conf -> ../sites-available/mutuaprevisora.com.conf
+simpleauth.omatech.com.conf -> ../sites-available/simpleauth.omatech.com.conf
+simpleauth.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/simpleauth.omatech.com-le-ssl.conf
+omafront17.omatech.com
+95.211.162.29
+php5.6-fpm.service
+php7.1-fpm.service
+php7.2-fpm.service
+php7.4-fpm.service
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+  Operating System: Ubuntu 18.04.6 LTS
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+aptimacentreclinic.cat.conf -> ../sites-available/aptimacentreclinic.cat.conf
+aptimacentreclinic.com.conf -> ../sites-available/aptimacentreclinic.com.conf
+aptimacentreclinic.cat-le-ssl.conf -> /etc/apache2/sites-available/aptimacentreclinic.cat-le-ssl.conf
+aptimacentreclinic.com-le-ssl.conf -> /etc/apache2/sites-available/aptimacentreclinic.com-le-ssl.conf
+aptimacentreclinic.es.conf -> ../sites-available/aptimacentreclinic.es.conf
+aptimacentreclinic.es-le-ssl.conf -> /etc/apache2/sites-available/aptimacentreclinic.es-le-ssl.conf
+mutuaterrassa.com.conf -> ../sites-available/mutuaterrassa.com.conf
+mutuaterrassa.com-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.com-le-ssl.conf
+mutuaterrassa.cat.conf -> ../sites-available/mutuaterrassa.cat.conf
+mutuaterrassa.cat-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.cat-le-ssl.conf
+lasseguradora.cat.conf -> ../sites-available/lasseguradora.cat.conf
+lasseguradora.cat-le-ssl.conf -> /etc/apache2/sites-available/lasseguradora.cat-le-ssl.conf
+mutuaterrassa.es.conf -> ../sites-available/mutuaterrassa.es.conf
+mutuaterrassa.eu.conf -> ../sites-available/mutuaterrassa.eu.conf
+mutuaterrassa.org.conf -> ../sites-available/mutuaterrassa.org.conf
+mutuaterrassa.es-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.es-le-ssl.conf
+mutuaterrassa.eu-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.eu-le-ssl.conf
+mutuaterrassa.org-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.org-le-ssl.conf
+cambrils-suite.cat.conf -> ../sites-available/cambrils-suite.cat.conf
+cambrils-suite.cat-le-ssl.conf -> /etc/apache2/sites-available/cambrils-suite.cat-le-ssl.conf
+casamarques.com.conf -> ../sites-available/casamarques.com.conf
+casavaporgran.com.conf -> ../sites-available/casavaporgran.com.conf
+casavaporgran.cat.conf -> ../sites-available/casavaporgran.cat.conf
+casavaporgran.es.conf -> ../sites-available/casavaporgran.es.conf
+casavaporgran.cat-le-ssl.conf -> /etc/apache2/sites-available/casavaporgran.cat-le-ssl.conf
+casavaporgran.com-le-ssl.conf -> /etc/apache2/sites-available/casavaporgran.com-le-ssl.conf
+casavaporgran.es-le-ssl.conf -> /etc/apache2/sites-available/casavaporgran.es-le-ssl.conf
+fundaciovallparadis.cat.conf -> ../sites-available/fundaciovallparadis.cat.conf
+fundaciovallparadis.cat-le-ssl.conf -> /etc/apache2/sites-available/fundaciovallparadis.cat-le-ssl.conf
+fundaciovallparadis.com.conf -> ../sites-available/fundaciovallparadis.com.conf
+fundaciovallparadis.com-le-ssl.conf -> /etc/apache2/sites-available/fundaciovallparadis.com-le-ssl.conf
+fundaciovallparadis.es.conf -> ../sites-available/fundaciovallparadis.es.conf
+fundaciovallparadis.es-le-ssl.conf -> /etc/apache2/sites-available/fundaciovallparadis.es-le-ssl.conf
+lasseguradora.com.conf -> ../sites-available/lasseguradora.com.conf
+lasseguradora.com-le-ssl.conf -> /etc/apache2/sites-available/lasseguradora.com-le-ssl.conf
+residentsmutuaterrassa.com.conf -> ../sites-available/residentsmutuaterrassa.com.conf
+residentsmutuaterrassa.com-le-ssl.conf -> /etc/apache2/sites-available/residentsmutuaterrassa.com-le-ssl.conf
+asseguradora.omatech.com.conf -> ../sites-available/asseguradora.omatech.com.conf
+asseguradora.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/asseguradora.omatech.com-le-ssl.conf
+mutuarequests.omatech.com.conf -> ../sites-available/mutuarequests.omatech.com.conf
+mutuarequests.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/mutuarequests.omatech.com-le-ssl.conf
+fundaciovallparadis.omatech.com.conf -> ../sites-available/fundaciovallparadis.omatech.com.conf
+fundaciovallparadis.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/fundaciovallparadis.omatech.com-le-ssl.conf
+aptima.omatech.com.conf -> ../sites-available/aptima.omatech.com.conf
+aptima.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/aptima.omatech.com-le-ssl.conf
+mutuaterrassa.omatech.com.conf -> ../sites-available/mutuaterrassa.omatech.com.conf
+mutuaterrassa.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.omatech.com-le-ssl.conf
+mutuaprevisora.com.conf -> ../sites-available/mutuaprevisora.com.conf
+simpleauth.omatech.com.conf -> ../sites-available/simpleauth.omatech.com.conf
+simpleauth.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/simpleauth.omatech.com-le-ssl.conf
+omafront17.omatech.com
+95.211.162.29
+php5.6-fpm.service
+php7.1-fpm.service
+php7.2-fpm.service
+php7.4-fpm.service
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+  Operating System: Ubuntu 18.04.6 LTS
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+aptimacentreclinic.cat.conf -> ../sites-available/aptimacentreclinic.cat.conf
+aptimacentreclinic.com.conf -> ../sites-available/aptimacentreclinic.com.conf
+aptimacentreclinic.cat-le-ssl.conf -> /etc/apache2/sites-available/aptimacentreclinic.cat-le-ssl.conf
+aptimacentreclinic.com-le-ssl.conf -> /etc/apache2/sites-available/aptimacentreclinic.com-le-ssl.conf
+aptimacentreclinic.es.conf -> ../sites-available/aptimacentreclinic.es.conf
+aptimacentreclinic.es-le-ssl.conf -> /etc/apache2/sites-available/aptimacentreclinic.es-le-ssl.conf
+mutuaterrassa.com.conf -> ../sites-available/mutuaterrassa.com.conf
+mutuaterrassa.com-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.com-le-ssl.conf
+mutuaterrassa.cat.conf -> ../sites-available/mutuaterrassa.cat.conf
+mutuaterrassa.cat-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.cat-le-ssl.conf
+lasseguradora.cat.conf -> ../sites-available/lasseguradora.cat.conf
+lasseguradora.cat-le-ssl.conf -> /etc/apache2/sites-available/lasseguradora.cat-le-ssl.conf
+mutuaterrassa.es.conf -> ../sites-available/mutuaterrassa.es.conf
+mutuaterrassa.eu.conf -> ../sites-available/mutuaterrassa.eu.conf
+mutuaterrassa.org.conf -> ../sites-available/mutuaterrassa.org.conf
+mutuaterrassa.es-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.es-le-ssl.conf
+mutuaterrassa.eu-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.eu-le-ssl.conf
+mutuaterrassa.org-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.org-le-ssl.conf
+cambrils-suite.cat.conf -> ../sites-available/cambrils-suite.cat.conf
+cambrils-suite.cat-le-ssl.conf -> /etc/apache2/sites-available/cambrils-suite.cat-le-ssl.conf
+casamarques.com.conf -> ../sites-available/casamarques.com.conf
+casavaporgran.com.conf -> ../sites-available/casavaporgran.com.conf
+casavaporgran.cat.conf -> ../sites-available/casavaporgran.cat.conf
+casavaporgran.es.conf -> ../sites-available/casavaporgran.es.conf
+casavaporgran.cat-le-ssl.conf -> /etc/apache2/sites-available/casavaporgran.cat-le-ssl.conf
+casavaporgran.com-le-ssl.conf -> /etc/apache2/sites-available/casavaporgran.com-le-ssl.conf
+casavaporgran.es-le-ssl.conf -> /etc/apache2/sites-available/casavaporgran.es-le-ssl.conf
+fundaciovallparadis.cat.conf -> ../sites-available/fundaciovallparadis.cat.conf
+fundaciovallparadis.cat-le-ssl.conf -> /etc/apache2/sites-available/fundaciovallparadis.cat-le-ssl.conf
+fundaciovallparadis.com.conf -> ../sites-available/fundaciovallparadis.com.conf
+fundaciovallparadis.com-le-ssl.conf -> /etc/apache2/sites-available/fundaciovallparadis.com-le-ssl.conf
+fundaciovallparadis.es.conf -> ../sites-available/fundaciovallparadis.es.conf
+fundaciovallparadis.es-le-ssl.conf -> /etc/apache2/sites-available/fundaciovallparadis.es-le-ssl.conf
+lasseguradora.com.conf -> ../sites-available/lasseguradora.com.conf
+lasseguradora.com-le-ssl.conf -> /etc/apache2/sites-available/lasseguradora.com-le-ssl.conf
+residentsmutuaterrassa.com.conf -> ../sites-available/residentsmutuaterrassa.com.conf
+residentsmutuaterrassa.com-le-ssl.conf -> /etc/apache2/sites-available/residentsmutuaterrassa.com-le-ssl.conf
+asseguradora.omatech.com.conf -> ../sites-available/asseguradora.omatech.com.conf
+asseguradora.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/asseguradora.omatech.com-le-ssl.conf
+mutuarequests.omatech.com.conf -> ../sites-available/mutuarequests.omatech.com.conf
+mutuarequests.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/mutuarequests.omatech.com-le-ssl.conf
+fundaciovallparadis.omatech.com.conf -> ../sites-available/fundaciovallparadis.omatech.com.conf
+fundaciovallparadis.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/fundaciovallparadis.omatech.com-le-ssl.conf
+aptima.omatech.com.conf -> ../sites-available/aptima.omatech.com.conf
+aptima.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/aptima.omatech.com-le-ssl.conf
+mutuaterrassa.omatech.com.conf -> ../sites-available/mutuaterrassa.omatech.com.conf
+mutuaterrassa.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.omatech.com-le-ssl.conf
+mutuaprevisora.com.conf -> ../sites-available/mutuaprevisora.com.conf
+simpleauth.omatech.com.conf -> ../sites-available/simpleauth.omatech.com.conf
+simpleauth.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/simpleauth.omatech.com-le-ssl.conf
+omafront17.omatech.com
+95.211.162.29
+php5.6-fpm.service
+php7.1-fpm.service
+php7.2-fpm.service
+php7.4-fpm.service
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+  Operating System: Ubuntu 18.04.6 LTS
+##########    CPU      ##########
+Filesystem     Type      Size  Used Avail Use% Mounted on
+udev           devtmpfs  4.2G     0  4.2G   0% /dev
+tmpfs          tmpfs     836M  873k  835M   1% /run
+/dev/sda5      ext4      975G   98G  828G  11% /
+tmpfs          tmpfs     4.2G  1.3M  4.2G   1% /dev/shm
+tmpfs          tmpfs     5.3M     0  5.3M   0% /run/lock
+tmpfs          tmpfs     4.2G     0  4.2G   0% /sys/fs/cgroup
+/dev/sda2      ext2      1.1G  122M  881M  13% /boot
+/dev/sda4      ext4      4.1G   46M  3.8G   2% /tmp
+tmpfs          tmpfs     836M     0  836M   0% /run/user/1002
+##########    MEM      ##########
+              total        used        free      shared  buff/cache   available
+Mem:           7967        3847         628         134        3490        3698
+Swap:          4095        1100        2995
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+aptimacentreclinic.cat.conf -> ../sites-available/aptimacentreclinic.cat.conf
+aptimacentreclinic.com.conf -> ../sites-available/aptimacentreclinic.com.conf
+aptimacentreclinic.cat-le-ssl.conf -> /etc/apache2/sites-available/aptimacentreclinic.cat-le-ssl.conf
+aptimacentreclinic.com-le-ssl.conf -> /etc/apache2/sites-available/aptimacentreclinic.com-le-ssl.conf
+aptimacentreclinic.es.conf -> ../sites-available/aptimacentreclinic.es.conf
+aptimacentreclinic.es-le-ssl.conf -> /etc/apache2/sites-available/aptimacentreclinic.es-le-ssl.conf
+mutuaterrassa.com.conf -> ../sites-available/mutuaterrassa.com.conf
+mutuaterrassa.com-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.com-le-ssl.conf
+mutuaterrassa.cat.conf -> ../sites-available/mutuaterrassa.cat.conf
+mutuaterrassa.cat-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.cat-le-ssl.conf
+lasseguradora.cat.conf -> ../sites-available/lasseguradora.cat.conf
+lasseguradora.cat-le-ssl.conf -> /etc/apache2/sites-available/lasseguradora.cat-le-ssl.conf
+mutuaterrassa.es.conf -> ../sites-available/mutuaterrassa.es.conf
+mutuaterrassa.eu.conf -> ../sites-available/mutuaterrassa.eu.conf
+mutuaterrassa.org.conf -> ../sites-available/mutuaterrassa.org.conf
+mutuaterrassa.es-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.es-le-ssl.conf
+mutuaterrassa.eu-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.eu-le-ssl.conf
+mutuaterrassa.org-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.org-le-ssl.conf
+cambrils-suite.cat.conf -> ../sites-available/cambrils-suite.cat.conf
+cambrils-suite.cat-le-ssl.conf -> /etc/apache2/sites-available/cambrils-suite.cat-le-ssl.conf
+casamarques.com.conf -> ../sites-available/casamarques.com.conf
+casavaporgran.com.conf -> ../sites-available/casavaporgran.com.conf
+casavaporgran.cat.conf -> ../sites-available/casavaporgran.cat.conf
+casavaporgran.es.conf -> ../sites-available/casavaporgran.es.conf
+casavaporgran.cat-le-ssl.conf -> /etc/apache2/sites-available/casavaporgran.cat-le-ssl.conf
+casavaporgran.com-le-ssl.conf -> /etc/apache2/sites-available/casavaporgran.com-le-ssl.conf
+casavaporgran.es-le-ssl.conf -> /etc/apache2/sites-available/casavaporgran.es-le-ssl.conf
+fundaciovallparadis.cat.conf -> ../sites-available/fundaciovallparadis.cat.conf
+fundaciovallparadis.cat-le-ssl.conf -> /etc/apache2/sites-available/fundaciovallparadis.cat-le-ssl.conf
+fundaciovallparadis.com.conf -> ../sites-available/fundaciovallparadis.com.conf
+fundaciovallparadis.com-le-ssl.conf -> /etc/apache2/sites-available/fundaciovallparadis.com-le-ssl.conf
+fundaciovallparadis.es.conf -> ../sites-available/fundaciovallparadis.es.conf
+fundaciovallparadis.es-le-ssl.conf -> /etc/apache2/sites-available/fundaciovallparadis.es-le-ssl.conf
+lasseguradora.com.conf -> ../sites-available/lasseguradora.com.conf
+lasseguradora.com-le-ssl.conf -> /etc/apache2/sites-available/lasseguradora.com-le-ssl.conf
+residentsmutuaterrassa.com.conf -> ../sites-available/residentsmutuaterrassa.com.conf
+residentsmutuaterrassa.com-le-ssl.conf -> /etc/apache2/sites-available/residentsmutuaterrassa.com-le-ssl.conf
+asseguradora.omatech.com.conf -> ../sites-available/asseguradora.omatech.com.conf
+asseguradora.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/asseguradora.omatech.com-le-ssl.conf
+mutuarequests.omatech.com.conf -> ../sites-available/mutuarequests.omatech.com.conf
+mutuarequests.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/mutuarequests.omatech.com-le-ssl.conf
+fundaciovallparadis.omatech.com.conf -> ../sites-available/fundaciovallparadis.omatech.com.conf
+fundaciovallparadis.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/fundaciovallparadis.omatech.com-le-ssl.conf
+aptima.omatech.com.conf -> ../sites-available/aptima.omatech.com.conf
+aptima.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/aptima.omatech.com-le-ssl.conf
+mutuaterrassa.omatech.com.conf -> ../sites-available/mutuaterrassa.omatech.com.conf
+mutuaterrassa.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/mutuaterrassa.omatech.com-le-ssl.conf
+mutuaprevisora.com.conf -> ../sites-available/mutuaprevisora.com.conf
+simpleauth.omatech.com.conf -> ../sites-available/simpleauth.omatech.com.conf
+simpleauth.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/simpleauth.omatech.com-le-ssl.conf
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/aptimacentreclinic.cat.conf
+/etc/apache2/sites-enabled/aptimacentreclinic.cat.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.aptimacentreclinic.cat
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	aptimacentreclinic.cat
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/aptimacentreclinic.cat-le-ssl.conf
+/etc/apache2/sites-enabled/aptimacentreclinic.cat-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.aptimacentreclinic.cat
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	aptimacentreclinic.cat
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/aptimacentreclinic.com.conf
+/etc/apache2/sites-enabled/aptimacentreclinic.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.aptimacentreclinic.com
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	aptimacentreclinic.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/aptimacentreclinic.com-le-ssl.conf
+/etc/apache2/sites-enabled/aptimacentreclinic.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.aptimacentreclinic.com
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	aptimacentreclinic.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/aptimacentreclinic.es.conf
+/etc/apache2/sites-enabled/aptimacentreclinic.es.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.aptimacentreclinic.es
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	aptimacentreclinic.es
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/aptimacentreclinic.es-le-ssl.conf
+/etc/apache2/sites-enabled/aptimacentreclinic.es-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.aptimacentreclinic.es
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	aptimacentreclinic.es
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/aptima.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+aptima.omatech.com	canonical name = omafront17.omatech.com.
+Name:	omafront17.omatech.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/aptima.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+aptima.omatech.com	canonical name = omafront17.omatech.com.
+Name:	omafront17.omatech.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/asseguradora.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+asseguradora.omatech.com	canonical name = omafront17.omatech.com.
+Name:	omafront17.omatech.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/asseguradora.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+asseguradora.omatech.com	canonical name = omafront17.omatech.com.
+Name:	omafront17.omatech.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/cambrils-suite.cat.conf
+/etc/apache2/sites-enabled/cambrils-suite.cat.conf
+El nslookup SI coincide con la misma IP del servidor
+www.cambrils-suite.cat	canonical name = cambrils-suite.cat.
+Name:	cambrils-suite.cat
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	cambrils-suite.cat
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/cambrils-suite.cat-le-ssl.conf
+/etc/apache2/sites-enabled/cambrils-suite.cat-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.cambrils-suite.cat	canonical name = cambrils-suite.cat.
+Name:	cambrils-suite.cat
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	cambrils-suite.cat
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/casamarques.com.conf
+/etc/apache2/sites-enabled/casamarques.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.casamarques.com
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	casamarques.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/casavaporgran.cat.conf
+/etc/apache2/sites-enabled/casavaporgran.cat.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.casavaporgran.cat
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	casavaporgran.cat
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/casavaporgran.cat-le-ssl.conf
+/etc/apache2/sites-enabled/casavaporgran.cat-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.casavaporgran.cat
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	casavaporgran.cat
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/casavaporgran.com.conf
+/etc/apache2/sites-enabled/casavaporgran.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.casavaporgran.com
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	casavaporgran.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/casavaporgran.com-le-ssl.conf
+/etc/apache2/sites-enabled/casavaporgran.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.casavaporgran.com
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	casavaporgran.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/casavaporgran.es.conf
+/etc/apache2/sites-enabled/casavaporgran.es.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.casavaporgran.es
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	casavaporgran.es
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/casavaporgran.es-le-ssl.conf
+/etc/apache2/sites-enabled/casavaporgran.es-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.casavaporgran.es
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	casavaporgran.es
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/fundaciovallparadis.cat.conf
+/etc/apache2/sites-enabled/fundaciovallparadis.cat.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.fundaciovallparadis.cat
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	fundaciovallparadis.cat
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/fundaciovallparadis.cat-le-ssl.conf
+/etc/apache2/sites-enabled/fundaciovallparadis.cat-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.fundaciovallparadis.cat
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	fundaciovallparadis.cat
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/fundaciovallparadis.com.conf
+/etc/apache2/sites-enabled/fundaciovallparadis.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.fundaciovallparadis.com
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	fundaciovallparadis.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/fundaciovallparadis.com-le-ssl.conf
+/etc/apache2/sites-enabled/fundaciovallparadis.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.fundaciovallparadis.com
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	fundaciovallparadis.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/fundaciovallparadis.es.conf
+/etc/apache2/sites-enabled/fundaciovallparadis.es.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.fundaciovallparadis.es
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	fundaciovallparadis.es
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/fundaciovallparadis.es-le-ssl.conf
+/etc/apache2/sites-enabled/fundaciovallparadis.es-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.fundaciovallparadis.es
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	fundaciovallparadis.es
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/fundaciovallparadis.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+fundaciovallparadis.omatech.com	canonical name = omafront17.omatech.com.
+Name:	omafront17.omatech.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/fundaciovallparadis.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+fundaciovallparadis.omatech.com	canonical name = omafront17.omatech.com.
+Name:	omafront17.omatech.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/lasseguradora.cat.conf
+/etc/apache2/sites-enabled/lasseguradora.cat.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.lasseguradora.cat
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	lasseguradora.cat
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/lasseguradora.cat-le-ssl.conf
+/etc/apache2/sites-enabled/lasseguradora.cat-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.lasseguradora.cat
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	lasseguradora.cat
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/lasseguradora.com.conf
+/etc/apache2/sites-enabled/lasseguradora.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.lasseguradora.com
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	lasseguradora.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/lasseguradora.com-le-ssl.conf
+/etc/apache2/sites-enabled/lasseguradora.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.lasseguradora.com
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	lasseguradora.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/mutuaprevisora.com.conf
+/etc/apache2/sites-enabled/mutuaprevisora.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.mutuaprevisora.com
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	mutuaprevisora.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/mutuarequests.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+mutuarequests.omatech.com	canonical name = omafront17.omatech.com.
+Name:	omafront17.omatech.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/mutuarequests.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+mutuarequests.omatech.com	canonical name = omafront17.omatech.com.
+Name:	omafront17.omatech.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/mutuaterrassa.cat.conf
+/etc/apache2/sites-enabled/mutuaterrassa.cat.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.mutuaterrassa.cat
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	mutuaterrassa.cat
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/mutuaterrassa.cat-le-ssl.conf
+/etc/apache2/sites-enabled/mutuaterrassa.cat-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.mutuaterrassa.cat
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	mutuaterrassa.cat
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/mutuaterrassa.com.conf
+/etc/apache2/sites-enabled/mutuaterrassa.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.mutuaterrassa.com
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	mutuaterrassa.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/mutuaterrassa.com-le-ssl.conf
+/etc/apache2/sites-enabled/mutuaterrassa.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.mutuaterrassa.com
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	mutuaterrassa.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/mutuaterrassa.es.conf
+/etc/apache2/sites-enabled/mutuaterrassa.es.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.mutuaterrassa.es
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	mutuaterrassa.es
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/mutuaterrassa.es-le-ssl.conf
+/etc/apache2/sites-enabled/mutuaterrassa.es-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.mutuaterrassa.es
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	mutuaterrassa.es
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/mutuaterrassa.eu.conf
+/etc/apache2/sites-enabled/mutuaterrassa.eu.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.mutuaterrassa.eu
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	mutuaterrassa.eu
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/mutuaterrassa.eu-le-ssl.conf
+/etc/apache2/sites-enabled/mutuaterrassa.eu-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.mutuaterrassa.eu
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	mutuaterrassa.eu
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/mutuaterrassa.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+mutuaterrassa.omatech.com	canonical name = omafront17.omatech.com.
+Name:	omafront17.omatech.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/mutuaterrassa.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+mutuaterrassa.omatech.com	canonical name = omafront17.omatech.com.
+Name:	omafront17.omatech.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/mutuaterrassa.org.conf
+/etc/apache2/sites-enabled/mutuaterrassa.org.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.mutuaterrassa.org
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	mutuaterrassa.org
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/mutuaterrassa.org-le-ssl.conf
+/etc/apache2/sites-enabled/mutuaterrassa.org-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.mutuaterrassa.org
+Address: 95.211.162.29
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	mutuaterrassa.org
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront17.omatech.com
+Address: 95.211.162.29
+
+/etc/apache2/sites-enabled/residentsmutuaterrassa.com.conf
+/etc/apache2/sites-enabled/residentsmutuaterrassa.com.conf
+El nslookup NO coincide con la misma IP del servidor
+** server can't find www.residentsmutuaterrassa.com: NXDOMAIN
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find residentsmutuaterrassa.com: NXDOMAIN
+
+/etc/apache2/sites-enabled/residentsmutuaterrassa.com-le-ssl.conf
+/etc/apache2/sites-enabled/residentsmutuaterrassa.com-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+** server can't find www.residentsmutuaterrassa.com: NXDOMAIN
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find residentsmutuaterrassa.com: NXDOMAIN
+
+/etc/apache2/sites-enabled/simpleauth.omatech.com.conf
+El nslookup NO coincide con la misma IP del servidor
+simpleauth.omatech.com	canonical name = omafront32.omatech.com.
+Name:	omafront32.omatech.com
+Address: 212.32.229.214
+
+/etc/apache2/sites-enabled/simpleauth.omatech.com-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+simpleauth.omatech.com	canonical name = omafront32.omatech.com.
+Name:	omafront32.omatech.com
+Address: 212.32.229.214
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+aptima.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+aptima.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+aptimacentreclinic.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+aptimacentreclinic.cat.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+aptimacentreclinic.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+aptimacentreclinic.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+aptimacentreclinic.es-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+aptimacentreclinic.es.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+asseguradora.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+asseguradora.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+cambrils-suite.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+cambrils-suite.cat.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+casamarques.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+casavaporgran.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+casavaporgran.cat.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+casavaporgran.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+casavaporgran.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+casavaporgran.es-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+casavaporgran.es.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+fundaciovallparadis.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+fundaciovallparadis.cat.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+fundaciovallparadis.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+fundaciovallparadis.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+fundaciovallparadis.es-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+fundaciovallparadis.es.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+fundaciovallparadis.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+fundaciovallparadis.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+lasseguradora.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+lasseguradora.cat.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+lasseguradora.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+lasseguradora.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+mutuaprevisora.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+mutuarequests.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+mutuarequests.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+mutuaterrassa.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+mutuaterrassa.cat.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+mutuaterrassa.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+mutuaterrassa.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+mutuaterrassa.es-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+mutuaterrassa.es.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+mutuaterrassa.eu-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+mutuaterrassa.eu.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+mutuaterrassa.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+mutuaterrassa.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+mutuaterrassa.org-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+mutuaterrassa.org.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+omatechinternal.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+simpleauth.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+simpleauth.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+         
+##########    VERSION DE NODE     ##########
+v8.17.0
+           

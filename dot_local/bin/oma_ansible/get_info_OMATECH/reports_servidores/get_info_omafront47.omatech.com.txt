@@ -1,0 +1,228 @@
+##########    HOSTNAME E IP    ##########
+omafront47.omatech.com
+95.211.225.116
+
+##########    PHP VERSION LIST    ##########
+php5.6-fpm.service
+php7.0-fpm.service
+php7.4-fpm.service
+php8.1-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 14.14 Distrib 5.7.40, for Linux (x86_64) using  EditLine wrapper
+   
+##########    OS VERSION     ##########
+Operating System: Ubuntu 22.04.1 LTS
+     
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.54 (Ubuntu)
+Server built:   2022-06-08T15:59:33
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+000-default.conf -> ../sites-available/000-default.conf
+php56.example.com.conf -> ../sites-available/php56.example.com.conf
+panreac.com.conf -> ../sites-available/panreac.com.conf
+itwreagentsarealanguagetest.omatech.com.conf -> ../sites-available/itwreagentsarealanguagetest.omatech.com.conf
+jsoneditor.conf -> ../sites-available/jsoneditor.conf
+panreac.es.conf -> ../sites-available/panreac.es.conf
+panreac_other_sites.conf -> ../sites-available/panreac_other_sites.conf
+panreacproducts.conf -> ../sites-available/panreacproducts.conf
+zz_applichem.com.conf -> ../sites-available/zz_applichem.com.conf
+zz_itwreagentsshoptest.omatech.com.conf -> ../sites-available/zz_itwreagentsshoptest.omatech.com.conf
+panreac_other_sites-le-ssl.conf -> /etc/apache2/sites-available/panreac_other_sites-le-ssl.conf
+zz_applichem.com-le-ssl.conf -> /etc/apache2/sites-available/zz_applichem.com-le-ssl.conf
+panreacproducts-le-ssl.conf -> /etc/apache2/sites-available/panreacproducts-le-ssl.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+omafront47.omatech.com
+95.211.225.116
+php5.6-fpm.service
+php7.0-fpm.service
+php7.4-fpm.service
+php8.1-fpm.service
+mysql  Ver 14.14 Distrib 5.7.40, for Linux (x86_64) using  EditLine wrapper
+Operating System: Ubuntu 22.04.1 LTS
+##########    CPU      ##########
+Filesystem     Type   Size  Used Avail Use% Mounted on
+tmpfs          tmpfs  1.7G  1.5M  1.7G   1% /run
+/dev/sda5      ext4   2.0T  995G  866G  54% /
+tmpfs          tmpfs  8.3G     0  8.3G   0% /dev/shm
+tmpfs          tmpfs  5.3M     0  5.3M   0% /run/lock
+/dev/sdb1      ext4   2.0T  8.1G  1.9T   1% /mnt/sdb1
+/dev/sda2      ext2   1.1G  264M  739M  27% /boot
+/dev/sda4      ext4   4.1G  848k  3.9G   1% /tmp
+tmpfs          tmpfs  1.7G  8.2k  1.7G   1% /run/user/1004
+tmpfs          tmpfs  1.7G  8.2k  1.7G   1% /run/user/0
+tmpfs          tmpfs  1.7G  8.2k  1.7G   1% /run/user/1001
+##########    MEM      ##########
+               total        used        free      shared  buff/cache   available
+Mem:           15746        9367         571          27        5807        5957
+Swap:           4095        2186        1909
+Server version: Apache/2.4.54 (Ubuntu)
+Server built:   2022-06-08T15:59:33
+  
+000-default.conf -> ../sites-available/000-default.conf
+php56.example.com.conf -> ../sites-available/php56.example.com.conf
+panreac.com.conf -> ../sites-available/panreac.com.conf
+itwreagentsarealanguagetest.omatech.com.conf -> ../sites-available/itwreagentsarealanguagetest.omatech.com.conf
+jsoneditor.conf -> ../sites-available/jsoneditor.conf
+panreac.es.conf -> ../sites-available/panreac.es.conf
+panreac_other_sites.conf -> ../sites-available/panreac_other_sites.conf
+panreacproducts.conf -> ../sites-available/panreacproducts.conf
+zz_applichem.com.conf -> ../sites-available/zz_applichem.com.conf
+zz_itwreagentsshoptest.omatech.com.conf -> ../sites-available/zz_itwreagentsshoptest.omatech.com.conf
+panreac_other_sites-le-ssl.conf -> /etc/apache2/sites-available/panreac_other_sites-le-ssl.conf
+zz_applichem.com-le-ssl.conf -> /etc/apache2/sites-available/zz_applichem.com-le-ssl.conf
+panreacproducts-le-ssl.conf -> /etc/apache2/sites-available/panreacproducts-le-ssl.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/itwreagentsarealanguagetest.omatech.com.conf
+El nslookup NO coincide con la misma IP del servidor
+itwreagentsarealanguagetest.omatech.com	canonical name = omafront20.omatech.com.
+Name:	omafront20.omatech.com
+Address: 95.211.239.219
+
+/etc/apache2/sites-enabled/jsoneditor.conf
+El nslookup NO coincide con la misma IP del servidor
+jsoneditor.omatech.com	canonical name = omafront20.omatech.com.
+Name:	omafront20.omatech.com
+Address: 95.211.239.219
+
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront47.omatech.com
+Address: 95.211.225.116
+
+/etc/apache2/sites-enabled/panreac.com.conf
+/etc/apache2/sites-enabled/panreac.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.panreac.com
+Address: 95.211.225.116
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	panreac.com
+Address: 95.211.225.116
+
+/etc/apache2/sites-enabled/panreac.es.conf
+/etc/apache2/sites-enabled/panreac.es.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.panreac.es
+Address: 95.211.225.116
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	panreac.es
+Address: 95.211.225.116
+
+/etc/apache2/sites-enabled/panreac_other_sites.conf
+/etc/apache2/sites-enabled/panreac_other_sites.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.panreac.com
+Address: 95.211.225.116
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	panreac.es
+Address: 95.211.225.116
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.panreac.es
+Address: 95.211.225.116
+
+El nslookup NO coincide con la misma IP del servidor
+*** Can't find novachimica.com: No answer
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.novachimica.com
+Address: 77.226.238.20
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	panreac.com
+Address: 95.211.225.116
+
+/etc/apache2/sites-enabled/panreac_other_sites-le-ssl.conf
+/etc/apache2/sites-enabled/panreac_other_sites-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.panreac.com
+Address: 95.211.225.116
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	panreac.es
+Address: 95.211.225.116
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.panreac.es
+Address: 95.211.225.116
+
+El nslookup NO coincide con la misma IP del servidor
+*** Can't find novachimica.com: No answer
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.novachimica.com
+Address: 77.226.238.20
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	panreac.com
+Address: 95.211.225.116
+
+/etc/apache2/sites-enabled/panreacproducts.conf
+El nslookup SI coincide con la misma IP del servidor
+panreacproducts.omatech.com	canonical name = omafront47.omatech.com.
+Name:	omafront47.omatech.com
+Address: 95.211.225.116
+
+/etc/apache2/sites-enabled/panreacproducts-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+panreacproducts.omatech.com	canonical name = omafront47.omatech.com.
+Name:	omafront47.omatech.com
+Address: 95.211.225.116
+
+/etc/apache2/sites-enabled/php56.example.com.conf
+El nslookup NO coincide con la misma IP del servidor
+** server can't find php56.omafront47.omatech.com: NXDOMAIN
+
+/etc/apache2/sites-enabled/zz_applichem.com.conf
+/etc/apache2/sites-enabled/zz_applichem.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.applichem.com
+Address: 95.211.225.116
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	applichem.com
+Address: 95.211.225.116
+
+/etc/apache2/sites-enabled/zz_applichem.com-le-ssl.conf
+/etc/apache2/sites-enabled/zz_applichem.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.applichem.com
+Address: 95.211.225.116
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.applichem.com
+Address: 95.211.225.116
+
+/etc/apache2/sites-enabled/zz_itwreagentsshoptest.omatech.com.conf
+El nslookup NO coincide con la misma IP del servidor
+itwreagentsshoptest.omatech.com	canonical name = omafront20.omatech.com.
+Name:	omafront20.omatech.com
+Address: 95.211.239.219
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+itwreagentsarealanguagetest.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+jsoneditor.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+omatechinternal.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+panreac.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+panreac.es.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+panreac_other_sites-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+panreac_other_sites.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+panreacproducts-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+panreacproducts.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+php56.example.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+zz_applichem.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+zz_applichem.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+zz_applichem.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+zz_itwreagentsshoptest.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+         
+##########    VERSION DE NODE     ##########
+           

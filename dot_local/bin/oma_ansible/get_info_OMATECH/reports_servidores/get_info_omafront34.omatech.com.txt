@@ -1,0 +1,208 @@
+##########    HOSTNAME E IP    ##########
+omafront34.omatech.com
+95.211.195.59
+
+##########    PHP VERSION LIST    ##########
+php5.6-fpm.service
+php7.3-fpm.service
+php7.4-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+   
+##########    OS VERSION     ##########
+  Operating System: Ubuntu 18.04.6 LTS
+     
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+test.flaxandkale.com.conf -> ../sites-available/test.flaxandkale.com.conf
+test.flaxandkale.com-le-ssl.conf -> /etc/apache2/sites-available/test.flaxandkale.com-le-ssl.conf
+www.flaxandkale.com.conf -> ../sites-available/www.flaxandkale.com.conf
+www.flaxandkale.com-le-ssl.conf -> /etc/apache2/sites-available/www.flaxandkale.com-le-ssl.conf
+teresasjuicery.com.conf -> ../sites-available/teresasjuicery.com.conf
+teresasjuicery.com-le-ssl.conf -> /etc/apache2/sites-available/teresasjuicery.com-le-ssl.conf
+teresasjuicery.es.conf -> ../sites-available/teresasjuicery.es.conf
+teresasjuicery.es-le-ssl.conf -> /etc/apache2/sites-available/teresasjuicery.es-le-ssl.conf
+api.flaxandkale.com.conf -> ../sites-available/api.flaxandkale.com.conf
+api.flaxandkale.com-le-ssl.conf -> /etc/apache2/sites-available/api.flaxandkale.com-le-ssl.conf
+development.flaxandkale.com.conf -> ../sites-available/development.flaxandkale.com.conf
+development.flaxandkale.com-le-ssl.conf -> /etc/apache2/sites-available/development.flaxandkale.com-le-ssl.conf
+apidev.flaxandkale.com.conf -> ../sites-available/apidev.flaxandkale.com.conf
+apidev.flaxandkale.com-le-ssl.conf -> /etc/apache2/sites-available/apidev.flaxandkale.com-le-ssl.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+omafront34.omatech.com
+95.211.195.59
+php5.6-fpm.service
+php7.3-fpm.service
+php7.4-fpm.service
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+  Operating System: Ubuntu 18.04.6 LTS
+##########    CPU      ##########
+Filesystem     Type      Size  Used Avail Use% Mounted on
+udev           devtmpfs  8.4G     0  8.4G   0% /dev
+tmpfs          tmpfs     1.7G  840k  1.7G   1% /run
+/dev/sda5      ext4      463G   44G  396G  10% /
+tmpfs          tmpfs     8.4G  2.5M  8.4G   1% /dev/shm
+tmpfs          tmpfs     5.3M     0  5.3M   0% /run/lock
+tmpfs          tmpfs     8.4G     0  8.4G   0% /sys/fs/cgroup
+/dev/sda2      ext2      1.1G  164M  839M  17% /boot
+/dev/sdb1      ext4      472G   29k  448G   1% /mnt/sdb1
+/dev/sda4      ext4      4.1G   39M  3.9G   2% /tmp
+tmpfs          tmpfs     1.7G     0  1.7G   0% /run/user/1001
+##########    MEM      ##########
+              total        used        free      shared  buff/cache   available
+Mem:          15994        6176        1416          91        8401        9405
+Swap:          4095          19        4076
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+test.flaxandkale.com.conf -> ../sites-available/test.flaxandkale.com.conf
+test.flaxandkale.com-le-ssl.conf -> /etc/apache2/sites-available/test.flaxandkale.com-le-ssl.conf
+www.flaxandkale.com.conf -> ../sites-available/www.flaxandkale.com.conf
+www.flaxandkale.com-le-ssl.conf -> /etc/apache2/sites-available/www.flaxandkale.com-le-ssl.conf
+teresasjuicery.com.conf -> ../sites-available/teresasjuicery.com.conf
+teresasjuicery.com-le-ssl.conf -> /etc/apache2/sites-available/teresasjuicery.com-le-ssl.conf
+teresasjuicery.es.conf -> ../sites-available/teresasjuicery.es.conf
+teresasjuicery.es-le-ssl.conf -> /etc/apache2/sites-available/teresasjuicery.es-le-ssl.conf
+api.flaxandkale.com.conf -> ../sites-available/api.flaxandkale.com.conf
+api.flaxandkale.com-le-ssl.conf -> /etc/apache2/sites-available/api.flaxandkale.com-le-ssl.conf
+development.flaxandkale.com.conf -> ../sites-available/development.flaxandkale.com.conf
+development.flaxandkale.com-le-ssl.conf -> /etc/apache2/sites-available/development.flaxandkale.com-le-ssl.conf
+apidev.flaxandkale.com.conf -> ../sites-available/apidev.flaxandkale.com.conf
+apidev.flaxandkale.com-le-ssl.conf -> /etc/apache2/sites-available/apidev.flaxandkale.com-le-ssl.conf
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/apidev.flaxandkale.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	apidev.flaxandkale.com
+Address: 95.211.195.59
+
+/etc/apache2/sites-enabled/apidev.flaxandkale.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	apidev.flaxandkale.com
+Address: 95.211.195.59
+
+/etc/apache2/sites-enabled/api.flaxandkale.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	api.flaxandkale.com
+Address: 95.211.195.59
+
+/etc/apache2/sites-enabled/api.flaxandkale.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	api.flaxandkale.com
+Address: 95.211.195.59
+
+/etc/apache2/sites-enabled/development.flaxandkale.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	development.flaxandkale.com
+Address: 95.211.195.59
+
+/etc/apache2/sites-enabled/development.flaxandkale.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	development.flaxandkale.com
+Address: 95.211.195.59
+
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront34.omatech.com
+Address: 95.211.195.59
+
+/etc/apache2/sites-enabled/teresasjuicery.com.conf
+/etc/apache2/sites-enabled/teresasjuicery.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.teresasjuicery.com
+Address: 95.211.195.59
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	teresasjuicery.com
+Address: 95.211.195.59
+
+/etc/apache2/sites-enabled/teresasjuicery.com-le-ssl.conf
+/etc/apache2/sites-enabled/teresasjuicery.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.teresasjuicery.com
+Address: 95.211.195.59
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	teresasjuicery.com
+Address: 95.211.195.59
+
+/etc/apache2/sites-enabled/teresasjuicery.es.conf
+/etc/apache2/sites-enabled/teresasjuicery.es.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.teresasjuicery.es
+Address: 95.211.195.59
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	teresasjuicery.es
+Address: 95.211.195.59
+
+/etc/apache2/sites-enabled/teresasjuicery.es-le-ssl.conf
+/etc/apache2/sites-enabled/teresasjuicery.es-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.teresasjuicery.es
+Address: 95.211.195.59
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	teresasjuicery.es
+Address: 95.211.195.59
+
+/etc/apache2/sites-enabled/test.flaxandkale.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	test.flaxandkale.com
+Address: 95.211.195.59
+
+/etc/apache2/sites-enabled/test.flaxandkale.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	test.flaxandkale.com
+Address: 95.211.195.59
+
+/etc/apache2/sites-enabled/www.flaxandkale.com.conf
+/etc/apache2/sites-enabled/www.flaxandkale.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.flaxandkale.com
+Address: 95.211.195.59
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	flaxandkale.com
+Address: 95.211.195.59
+
+/etc/apache2/sites-enabled/www.flaxandkale.com-le-ssl.conf
+/etc/apache2/sites-enabled/www.flaxandkale.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	www.flaxandkale.com
+Address: 95.211.195.59
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	flaxandkale.com
+Address: 95.211.195.59
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+api.flaxandkale.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+api.flaxandkale.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+apidev.flaxandkale.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+apidev.flaxandkale.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+development.flaxandkale.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+development.flaxandkale.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+omatechinternal.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+teresasjuicery.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+teresasjuicery.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+teresasjuicery.es-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+teresasjuicery.es.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+test.flaxandkale.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+test.flaxandkale.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+www.flaxandkale.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+www.flaxandkale.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+         
+##########    VERSION DE NODE     ##########
+v8.17.0
+           

@@ -1,0 +1,168 @@
+##########    HOSTNAME E IP    ##########
+omafront30.omatech.com
+217.20.115.29
+
+##########    PHP VERSION LIST    ##########
+php7.3-fpm.service
+php7.4-fpm.service
+php8.0-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+   
+##########    OS VERSION     ##########
+  Operating System: Ubuntu 18.04.6 LTS
+     
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+000-default.conf -> ../sites-available/000-default.conf
+lavanguardiagraella.omatech.com.conf -> ../sites-available/lavanguardiagraella.omatech.com.conf
+lavanguardiagraella.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/lavanguardiagraella.omatech.com-le-ssl.conf
+lavanguardiaagrupador.omatech.com.conf -> ../sites-available/lavanguardiaagrupador.omatech.com.conf
+lavanguardiaagrupador.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/lavanguardiaagrupador.omatech.com-le-ssl.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+lavanguardiagraellaredirect.omatech.com.conf -> ../sites-available/lavanguardiagraellaredirect.omatech.com.conf
+lavanguardiagraellaredirect.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/lavanguardiagraellaredirect.omatech.com-le-ssl.conf
+parrilla-tv.lavanguardia.com.conf -> ../sites-available/parrilla-tv.lavanguardia.com.conf
+parrilla-tv.lavanguardia.com-le-ssl.conf -> /etc/apache2/sites-available/parrilla-tv.lavanguardia.com-le-ssl.conf
+horoscopo.lavanguardia.com.conf -> ../sites-available/horoscopo.lavanguardia.com.conf
+horoscopo.lavanguardia.com-le-ssl.conf -> /etc/apache2/sites-available/horoscopo.lavanguardia.com-le-ssl.conf
+lavanguardiahoroscopo.omatech.com.conf -> ../sites-available/lavanguardiahoroscopo.omatech.com.conf
+lavanguardiahoroscopo.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/lavanguardiahoroscopo.omatech.com-le-ssl.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+omafront30.omatech.com
+217.20.115.29
+php7.3-fpm.service
+php7.4-fpm.service
+php8.0-fpm.service
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+  Operating System: Ubuntu 18.04.6 LTS
+##########    CPU      ##########
+Filesystem     Type      Size  Used Avail Use% Mounted on
+udev           devtmpfs  8.4G     0  8.4G   0% /dev
+tmpfs          tmpfs     1.7G  828k  1.7G   1% /run
+/dev/sda5      ext4      483G   24G  435G   6% /
+tmpfs          tmpfs     8.4G  1.3M  8.4G   1% /dev/shm
+tmpfs          tmpfs     5.3M     0  5.3M   0% /run/lock
+tmpfs          tmpfs     8.4G     0  8.4G   0% /sys/fs/cgroup
+/dev/sda2      ext2      1.1G  161M  842M  17% /boot
+/dev/sda4      ext4      4.1G  205k  3.9G   1% /tmp
+tmpfs          tmpfs     1.7G     0  1.7G   0% /run/user/1001
+##########    MEM      ##########
+              total        used        free      shared  buff/cache   available
+Mem:          16009        1057         240          37       14711       14839
+Swap:          4095           1        4094
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+  
+000-default.conf -> ../sites-available/000-default.conf
+lavanguardiagraella.omatech.com.conf -> ../sites-available/lavanguardiagraella.omatech.com.conf
+lavanguardiagraella.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/lavanguardiagraella.omatech.com-le-ssl.conf
+lavanguardiaagrupador.omatech.com.conf -> ../sites-available/lavanguardiaagrupador.omatech.com.conf
+lavanguardiaagrupador.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/lavanguardiaagrupador.omatech.com-le-ssl.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+lavanguardiagraellaredirect.omatech.com.conf -> ../sites-available/lavanguardiagraellaredirect.omatech.com.conf
+lavanguardiagraellaredirect.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/lavanguardiagraellaredirect.omatech.com-le-ssl.conf
+parrilla-tv.lavanguardia.com.conf -> ../sites-available/parrilla-tv.lavanguardia.com.conf
+parrilla-tv.lavanguardia.com-le-ssl.conf -> /etc/apache2/sites-available/parrilla-tv.lavanguardia.com-le-ssl.conf
+horoscopo.lavanguardia.com.conf -> ../sites-available/horoscopo.lavanguardia.com.conf
+horoscopo.lavanguardia.com-le-ssl.conf -> /etc/apache2/sites-available/horoscopo.lavanguardia.com-le-ssl.conf
+lavanguardiahoroscopo.omatech.com.conf -> ../sites-available/lavanguardiahoroscopo.omatech.com.conf
+lavanguardiahoroscopo.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/lavanguardiahoroscopo.omatech.com-le-ssl.conf
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/horoscopo.lavanguardia.com.conf
+El nslookup SI coincide con la misma IP del servidor
+horoscopo.lavanguardia.com	canonical name = lavanguardiahoroscopo.omatech.com.
+lavanguardiahoroscopo.omatech.com	canonical name = omafront30.omatech.com.
+Name:	omafront30.omatech.com
+Address: 217.20.115.29
+
+/etc/apache2/sites-enabled/horoscopo.lavanguardia.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+horoscopo.lavanguardia.com	canonical name = lavanguardiahoroscopo.omatech.com.
+lavanguardiahoroscopo.omatech.com	canonical name = omafront30.omatech.com.
+Name:	omafront30.omatech.com
+Address: 217.20.115.29
+
+/etc/apache2/sites-enabled/lavanguardiaagrupador.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+lavanguardiaagrupador.omatech.com	canonical name = omafront30.omatech.com.
+Name:	omafront30.omatech.com
+Address: 217.20.115.29
+
+/etc/apache2/sites-enabled/lavanguardiaagrupador.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+lavanguardiaagrupador.omatech.com	canonical name = omafront30.omatech.com.
+Name:	omafront30.omatech.com
+Address: 217.20.115.29
+
+/etc/apache2/sites-enabled/lavanguardiagraella.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+lavanguardiagraella.omatech.com	canonical name = omafront30.omatech.com.
+Name:	omafront30.omatech.com
+Address: 217.20.115.29
+
+/etc/apache2/sites-enabled/lavanguardiagraella.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+lavanguardiagraella.omatech.com	canonical name = omafront30.omatech.com.
+Name:	omafront30.omatech.com
+Address: 217.20.115.29
+
+/etc/apache2/sites-enabled/lavanguardiagraellaredirect.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+lavanguardiagraellaredirect.omatech.com	canonical name = omafront30.omatech.com.
+Name:	omafront30.omatech.com
+Address: 217.20.115.29
+
+/etc/apache2/sites-enabled/lavanguardiagraellaredirect.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+lavanguardiagraellaredirect.omatech.com	canonical name = omafront30.omatech.com.
+Name:	omafront30.omatech.com
+Address: 217.20.115.29
+
+/etc/apache2/sites-enabled/lavanguardiahoroscopo.omatech.com.conf
+/etc/apache2/sites-enabled/lavanguardiahoroscopo.omatech.com-le-ssl.conf
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront30.omatech.com
+Address: 217.20.115.29
+
+/etc/apache2/sites-enabled/parrilla-tv.lavanguardia.com.conf
+El nslookup SI coincide con la misma IP del servidor
+parrilla-tv.lavanguardia.com	canonical name = lavanguardiagraellaredirect.omatech.com.
+lavanguardiagraellaredirect.omatech.com	canonical name = omafront30.omatech.com.
+Name:	omafront30.omatech.com
+Address: 217.20.115.29
+
+/etc/apache2/sites-enabled/parrilla-tv.lavanguardia.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+parrilla-tv.lavanguardia.com	canonical name = lavanguardiagraellaredirect.omatech.com.
+lavanguardiagraellaredirect.omatech.com	canonical name = omafront30.omatech.com.
+Name:	omafront30.omatech.com
+Address: 217.20.115.29
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+horoscopo.lavanguardia.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+horoscopo.lavanguardia.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+lavanguardiaagrupador.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+lavanguardiaagrupador.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+lavanguardiagraella.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+lavanguardiagraella.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+lavanguardiagraellaredirect.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+lavanguardiagraellaredirect.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+lavanguardiahoroscopo.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+lavanguardiahoroscopo.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+lavanguardiahoroscopo.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+omatechinternal.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+parrilla-tv.lavanguardia.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+parrilla-tv.lavanguardia.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+         
+##########    VERSION DE NODE     ##########
+v8.17.0
+           

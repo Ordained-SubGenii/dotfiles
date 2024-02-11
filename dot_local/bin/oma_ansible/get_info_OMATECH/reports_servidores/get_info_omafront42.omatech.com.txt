@@ -1,0 +1,155 @@
+##########    HOSTNAME E IP    ##########
+omafront42
+95.211.161.236
+
+##########    PHP VERSION LIST    ##########
+php7.4-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+   
+##########    OS VERSION     ##########
+  Operating System: Ubuntu 18.04.6 LTS
+     
+##########    CPU      ##########
+Filesystem     Type      Size  Used Avail Use% Mounted on
+udev           devtmpfs  8.4G     0  8.4G   0% /dev
+tmpfs          tmpfs     1.7G  1.1M  1.7G   1% /run
+/dev/sda5      ext4      936G   16G  873G   2% /
+tmpfs          tmpfs     8.4G  1.3M  8.4G   1% /dev/shm
+tmpfs          tmpfs     5.3M     0  5.3M   0% /run/lock
+tmpfs          tmpfs     8.4G     0  8.4G   0% /sys/fs/cgroup
+/dev/loop0     squashfs   67M   67M     0 100% /snap/core20/2015
+/dev/loop2     squashfs   48M   48M     0 100% /snap/certbot/3566
+/dev/loop4     squashfs   48M   48M     0 100% /snap/certbot/3462
+/dev/loop3     squashfs  112M  112M     0 100% /snap/core/16091
+/dev/loop5     squashfs  112M  112M     0 100% /snap/core/16202
+/dev/sda4      ext4      4.1G  181k  3.9G   1% /tmp
+/dev/sda2      ext2      1.1G  120M  883M  12% /boot
+/dev/sdb1      ext4      944G  2.8G  894G   1% /mnt/sdb1
+/dev/loop6     squashfs   68M   68M     0 100% /snap/core20/2105
+tmpfs          tmpfs     1.7G     0  1.7G   0% /run/user/0
+tmpfs          tmpfs     1.7G     0  1.7G   0% /run/user/1001
+##########    MEM      ##########
+              total        used        free      shared  buff/cache   available
+Mem:          15998        3898        2554         260        9545       11514
+Swap:          4095           0        4095
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+botigatram.conf -> ../sites-available/botigatram.conf
+bloctram.conf -> ../sites-available/bloctram.conf
+trameduca.omatech.com.conf -> ../sites-available/trameduca.omatech.com.conf
+trameduca.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/trameduca.omatech.com-le-ssl.conf
+trameduca.cat.conf -> ../sites-available/trameduca.cat.conf
+bloctram-le-ssl.conf -> /etc/apache2/sites-available/bloctram-le-ssl.conf
+botigatram-le-ssl.conf -> /etc/apache2/sites-available/botigatram-le-ssl.conf
+trameduca.cat-le-ssl.conf -> /etc/apache2/sites-available/trameduca.cat-le-ssl.conf
+trameduca.com.conf -> ../sites-available/trameduca.com.conf
+trameduca.com-le-ssl.conf -> /etc/apache2/sites-available/trameduca.com-le-ssl.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/bloctram.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	bloc.tram.cat
+Address: 95.211.161.236
+
+/etc/apache2/sites-enabled/bloctram-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	bloc.tram.cat
+Address: 95.211.161.236
+
+/etc/apache2/sites-enabled/botigatram.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	botiga.tram.cat
+Address: 95.211.161.236
+
+/etc/apache2/sites-enabled/botigatram-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	botiga.tram.cat
+Address: 95.211.161.236
+
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront42.omatech.com
+Address: 95.211.161.236
+
+/etc/apache2/sites-enabled/trameduca.cat.conf
+/etc/apache2/sites-enabled/trameduca.cat.conf
+El nslookup SI coincide con la misma IP del servidor
+www.trameduca.cat	canonical name = trameduca.cat.
+Name:	trameduca.cat
+Address: 95.211.161.236
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	trameduca.cat
+Address: 95.211.161.236
+
+/etc/apache2/sites-enabled/trameduca.cat-le-ssl.conf
+/etc/apache2/sites-enabled/trameduca.cat-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.trameduca.cat	canonical name = trameduca.cat.
+Name:	trameduca.cat
+Address: 95.211.161.236
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	trameduca.cat
+Address: 95.211.161.236
+
+/etc/apache2/sites-enabled/trameduca.com.conf
+/etc/apache2/sites-enabled/trameduca.com.conf
+El nslookup SI coincide con la misma IP del servidor
+www.trameduca.com	canonical name = trameduca.com.
+Name:	trameduca.com
+Address: 95.211.161.236
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	trameduca.com
+Address: 95.211.161.236
+
+/etc/apache2/sites-enabled/trameduca.com-le-ssl.conf
+/etc/apache2/sites-enabled/trameduca.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.trameduca.com	canonical name = trameduca.com.
+Name:	trameduca.com
+Address: 95.211.161.236
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	trameduca.com
+Address: 95.211.161.236
+
+/etc/apache2/sites-enabled/trameduca.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+trameduca.omatech.com	canonical name = omafront42.omatech.com.
+Name:	omafront42.omatech.com
+Address: 95.211.161.236
+
+/etc/apache2/sites-enabled/trameduca.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+trameduca.omatech.com	canonical name = omafront42.omatech.com.
+Name:	omafront42.omatech.com
+Address: 95.211.161.236
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+bloctram-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+bloctram.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+botigatram-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+botigatram.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+omatechinternal.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+trameduca.cat-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+trameduca.cat.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+trameduca.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+trameduca.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+trameduca.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+trameduca.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+         
+##########    VERSION DE NODE     ##########
+v8.17.0
+           

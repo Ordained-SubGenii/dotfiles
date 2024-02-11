@@ -1,0 +1,102 @@
+##########    HOSTNAME E IP    ##########
+omafront49.omatech.com
+95.211.247.2
+##########    PHP VERSION LIST    ##########
+php7.1-fpm.service
+php7.4-fpm.service
+php8.1-fpm.service
+php8.2-fpm.service
+ 
+     
+##########    MYSQL VERSION     ##########
+mysql  Ver 8.0.36-0ubuntu0.22.04.1 for Linux on x86_64 ((Ubuntu))
+     
+
+##########    OS VERSION     ##########
+Operating System: Ubuntu 22.04.3 LTS
+
+     
+##########    CPU      ##########
+Filesystem     Type   Size  Used Avail Use% Mounted on
+tmpfs          tmpfs  6.8G  3.1M  6.8G   1% /run
+/dev/md125     ext4   463G  274G  166G  63% /
+tmpfs          tmpfs   34G  8.2k   34G   1% /dev/shm
+tmpfs          tmpfs  5.3M     0  5.3M   0% /run/lock
+/dev/md2       ext2   1.1G  268M  735M  27% /boot
+/dev/md126     ext4   4.2G   45M  3.9G   2% /tmp
+/dev/md1       vfat   314M  5.3M  309M   2% /boot/efi
+tmpfs          tmpfs  6.8G  8.2k  6.8G   1% /run/user/1000
+tmpfs          tmpfs  6.8G  8.2k  6.8G   1% /run/user/0
+tmpfs          tmpfs  6.8G  8.2k  6.8G   1% /run/user/1001
+tmpfs          tmpfs  6.8G  8.2k  6.8G   1% /run/user/1002
+tmpfs          tmpfs  6.8G  8.2k  6.8G   1% /run/user/111
+tmpfs          tmpfs  6.8G  8.2k  6.8G   1% /run/user/110
+tmpfs          tmpfs  6.8G  8.2k  6.8G   1% /run/user/105
+tmpfs          tmpfs  6.8G  8.2k  6.8G   1% /run/user/116
+tmpfs          tmpfs  6.8G  8.2k  6.8G   1% /run/user/119
+tmpfs          tmpfs  6.8G  8.2k  6.8G   1% /run/user/123
+tmpfs          tmpfs  6.8G  8.2k  6.8G   1% /run/user/6
+  
+    
+##########    MEM      ##########
+               total        used        free      shared  buff/cache   available
+Mem:           64017        4493       26056         441       33467       58377
+Swap:           4090        2166        1924
+  
+   
+##########    NGINX VERSION     ##########
+   
+  
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:56:02
+  
+   
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+
+bo.conf
+baja.conf
+api.conf
+delfos.conf
+chatbot.conf
+chatbotapi.conf
+quotator.conf
+quotatorapi.conf
+fileparser.conf
+webapp.conf
+sara.conf
+omatechinternal.conf
+coverfy_webapp.conf
+coverfy_api.conf
+coverfy_baja.conf
+coverfy_bo.conf
+coverfy_chatbotapi.conf
+coverfy_chatbot.conf
+coverfy_fileparser.conf
+coverfy_quotatorapi.conf
+coverfy_quotator.conf
+coverfy_sara.conf
+coverfy_web.conf
+coverfy_chatboteditor.conf
+   
+  
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+sara.conf:php7.4
+coverfy_chatbotapi.conf:php7.4
+api.conf:php7.4
+quotatorapi.conf:php7.4
+chatbotapi.conf:php7.4
+fileparser.conf:php7.4
+coverfy_sara.conf:php7.4
+coverfy_api.conf:php7.4
+coverfy_web.conf:php7.2
+coverfy_quotatorapi.conf:php7.4
+coverfy_fileparser.conf:php7.4
+omatechinternal.conf:php7.4
+coverfy_chatbot.conf:php7.4
+  
+   
+##########    VERSION DE NODE     ##########
+v12.22.9
+  
+   

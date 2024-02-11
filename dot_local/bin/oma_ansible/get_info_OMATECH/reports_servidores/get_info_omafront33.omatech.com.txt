@@ -1,0 +1,108 @@
+##########    HOSTNAME E IP    ##########
+omafront33.omatech.com
+85.17.78.67
+
+##########    PHP VERSION LIST    ##########
+php7.3-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+   
+##########    OS VERSION     ##########
+  Operating System: Ubuntu 18.04.6 LTS
+     
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.55 (Ubuntu)
+Server built:   2023-01-19T19:54:58
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+demo.kiabisoft.com.conf -> ../sites-available/demo.kiabisoft.com.conf
+demo.kiabisoft.com-le-ssl.conf -> /etc/apache2/sites-available/demo.kiabisoft.com-le-ssl.conf
+pre.kabisoft.com.conf -> ../sites-available/pre.kabisoft.com.conf
+pre.kabisoft.com-le-ssl.conf -> /etc/apache2/sites-available/pre.kabisoft.com-le-ssl.conf
+es.kabisoft.com.conf -> ../sites-available/es.kabisoft.com.conf
+es.kabisoft.com-le-ssl.conf -> /etc/apache2/sites-available/es.kabisoft.com-le-ssl.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+omafront33.omatech.com
+85.17.78.67
+php7.3-fpm.service
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+  Operating System: Ubuntu 18.04.6 LTS
+##########    CPU      ##########
+Filesystem     Type      Size  Used Avail Use% Mounted on
+udev           devtmpfs  8.4G     0  8.4G   0% /dev
+tmpfs          tmpfs     1.7G  799k  1.7G   1% /run
+/dev/sda5      ext4      2.0T  109G  1.8T   6% /
+tmpfs          tmpfs     8.4G     0  8.4G   0% /dev/shm
+tmpfs          tmpfs     5.3M     0  5.3M   0% /run/lock
+tmpfs          tmpfs     8.4G     0  8.4G   0% /sys/fs/cgroup
+/dev/sdb1      ext4      2.0T   29k  1.9T   1% /mnt/sdb1
+/dev/sda2      ext2      1.1G  164M  839M  17% /boot
+/dev/sda4      ext4      4.1G  349k  3.9G   1% /tmp
+tmpfs          tmpfs     1.7G     0  1.7G   0% /run/user/1002
+##########    MEM      ##########
+              total        used        free      shared  buff/cache   available
+Mem:          15992        4254         481           7       11256       11415
+Swap:         36863           1       36862
+Server version: Apache/2.4.55 (Ubuntu)
+Server built:   2023-01-19T19:54:58
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+demo.kiabisoft.com.conf -> ../sites-available/demo.kiabisoft.com.conf
+demo.kiabisoft.com-le-ssl.conf -> /etc/apache2/sites-available/demo.kiabisoft.com-le-ssl.conf
+pre.kabisoft.com.conf -> ../sites-available/pre.kabisoft.com.conf
+pre.kabisoft.com-le-ssl.conf -> /etc/apache2/sites-available/pre.kabisoft.com-le-ssl.conf
+es.kabisoft.com.conf -> ../sites-available/es.kabisoft.com.conf
+es.kabisoft.com-le-ssl.conf -> /etc/apache2/sites-available/es.kabisoft.com-le-ssl.conf
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/demo.kiabisoft.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	demo.kabisoft.com
+Address: 85.17.78.67
+
+/etc/apache2/sites-enabled/demo.kiabisoft.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	demo.kabisoft.com
+Address: 85.17.78.67
+
+/etc/apache2/sites-enabled/es.kabisoft.com.conf
+El nslookup SI coincide con la misma IP del servidor
+es.kabisoft.com	canonical name = omafront33.omatech.com.
+Name:	omafront33.omatech.com
+Address: 85.17.78.67
+
+/etc/apache2/sites-enabled/es.kabisoft.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+es.kabisoft.com	canonical name = omafront33.omatech.com.
+Name:	omafront33.omatech.com
+Address: 85.17.78.67
+
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront33.omatech.com
+Address: 85.17.78.67
+
+/etc/apache2/sites-enabled/pre.kabisoft.com.conf
+El nslookup SI coincide con la misma IP del servidor
+pre.kabisoft.com	canonical name = omafront33.omatech.com.
+Name:	omafront33.omatech.com
+Address: 85.17.78.67
+
+/etc/apache2/sites-enabled/pre.kabisoft.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+pre.kabisoft.com	canonical name = omafront33.omatech.com.
+Name:	omafront33.omatech.com
+Address: 85.17.78.67
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+omatechinternal.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+         
+##########    VERSION DE NODE     ##########
+v8.17.0
+           

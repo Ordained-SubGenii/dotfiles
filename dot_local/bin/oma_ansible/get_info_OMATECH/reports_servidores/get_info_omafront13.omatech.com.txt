@@ -1,0 +1,113 @@
+##########    HOSTNAME E IP    ##########
+omafront13
+95.211.15.129
+
+##########    PHP VERSION LIST    ##########
+php5.6-fpm.service
+php8.1-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 8.0.36-0ubuntu0.22.04.1 for Linux on x86_64 ((Ubuntu))
+   
+##########    OS VERSION     ##########
+Operating System: Ubuntu 22.04.3 LTS
+     
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:56:02
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+omatechinternal-le-ssl.conf -> /etc/apache2/sites-available/omatechinternal-le-ssl.conf
+deaprensa.omatech.com.conf -> ../sites-available/deaprensa.omatech.com.conf
+deaprensa.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/deaprensa.omatech.com-le-ssl.conf
+deaprensa.com.conf -> ../sites-available/deaprensa.com.conf
+deaprensa.com-le-ssl.conf -> /etc/apache2/sites-available/deaprensa.com-le-ssl.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+omafront13
+95.211.15.129
+php5.6-fpm.service
+php8.1-fpm.service
+mysql  Ver 8.0.36-0ubuntu0.22.04.1 for Linux on x86_64 ((Ubuntu))
+Operating System: Ubuntu 22.04.3 LTS
+##########    CPU      ##########
+Filesystem     Type   Size  Used Avail Use% Mounted on
+tmpfs          tmpfs  833M  1.4M  832M   1% /run
+/dev/sda5      ext4   2.0T   13G  1.9T   1% /
+tmpfs          tmpfs  4.2G  1.3M  4.2G   1% /dev/shm
+tmpfs          tmpfs  5.3M     0  5.3M   0% /run/lock
+/dev/sdb1      ext4   2.0T  613G  1.3T  33% /mnt/sdb1
+/dev/sda4      ext4   4.1G  283k  3.9G   1% /tmp
+/dev/sda2      ext2   1.1G  264M  739M  27% /boot
+tmpfs          tmpfs  833M  4.1k  833M   1% /run/user/1001
+##########    MEM      ##########
+               total        used        free      shared  buff/cache   available
+Mem:            7940        1598         295          16        6046        6017
+Swap:           4095          92        4003
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:56:02
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+omatechinternal-le-ssl.conf -> /etc/apache2/sites-available/omatechinternal-le-ssl.conf
+deaprensa.omatech.com.conf -> ../sites-available/deaprensa.omatech.com.conf
+deaprensa.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/deaprensa.omatech.com-le-ssl.conf
+deaprensa.com.conf -> ../sites-available/deaprensa.com.conf
+deaprensa.com-le-ssl.conf -> /etc/apache2/sites-available/deaprensa.com-le-ssl.conf
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/deaprensa.com.conf
+/etc/apache2/sites-enabled/deaprensa.com.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.deaprensa.com
+Address: 213.192.253.24
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	deaprensa.com
+Address: 213.192.253.24
+
+/etc/apache2/sites-enabled/deaprensa.com-le-ssl.conf
+/etc/apache2/sites-enabled/deaprensa.com-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	www.deaprensa.com
+Address: 213.192.253.24
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	deaprensa.com
+Address: 213.192.253.24
+
+/etc/apache2/sites-enabled/deaprensa.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+deaprensa.omatech.com	canonical name = omafront13.omatech.com.
+Name:	omafront13.omatech.com
+Address: 95.211.15.129
+
+/etc/apache2/sites-enabled/deaprensa.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+deaprensa.omatech.com	canonical name = omafront13.omatech.com.
+Name:	omafront13.omatech.com
+Address: 95.211.15.129
+
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront13.omatech.com
+Address: 95.211.15.129
+
+/etc/apache2/sites-enabled/omatechinternal-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront13.omatech.com
+Address: 95.211.15.129
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+deaprensa.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+deaprensa.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+deaprensa.omatech.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+deaprensa.omatech.com.conf:    SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+omatechinternal-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+omatechinternal.conf:    SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+         
+##########    VERSION DE NODE     ##########
+           

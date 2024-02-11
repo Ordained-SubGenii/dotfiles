@@ -1,0 +1,676 @@
+2024-01-26 19:28:43,943 p=64733 u=omatech n=ansible | PLAY [general_servers] *****************************************************************************************************************************************
+2024-01-26 19:28:43,948 p=64733 u=omatech n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************
+2024-01-26 19:28:48,200 p=64733 u=omatech n=ansible | ok: [omafront45.omatech.com]
+2024-01-26 19:28:48,756 p=64733 u=omatech n=ansible | ok: [omafront49.omatech.com]
+2024-01-26 19:28:49,471 p=64733 u=omatech n=ansible | ok: [omafront48.omatech.com]
+2024-01-26 19:28:49,541 p=64733 u=omatech n=ansible | ok: [omafront46.omatech.com]
+2024-01-26 19:28:50,147 p=64733 u=omatech n=ansible | ok: [omafront47.omatech.com]
+2024-01-26 19:28:52,866 p=64733 u=omatech n=ansible | ok: [omafront44.omatech.com]
+2024-01-26 19:28:53,185 p=64733 u=omatech n=ansible | ok: [omafront43.omatech.com]
+2024-01-26 19:28:53,745 p=64733 u=omatech n=ansible | ok: [omafront42.omatech.com]
+2024-01-26 19:28:54,040 p=64733 u=omatech n=ansible | ok: [omafront41.omatech.com]
+2024-01-26 19:28:54,556 p=64733 u=omatech n=ansible | ok: [omafront40.omatech.com]
+2024-01-26 19:28:56,607 p=64733 u=omatech n=ansible | ok: [omafront39.omatech.com]
+2024-01-26 19:28:57,092 p=64733 u=omatech n=ansible | ok: [omafront38.omatech.com]
+2024-01-26 19:28:58,262 p=64733 u=omatech n=ansible | ok: [omafront36.omatech.com]
+2024-01-26 19:28:59,218 p=64733 u=omatech n=ansible | ok: [omafront34.omatech.com]
+2024-01-26 19:28:59,450 p=64733 u=omatech n=ansible | ok: [omafront37.omatech.com]
+2024-01-26 19:29:00,996 p=64733 u=omatech n=ansible | ok: [omafront33.omatech.com]
+2024-01-26 19:29:01,451 p=64733 u=omatech n=ansible | ok: [omafront32.omatech.com]
+2024-01-26 19:29:02,845 p=64733 u=omatech n=ansible | ok: [omafront30.omatech.com]
+2024-01-26 19:29:03,546 p=64733 u=omatech n=ansible | ok: [omafront29.omatech.com]
+2024-01-26 19:29:04,822 p=64733 u=omatech n=ansible | ok: [omafront28.omatech.com]
+2024-01-26 19:29:06,532 p=64733 u=omatech n=ansible | ok: [omafront17.omatech.com]
+2024-01-26 19:29:07,178 p=64733 u=omatech n=ansible | ok: [omafront26.omatech.com]
+2024-01-26 19:29:08,200 p=64733 u=omatech n=ansible | ok: [omafront15.omatech.com]
+2024-01-26 19:29:09,567 p=64733 u=omatech n=ansible | ok: [omafront13.omatech.com]
+2024-01-26 19:29:09,745 p=64733 u=omatech n=ansible | TASK [get values] **********************************************************************************************************************************************
+2024-01-26 19:29:11,692 p=64733 u=omatech n=ansible | changed: [omafront49.omatech.com]
+2024-01-26 19:29:11,731 p=64733 u=omatech n=ansible | changed: [omafront45.omatech.com]
+2024-01-26 19:29:11,842 p=64733 u=omatech n=ansible | changed: [omafront46.omatech.com]
+2024-01-26 19:29:11,854 p=64733 u=omatech n=ansible | changed: [omafront48.omatech.com]
+2024-01-26 19:29:12,863 p=64733 u=omatech n=ansible | changed: [omafront47.omatech.com]
+2024-01-26 19:29:13,544 p=64733 u=omatech n=ansible | changed: [omafront44.omatech.com]
+2024-01-26 19:29:13,645 p=64733 u=omatech n=ansible | changed: [omafront43.omatech.com]
+2024-01-26 19:29:13,895 p=64733 u=omatech n=ansible | changed: [omafront41.omatech.com]
+2024-01-26 19:29:14,879 p=64733 u=omatech n=ansible | changed: [omafront40.omatech.com]
+2024-01-26 19:29:15,318 p=64733 u=omatech n=ansible | changed: [omafront39.omatech.com]
+2024-01-26 19:29:15,546 p=64733 u=omatech n=ansible | changed: [omafront42.omatech.com]
+2024-01-26 19:29:15,561 p=64733 u=omatech n=ansible | changed: [omafront38.omatech.com]
+2024-01-26 19:29:15,944 p=64733 u=omatech n=ansible | changed: [omafront37.omatech.com]
+2024-01-26 19:29:16,896 p=64733 u=omatech n=ansible | changed: [omafront36.omatech.com]
+2024-01-26 19:29:17,366 p=64733 u=omatech n=ansible | changed: [omafront34.omatech.com]
+2024-01-26 19:29:17,584 p=64733 u=omatech n=ansible | changed: [omafront33.omatech.com]
+2024-01-26 19:29:17,594 p=64733 u=omatech n=ansible | changed: [omafront32.omatech.com]
+2024-01-26 19:29:17,814 p=64733 u=omatech n=ansible | changed: [omafront30.omatech.com]
+2024-01-26 19:29:18,762 p=64733 u=omatech n=ansible | changed: [omafront29.omatech.com]
+2024-01-26 19:29:19,305 p=64733 u=omatech n=ansible | changed: [omafront28.omatech.com]
+2024-01-26 19:29:19,563 p=64733 u=omatech n=ansible | changed: [omafront26.omatech.com]
+2024-01-26 19:29:19,723 p=64733 u=omatech n=ansible | changed: [omafront15.omatech.com]
+2024-01-26 19:29:20,481 p=64733 u=omatech n=ansible | changed: [omafront17.omatech.com]
+2024-01-26 19:29:20,771 p=64733 u=omatech n=ansible | changed: [omafront13.omatech.com]
+2024-01-26 19:29:20,787 p=64733 u=omatech n=ansible | TASK [Print] ***************************************************************************************************************************************************
+2024-01-26 19:29:20,810 p=64733 u=omatech n=ansible | ok: [omafront49.omatech.com] => {
+    "msg": [
+        ".",
+        "./omatechinternal",
+        "./test",
+        "./html"
+    ]
+}
+2024-01-26 19:29:20,819 p=64733 u=omatech n=ansible | ok: [omafront48.omatech.com] => {
+    "msg": [
+        ".",
+        "./goilaser-backoffice",
+        "./socialwise-front_TODELETE",
+        "./cac",
+        "./html",
+        "./linearchemicals-editora",
+        "./joventweb",
+        "./prestamocapital",
+        "./omatechinternal",
+        "./test",
+        "./omatech-nadal"
+    ]
+}
+2024-01-26 19:29:20,827 p=64733 u=omatech n=ansible | ok: [omafront47.omatech.com] => {
+    "msg": [
+        ".",
+        "./omajsoneditor",
+        "./omatechinternal",
+        "./applichem.com",
+        "./html",
+        "./php56",
+        "./panreac_other_sites",
+        "./panreac_product_loader"
+    ]
+}
+2024-01-26 19:29:20,835 p=64733 u=omatech n=ansible | ok: [omafront46.omatech.com] => {
+    "msg": [
+        ".",
+        "./maskota-api",
+        "./maskota-testing",
+        "./socialwise-front",
+        "./erc_frontend_2022",
+        "./maskota-backoffice",
+        "./catlabweb",
+        "./socialwise",
+        "./mutuaterrassa_2023_dev",
+        "./omatechinternal",
+        "./html",
+        "./factura-electronica-old",
+        "./factura-electronica",
+        "./erc_english_frontend_2022"
+    ]
+}
+2024-01-26 19:29:20,843 p=64733 u=omatech n=ansible | ok: [omafront45.omatech.com] => {
+    "msg": [
+        ".",
+        "./omatechinternal",
+        "./html"
+    ]
+}
+2024-01-26 19:29:20,851 p=64733 u=omatech n=ansible | ok: [omafront44.omatech.com] => {
+    "msg": [
+        ".",
+        "./itwreagents_devel",
+        "./itwreagents_devel_20220711",
+        "./editora-ssg",
+        "./html",
+        "./omatechinternal",
+        "./panreac-product-loader",
+        "./itwreagents"
+    ]
+}
+2024-01-26 19:29:20,862 p=64733 u=omatech n=ansible | ok: [omafront43.omatech.com] => {
+    "msg": [
+        ".",
+        "./freseniusportugal",
+        "./sftp-sync",
+        "./omatechinternal",
+        "./html"
+    ]
+}
+2024-01-26 19:29:20,871 p=64733 u=omatech n=ansible | ok: [omafront42.omatech.com] => {
+    "msg": [
+        ".",
+        "./omatechinternal",
+        "./tram",
+        "./tram-educa-admin",
+        "./tram_bloc",
+        "./trameduca-com-redirect",
+        "./tram-educa",
+        "./html"
+    ]
+}
+2024-01-26 19:29:20,879 p=64733 u=omatech n=ansible | ok: [omafront41.omatech.com] => {
+    "msg": [
+        ".",
+        "./lletra_redirect_es",
+        "./lletra-admin",
+        "./html",
+        "./viquilletra",
+        "./viquilletra_bk_20151104",
+        "./topobiografies",
+        "./extensions",
+        "./topografies_pre_git",
+        "./lletra",
+        "./viquilletra_old",
+        "./escueladelagua",
+        "./lletra_redirect_argus",
+        "./viquilletra_semantic_bundle_antic",
+        "./terrasdeportugal",
+        "./lletra_pre_git",
+        "./lletra_redirect_en",
+        "./lletra_redirect_ca",
+        "./omatechinternal",
+        "./viquilletra_redirect"
+    ]
+}
+2024-01-26 19:29:20,887 p=64733 u=omatech n=ansible | ok: [omafront40.omatech.com] => {
+    "msg": [
+        ".",
+        "./kabisoft",
+        "./html",
+        "./omatechinternal",
+        "./sftp-sync-backup",
+        "./sftp-sync"
+    ]
+}
+2024-01-26 19:29:20,896 p=64733 u=omatech n=ansible | ok: [omafront39.omatech.com] => {
+    "msg": [
+        ".",
+        "./provetsa-devel",
+        "./provetsa",
+        "./provetsa_redirect",
+        "./provetsa-loader",
+        "./html",
+        "./omatechinternal"
+    ]
+}
+2024-01-26 19:29:20,905 p=64733 u=omatech n=ansible | ok: [omafront38.omatech.com] => {
+    "msg": [
+        ".",
+        "./omatechinternal",
+        "./html",
+        "./mutua-terrassa-api"
+    ]
+}
+2024-01-26 19:29:20,913 p=64733 u=omatech n=ansible | ok: [omafront37.omatech.com] => {
+    "msg": [
+        ".",
+        "./html",
+        "./auditor",
+        "./jovesimobilitat",
+        "./omatechinternal",
+        "./coleauditors"
+    ]
+}
+2024-01-26 19:29:20,922 p=64733 u=omatech n=ansible | ok: [omafront36.omatech.com] => {
+    "msg": [
+        ".",
+        "./mucavi",
+        "./nutricion",
+        "./nutritalks",
+        "./test_mucavi",
+        "./html",
+        "./test_nutricion",
+        "./seguimosatulado_redirect",
+        "./seguimosatulado.com",
+        "./public_html",
+        "./test_nutritalks",
+        "./usuariosfresenius",
+        "./test_nutrihome",
+        "./omatechinternal",
+        "./proyectoalgoritmia",
+        "./mucavi_redirect",
+        "./dev.mucavi.es",
+        "./agorafreseniuskabi",
+        "./nutrihome",
+        "./nutrihome_landing",
+        "./nutricion_redirect",
+        "./alfemo",
+        "./sftp_rockin"
+    ]
+}
+2024-01-26 19:29:20,929 p=64733 u=omatech n=ansible | ok: [omafront34.omatech.com] => {
+    "msg": [
+        ".",
+        "./html",
+        "./flaxandkale_redirect_dev",
+        "./flaxandkale-api",
+        "./flaxandkale",
+        "./omatechinternal",
+        "./teresasjuicery_redirects",
+        "./smtp_test"
+    ]
+}
+2024-01-26 19:29:20,938 p=64733 u=omatech n=ansible | ok: [omafront33.omatech.com] => {
+    "msg": [
+        ".",
+        "./html",
+        "./omatechinternal"
+    ]
+}
+2024-01-26 19:29:20,946 p=64733 u=omatech n=ansible | ok: [omafront32.omatech.com] => {
+    "msg": [
+        ".",
+        "./tnc-editora",
+        "./api-refruiting-store.omatech.com",
+        "./summa",
+        "./teatrelliure",
+        "./top-corredurias",
+        "./panreac_other_sites",
+        "./panreac_product_loader",
+        "./pronokal_konnect",
+        "./ediversa-main",
+        "./dualblist",
+        "./videochat",
+        "./ediversa_ca_redirect",
+        "./safly-api",
+        "./Refruiting",
+        "./retro-play-zone-lastversion",
+        "./joventrepublica-prod",
+        "./easypromoswp",
+        "./hawkers",
+        "./auditori_20160523",
+        "./easypromos-markup",
+        "./ems",
+        "./webhook",
+        "./mutua-terrassa-api",
+        "./geo-redirector",
+        "./tlbooking_dev",
+        "./erc_maquetacio",
+        "./cecot-facturae",
+        "./axioma",
+        "./obc",
+        "./safly-demo",
+        "./adaviac-redirect",
+        "./kyperion",
+        "./ediversa_es_redirect",
+        "./kyperion.old",
+        "./pdf-parser",
+        "./panreac-editora",
+        "./omajsoneditor",
+        "./pronokal",
+        "./igarle",
+        "./irpfparser",
+        "./ediversa-main-dev",
+        "./tempo",
+        "./smtp_test",
+        "./mutua_intranet_admin",
+        "./myulma-markup",
+        "./igarledebug",
+        "./panreac-frontend-dev",
+        "./pronokal_ecommerce",
+        "./pronokal-genomics",
+        "./conceptfarma-bo-uanaknow",
+        "./panreac-frontend-develop",
+        "./adaviac",
+        "./retro-play-zone",
+        "./timedi",
+        "./colegieconomistes",
+        "./panreac-old-landing",
+        "./omatechinternal",
+        "./simple-auth-proxy",
+        "./provetsa",
+        "./terbalenganches",
+        "./mentorvr",
+        "./tlbooking",
+        "./shimoku",
+        "./ivi-ginecologos",
+        "./reckitt.20220502",
+        "./mailtrack-example",
+        "./auditori_20160216",
+        "./lv-hemeroteca",
+        "./lasseguradoraapp",
+        "./synlab",
+        "./teatrelliure-visita-virtual",
+        "./pronokalwordpress",
+        "./erc_front",
+        "./comedifact",
+        "./phh_redirect",
+        "./top-corredurias-es-redirect",
+        "./terbalenganches_redirects",
+        "./omatech2022-blog",
+        "./tundra-viatges",
+        "./ediversa_en_redirect",
+        "./web-serveis",
+        "./auditori",
+        "./tnc2016",
+        "./lletnostra",
+        "./timedi-elearning",
+        "./irpf-parser-node",
+        "./lletnostra-deployer",
+        "./omatech2022",
+        "./summa-pipeline",
+        "./lavanguardia-hemeroteca",
+        "./reckitt",
+        "./testChunkUpload",
+        "./coleauditors-formsello",
+        "./kultursistema",
+        "./nomo",
+        "./omatech-maquetacio",
+        "./als-transfer-pricing",
+        "./html",
+        "./iviforo",
+        "./myulma",
+        "./lavanguardia-backoffice",
+        "./panreac-frontend",
+        "./lot-nadal",
+        "./tnc-editora-prod",
+        "./nutrikabi",
+        "./tncEditoraProd",
+        "./top-corredurias-cat-redirect",
+        "./provetsa-loader",
+        "./kyperion-backoffice",
+        "./mutua_intranet",
+        "./terbal",
+        "./pmo-monstar-lab",
+        "./joventrepublica",
+        "./phh",
+        "./joventweb",
+        "./reckitt-dev"
+    ]
+}
+2024-01-26 19:29:20,959 p=64733 u=omatech n=ansible | ok: [omafront30.omatech.com] => {
+    "msg": [
+        ".",
+        "./lavanguardia-graella",
+        "./lavanguardia-horoscop",
+        "./omatechinternal",
+        "./lavanguardia-horoscop.20210730",
+        "./lavanguardia-agrupador",
+        "./lavanguardia-graella-redirect",
+        "./horoscopolavanguardia_redirect",
+        "./html"
+    ]
+}
+2024-01-26 19:29:20,968 p=64733 u=omatech n=ansible | ok: [omafront29.omatech.com] => {
+    "msg": [
+        ".",
+        "./aulanutricion",
+        "./oncodomicilio",
+        "./nutrikabi",
+        "./disfagiaformacion",
+        "./kabi",
+        "./disfagiaformacion_redirect",
+        "./omatechinternal",
+        "./disfagiasolucion",
+        "./redirects",
+        "./kabi2022",
+        "./disfagiawebapp",
+        "./html",
+        "./kabi_admin",
+        "./nutricionemocional_redirect",
+        "./estudio-uci",
+        "./nutricionemocional",
+        "./nutriassist.es"
+    ]
+}
+2024-01-26 19:29:20,976 p=64733 u=omatech n=ansible | ok: [omafront28.omatech.com] => {
+    "msg": [
+        ".",
+        "./espai_proven",
+        "./editora6",
+        "./tren_ensenyament_devel",
+        "./doctodata",
+        "./mycarready",
+        "./redireccio",
+        "./omatechinternal",
+        "./mycarready_dev",
+        "./widgettrioteca",
+        "./secretariat",
+        "./iviusa",
+        "./minifiv",
+        "./tren_ensenyament",
+        "./bs-sas",
+        "./joyacorona",
+        "./reindesa2013",
+        "./phpsysinfo",
+        "./smtp_test",
+        "./nofacedemosdk",
+        "./esadescreensaver2015",
+        "./metalcaucho",
+        "./advancing",
+        "./trendelsllacs",
+        "./trendelsllacs_redirect",
+        "./tlbooking.omatest.com",
+        "./scur.cat.20181217",
+        "./html",
+        "./adamolookup",
+        "./tviso-interface",
+        "./control-horari",
+        "./icarweb",
+        "./relats_redirect",
+        "./markup-base",
+        "./dasler_old",
+        "./vallirana",
+        "./lavanguardia-horoscopo-devel",
+        "./php72",
+        "./catlabweb",
+        "./metalcaucho_redirect",
+        "./controlrcv",
+        "./houdinis",
+        "./institutjaume1er",
+        "./metalcaucho-loader",
+        "./newdasler",
+        "./scur.cat",
+        "./ivi",
+        "./adamowordpress",
+        "./pmm_history",
+        "./iviuk",
+        "./relats",
+        "./controlasmapp_demo",
+        "./monitor",
+        "./lagalera",
+        "./piscineando",
+        "./bridge",
+        "./eltrendelensenyament",
+        "./blogartimetria",
+        "./dasler2017",
+        "./controlasmapp",
+        "./lagalera_git",
+        "./annalindh_redirect",
+        "./memoriapersonaluab",
+        "./advancing_redirect",
+        "./estudio-uci",
+        "./artimetria",
+        "./ibcassist",
+        "./pucca",
+        "./annalindh",
+        "./omatech2022",
+        "./tram_old",
+        "./php56",
+        "./mudanzaslopez",
+        "./icar-widget",
+        "./trioteca",
+        "./nominator",
+        "./previfuturo",
+        "./slack-commander",
+        "./mycarready_backup",
+        "./demotrioteca",
+        "./daslerblog",
+        "./lavanguardia-graella-devel",
+        "./previfuturo-admin",
+        "./lavanguardia-agrupador-devel",
+        "./institutjaume1er_down",
+        "./factureitor2",
+        "./omatech2015",
+        "./seeux",
+        "./advancing_test"
+    ]
+}
+2024-01-26 19:29:20,987 p=64733 u=omatech n=ansible | ok: [omafront26.omatech.com] => {
+    "msg": [
+        ".",
+        "./erc_frontend",
+        "./teresasjuicery_redirects",
+        "./crandonweb-backup-20190904",
+        "./crandon_engine_redirect",
+        "./html",
+        "./thr",
+        "./clilab-editora",
+        "./espuna",
+        "./applichem.com",
+        "./dagolldagom",
+        "./mistory",
+        "./atomsandbricks",
+        "./fomenti-front",
+        "./flaxandkale_old",
+        "./raffel-pages",
+        "./aminolover",
+        "./flaxandkale-admin",
+        "./mitek-sdk",
+        "./clilab",
+        "./dr-vet",
+        "./espuna-us-redirect",
+        "./pronokal",
+        "./ediversa",
+        "./omatechinternal",
+        "./clilab.omatech.com",
+        "./flaxandkale",
+        "./imaginator",
+        "./clilab.20211222",
+        "./espuna-suissa",
+        "./rickebrick-loader",
+        "./arcama",
+        "./crandondev",
+        "./ama-bk",
+        "./espuna_catalog_export",
+        "./ygroup",
+        "./dreamresorts",
+        "./meteocat",
+        "./coomo_redirect",
+        "./terbalenganches",
+        "./thr.20211220",
+        "./rickebrick-loader-original",
+        "./kultursistema",
+        "./provideapp",
+        "./coomo_blog",
+        "./tram",
+        "./pronokalwordpress",
+        "./cet_wp",
+        "./kultursistema_dev",
+        "./clilab-editora-dev",
+        "./foxtenn",
+        "./provideapp_dev",
+        "./crandon",
+        "./piplabs",
+        "./rogerroca_wp",
+        "./espuna_bck",
+        "./espunatapasessentials_ca",
+        "./comedibuild_redirect",
+        "./wombai",
+        "./ygroup.omatech.redirect",
+        "./victorquiros",
+        "./raffel-pages-admin-old",
+        "./ama",
+        "./espuna_backup_new",
+        "./thr-no-git-20211220",
+        "./coomo",
+        "./foxtenn-daviscup",
+        "./crandonweb"
+    ]
+}
+2024-01-26 19:29:20,995 p=64733 u=omatech n=ansible | ok: [omafront17.omatech.com] => {
+    "msg": [
+        ".",
+        "./mutua_sociosanitaria_frontend.bkp",
+        "./mutua_aptima-editora_dev",
+        "./mutua_aptima_frontend_nogit",
+        "./mutuarequests",
+        "./aptima_redirect_ca",
+        "./mutuaterrassa_dev",
+        "./mutua_asseguradora",
+        "./mutua_aptima_frontend_dev",
+        "./servei_no_disponible",
+        "./residentsmutuaterrassa.com",
+        "./mutua_asseguradora_dev-editora",
+        "./mutua_sociosanitaria_redirect",
+        "./mutua-tv",
+        "./mutua_sociosanitaria_frontend_nogit",
+        "./mutua_aptima_frontend",
+        "./assegurances.mutuaterrassa.com",
+        "./mutuaterrassa_jornades",
+        "./mutuaterrassa",
+        "./mutua_sociosanitaria_frontend",
+        "./mutua_asseguradora_dev",
+        "./simpleauthproxy",
+        "./aptima_redirect",
+        "./mutua_sociosanitaria_frontend.20210426",
+        "./mutuaterrassa_blogs",
+        "./mutuaprevisora_redirect",
+        "./omatechinternal",
+        "./mutua_asseguradora-editora",
+        "./mutua_sociosanitaria_admin_dev",
+        "./mutuaterrassa_redirect",
+        "./mutuaterrassa_blogs_bck",
+        "./html",
+        "./mutua_sociosanitaria_admin",
+        "./mutua_aptima-editora",
+        "./mutua_sociosanitaria_frontend_dev"
+    ]
+}
+2024-01-26 19:29:20,996 p=64733 u=omatech n=ansible | ok: [omafront15.omatech.com] => {
+    "msg": [
+        ".",
+        "./seguimosatulado_redirect",
+        "./nutricion",
+        "./agorafreseniuskabi_pre",
+        "./agorafreseniuskabi",
+        "./mucavi",
+        "./test_nutritalks",
+        "./sftp_rockin",
+        "./html",
+        "./nutricion_redirect",
+        "./alfemo",
+        "./nutritalks",
+        "./test_nutricion",
+        "./usuariosfresenius",
+        "./dev.mucavi.es",
+        "./nutrihome",
+        "./seguimosatulado.com",
+        "./public_html",
+        "./omatechinternal",
+        "./proyectoalgoritmia",
+        "./nutrihome_landing",
+        "./mucavi_redirect",
+        "./test_mucavi",
+        "./test_nutrihome"
+    ]
+}
+2024-01-26 19:29:21,005 p=64733 u=omatech n=ansible | ok: [omafront13.omatech.com] => {
+    "msg": [
+        ".",
+        "./deaprensa.20220818",
+        "./omatechinternal",
+        "./html",
+        "./deaprensa"
+    ]
+}
+2024-01-26 19:29:21,325 p=64733 u=omatech n=ansible | PLAY RECAP *****************************************************************************************************************************************************
+2024-01-26 19:29:21,325 p=64733 u=omatech n=ansible | omafront13.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,325 p=64733 u=omatech n=ansible | omafront15.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,325 p=64733 u=omatech n=ansible | omafront17.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,325 p=64733 u=omatech n=ansible | omafront26.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,325 p=64733 u=omatech n=ansible | omafront28.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,325 p=64733 u=omatech n=ansible | omafront29.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,325 p=64733 u=omatech n=ansible | omafront30.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,325 p=64733 u=omatech n=ansible | omafront32.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,326 p=64733 u=omatech n=ansible | omafront33.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,326 p=64733 u=omatech n=ansible | omafront34.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,326 p=64733 u=omatech n=ansible | omafront36.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,326 p=64733 u=omatech n=ansible | omafront37.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,326 p=64733 u=omatech n=ansible | omafront38.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,326 p=64733 u=omatech n=ansible | omafront39.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,326 p=64733 u=omatech n=ansible | omafront40.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,326 p=64733 u=omatech n=ansible | omafront41.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,326 p=64733 u=omatech n=ansible | omafront42.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,326 p=64733 u=omatech n=ansible | omafront43.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,326 p=64733 u=omatech n=ansible | omafront44.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,326 p=64733 u=omatech n=ansible | omafront45.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,326 p=64733 u=omatech n=ansible | omafront46.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,326 p=64733 u=omatech n=ansible | omafront47.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,326 p=64733 u=omatech n=ansible | omafront48.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-01-26 19:29:21,326 p=64733 u=omatech n=ansible | omafront49.omatech.com     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   

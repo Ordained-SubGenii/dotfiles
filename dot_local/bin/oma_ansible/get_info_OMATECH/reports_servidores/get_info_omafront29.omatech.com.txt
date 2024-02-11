@@ -1,0 +1,530 @@
+##########    HOSTNAME E IP    ##########
+omafront29.omatech.com
+5.79.110.131
+
+##########    PHP VERSION LIST    ##########
+php5.6-fpm.service
+php7.2-fpm.service
+php7.3-fpm.service
+php8.1-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+   
+##########    OS VERSION     ##########
+  Operating System: Ubuntu 18.04.6 LTS
+     
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+aulanutricion.conf -> ../sites-available/aulanutricion.conf
+disfagiaformacion.conf -> ../sites-available/disfagiaformacion.conf
+kabi.conf -> ../sites-available/kabi.conf
+disfagiawebapp.conf -> ../sites-available/disfagiawebapp.conf
+estudiouci.conf -> ../sites-available/estudiouci.conf
+estudiouci-le-ssl.conf -> /etc/apache2/sites-available/estudiouci-le-ssl.conf
+aulanutricion-le-ssl.conf -> /etc/apache2/sites-available/aulanutricion-le-ssl.conf
+disfagiasolucion.es.conf -> ../sites-available/disfagiasolucion.es.conf
+disfagiasolucion.com.conf -> ../sites-available/disfagiasolucion.com.conf
+disfagiaformacion-le-ssl.conf -> /etc/apache2/sites-available/disfagiaformacion-le-ssl.conf
+disfagiasolucion.es-le-ssl.conf -> /etc/apache2/sites-available/disfagiasolucion.es-le-ssl.conf
+disfagiasolucion.com-le-ssl.conf -> /etc/apache2/sites-available/disfagiasolucion.com-le-ssl.conf
+disfagiawebapp-le-ssl.conf -> /etc/apache2/sites-available/disfagiawebapp-le-ssl.conf
+kabi-le-ssl.conf -> /etc/apache2/sites-available/kabi-le-ssl.conf
+disfagiaformacion.com.conf -> ../sites-available/disfagiaformacion.com.conf
+disfagiaformacion.com-le-ssl.conf -> /etc/apache2/sites-available/disfagiaformacion.com-le-ssl.conf
+disfapp.com.conf -> ../sites-available/disfapp.com.conf
+oncodomicilio.es.conf -> ../sites-available/oncodomicilio.es.conf
+oncodomicilio.es-le-ssl.conf -> /etc/apache2/sites-available/oncodomicilio.es-le-ssl.conf
+disfapp.es.conf -> ../sites-available/disfapp.es.conf
+kabisoft.com.conf -> ../sites-available/kabisoft.com.conf
+pac-es.es.conf -> ../sites-available/pac-es.es.conf
+kabisoft.com-le-ssl.conf -> /etc/apache2/sites-available/kabisoft.com-le-ssl.conf
+pac-es.es-le-ssl.conf -> /etc/apache2/sites-available/pac-es.es-le-ssl.conf
+omatechinternal-le-ssl.conf -> /etc/apache2/sites-available/omatechinternal-le-ssl.conf
+kabinut.omatech.com.conf -> ../sites-available/kabinut.omatech.com.conf
+kabinut.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/kabinut.omatech.com-le-ssl.conf
+app.nutriassist.es-le-ssl.conf -> /etc/apache2/sites-available/app.nutriassist.es-le-ssl.conf
+nutriassist.es.conf -> ../sites-available/nutriassist.es.conf
+nutriassist.es-le-ssl.conf -> /etc/apache2/sites-available/nutriassist.es-le-ssl.conf
+kabi2022.omatech.com.conf -> ../sites-available/kabi2022.omatech.com.conf
+kabi2022.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/kabi2022.omatech.com-le-ssl.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+omafront29.omatech.com
+5.79.110.131
+php5.6-fpm.service
+php7.2-fpm.service
+php7.3-fpm.service
+php8.1-fpm.service
+mysql  Ver 14.14 Distrib 5.7.42, for Linux (x86_64) using  EditLine wrapper
+  Operating System: Ubuntu 18.04.6 LTS
+##########    CPU      ##########
+Filesystem     Type      Size  Used Avail Use% Mounted on
+udev           devtmpfs  8.4G     0  8.4G   0% /dev
+tmpfs          tmpfs     1.7G  881k  1.7G   1% /run
+/dev/sda5      ext4      3.0T   25G  2.8T   1% /
+tmpfs          tmpfs     8.4G  1.3M  8.4G   1% /dev/shm
+tmpfs          tmpfs     5.3M     0  5.3M   0% /run/lock
+tmpfs          tmpfs     8.4G     0  8.4G   0% /sys/fs/cgroup
+/dev/sda4      ext4      4.1G   83M  3.8G   3% /tmp
+/dev/sda2      ext2      1.1G  131M  873M  14% /boot
+tmpfs          tmpfs     1.7G     0  1.7G   0% /run/user/1002
+##########    MEM      ##########
+              total        used        free      shared  buff/cache   available
+Mem:          16009        3901        1038         342       11070       11446
+Swap:          4095           2        4093
+Server version: Apache/2.4.57 (Ubuntu)
+Server built:   2023-04-08T12:55:31
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+aulanutricion.conf -> ../sites-available/aulanutricion.conf
+disfagiaformacion.conf -> ../sites-available/disfagiaformacion.conf
+kabi.conf -> ../sites-available/kabi.conf
+disfagiawebapp.conf -> ../sites-available/disfagiawebapp.conf
+estudiouci.conf -> ../sites-available/estudiouci.conf
+estudiouci-le-ssl.conf -> /etc/apache2/sites-available/estudiouci-le-ssl.conf
+aulanutricion-le-ssl.conf -> /etc/apache2/sites-available/aulanutricion-le-ssl.conf
+disfagiasolucion.es.conf -> ../sites-available/disfagiasolucion.es.conf
+disfagiasolucion.com.conf -> ../sites-available/disfagiasolucion.com.conf
+disfagiaformacion-le-ssl.conf -> /etc/apache2/sites-available/disfagiaformacion-le-ssl.conf
+disfagiasolucion.es-le-ssl.conf -> /etc/apache2/sites-available/disfagiasolucion.es-le-ssl.conf
+disfagiasolucion.com-le-ssl.conf -> /etc/apache2/sites-available/disfagiasolucion.com-le-ssl.conf
+disfagiawebapp-le-ssl.conf -> /etc/apache2/sites-available/disfagiawebapp-le-ssl.conf
+kabi-le-ssl.conf -> /etc/apache2/sites-available/kabi-le-ssl.conf
+disfagiaformacion.com.conf -> ../sites-available/disfagiaformacion.com.conf
+disfagiaformacion.com-le-ssl.conf -> /etc/apache2/sites-available/disfagiaformacion.com-le-ssl.conf
+disfapp.com.conf -> ../sites-available/disfapp.com.conf
+oncodomicilio.es.conf -> ../sites-available/oncodomicilio.es.conf
+oncodomicilio.es-le-ssl.conf -> /etc/apache2/sites-available/oncodomicilio.es-le-ssl.conf
+disfapp.es.conf -> ../sites-available/disfapp.es.conf
+kabisoft.com.conf -> ../sites-available/kabisoft.com.conf
+pac-es.es.conf -> ../sites-available/pac-es.es.conf
+kabisoft.com-le-ssl.conf -> /etc/apache2/sites-available/kabisoft.com-le-ssl.conf
+pac-es.es-le-ssl.conf -> /etc/apache2/sites-available/pac-es.es-le-ssl.conf
+omatechinternal-le-ssl.conf -> /etc/apache2/sites-available/omatechinternal-le-ssl.conf
+kabinut.omatech.com.conf -> ../sites-available/kabinut.omatech.com.conf
+kabinut.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/kabinut.omatech.com-le-ssl.conf
+app.nutriassist.es-le-ssl.conf -> /etc/apache2/sites-available/app.nutriassist.es-le-ssl.conf
+nutriassist.es.conf -> ../sites-available/nutriassist.es.conf
+nutriassist.es-le-ssl.conf -> /etc/apache2/sites-available/nutriassist.es-le-ssl.conf
+kabi2022.omatech.com.conf -> ../sites-available/kabi2022.omatech.com.conf
+kabi2022.omatech.com-le-ssl.conf -> /etc/apache2/sites-available/kabi2022.omatech.com-le-ssl.conf
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/app.nutriassist.es-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+Name:	app.nutriassist.es
+Address: 104.19.240.93
+Name:	app.nutriassist.es
+Address: 104.19.241.93
+
+/etc/apache2/sites-enabled/aulanutricion.conf
+/etc/apache2/sites-enabled/aulanutricion.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	aulanutricion.es
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+www.aulanutricion.es	canonical name = aulanutricion.es.
+Name:	aulanutricion.es
+Address: 5.79.110.131
+
+El nslookup NO coincide con la misma IP del servidor
+aulanutricion.omatech.com	canonical name = leaseweb16.omatech.com.
+Name:	leaseweb16.omatech.com
+Address: 94.75.201.92
+
+/etc/apache2/sites-enabled/aulanutricion-le-ssl.conf
+/etc/apache2/sites-enabled/aulanutricion-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	aulanutricion.es
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+www.aulanutricion.es	canonical name = aulanutricion.es.
+Name:	aulanutricion.es
+Address: 5.79.110.131
+
+El nslookup NO coincide con la misma IP del servidor
+aulanutricion.omatech.com	canonical name = leaseweb16.omatech.com.
+Name:	leaseweb16.omatech.com
+Address: 94.75.201.92
+
+/etc/apache2/sites-enabled/disfagiaformacion.com.conf
+/etc/apache2/sites-enabled/disfagiaformacion.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	disfagiaformacion.com
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+www.disfagiaformacion.com	canonical name = disfagiaformacion.com.
+Name:	disfagiaformacion.com
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/disfagiaformacion.com-le-ssl.conf
+/etc/apache2/sites-enabled/disfagiaformacion.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	disfagiaformacion.com
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+www.disfagiaformacion.com	canonical name = disfagiaformacion.com.
+Name:	disfagiaformacion.com
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/disfagiaformacion.conf
+/etc/apache2/sites-enabled/disfagiaformacion.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	disfagiaformacion.es
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+www.disfagiaformacion.es	canonical name = disfagiaformacion.es.
+Name:	disfagiaformacion.es
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/disfagiaformacion-le-ssl.conf
+/etc/apache2/sites-enabled/disfagiaformacion-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	disfagiaformacion.es
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+www.disfagiaformacion.es	canonical name = disfagiaformacion.es.
+Name:	disfagiaformacion.es
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/disfagiasolucion.com.conf
+/etc/apache2/sites-enabled/disfagiasolucion.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	disfagiasolucion.com
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+www.disfagiasolucion.com	canonical name = disfagiasolucion.com.
+Name:	disfagiasolucion.com
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/disfagiasolucion.com-le-ssl.conf
+/etc/apache2/sites-enabled/disfagiasolucion.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	disfagiasolucion.com
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+www.disfagiasolucion.com	canonical name = disfagiasolucion.com.
+Name:	disfagiasolucion.com
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/disfagiasolucion.es.conf
+/etc/apache2/sites-enabled/disfagiasolucion.es.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	disfagiasolucion.es
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+www.disfagiasolucion.es	canonical name = disfagiasolucion.es.
+Name:	disfagiasolucion.es
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/disfagiasolucion.es-le-ssl.conf
+/etc/apache2/sites-enabled/disfagiasolucion.es-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	disfagiasolucion.es
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+www.disfagiasolucion.es	canonical name = disfagiasolucion.es.
+Name:	disfagiasolucion.es
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/disfagiawebapp.conf
+/etc/apache2/sites-enabled/disfagiawebapp.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	disfapp.es
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+www.disfapp.es	canonical name = disfapp.es.
+Name:	disfapp.es
+Address: 5.79.110.131
+
+El nslookup NO coincide con la misma IP del servidor
+disfagiawebapp.omatech.com	canonical name = leaseweb16.omatech.com.
+Name:	leaseweb16.omatech.com
+Address: 94.75.201.92
+
+/etc/apache2/sites-enabled/disfagiawebapp-le-ssl.conf
+/etc/apache2/sites-enabled/disfagiawebapp-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	disfapp.es
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+www.disfapp.es	canonical name = disfapp.es.
+Name:	disfapp.es
+Address: 5.79.110.131
+
+El nslookup NO coincide con la misma IP del servidor
+disfagiawebapp.omatech.com	canonical name = leaseweb16.omatech.com.
+Name:	leaseweb16.omatech.com
+Address: 94.75.201.92
+
+/etc/apache2/sites-enabled/disfapp.com.conf
+/etc/apache2/sites-enabled/disfapp.com.conf
+El nslookup SI coincide con la misma IP del servidor
+www.disfapp.com	canonical name = disfapp.com.
+Name:	disfapp.com
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	disfapp.com
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/disfapp.es.conf
+/etc/apache2/sites-enabled/disfapp.es.conf
+El nslookup SI coincide con la misma IP del servidor
+www.disfapp.es	canonical name = disfapp.es.
+Name:	disfapp.es
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	disfapp.es
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/estudiouci.conf
+/etc/apache2/sites-enabled/estudiouci.conf
+El nslookup SI coincide con la misma IP del servidor
+www.nutrictrofic.es	canonical name = nutrictrofic.es.
+Name:	nutrictrofic.es
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	nutrictrofic.es
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/estudiouci-le-ssl.conf
+/etc/apache2/sites-enabled/estudiouci-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.nutrictrofic.es	canonical name = nutrictrofic.es.
+Name:	nutrictrofic.es
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	nutrictrofic.es
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/kabi2022.omatech.com.conf
+/etc/apache2/sites-enabled/kabi2022.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	kabi.es
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+www.kabi.es	canonical name = kabi.es.
+Name:	kabi.es
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+kabi2022.omatech.com	canonical name = omafront29.omatech.com.
+Name:	omafront29.omatech.com
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/kabi2022.omatech.com-le-ssl.conf
+/etc/apache2/sites-enabled/kabi2022.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	kabi.es
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+www.kabi.es	canonical name = kabi.es.
+Name:	kabi.es
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+kabi2022.omatech.com	canonical name = omafront29.omatech.com.
+Name:	omafront29.omatech.com
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/kabi.conf
+/etc/apache2/sites-enabled/kabi.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	kabi.es
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+www.kabi.es	canonical name = kabi.es.
+Name:	kabi.es
+Address: 5.79.110.131
+
+El nslookup NO coincide con la misma IP del servidor
+kabi2017.omatech.com	canonical name = leaseweb5.omatech.com.
+Name:	leaseweb5.omatech.com
+Address: 85.17.122.28
+
+/etc/apache2/sites-enabled/kabi-le-ssl.conf
+/etc/apache2/sites-enabled/kabi-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	kabi.es
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+www.kabi.es	canonical name = kabi.es.
+Name:	kabi.es
+Address: 5.79.110.131
+
+El nslookup NO coincide con la misma IP del servidor
+kabi2017.omatech.com	canonical name = leaseweb5.omatech.com.
+Name:	leaseweb5.omatech.com
+Address: 85.17.122.28
+
+/etc/apache2/sites-enabled/kabinut.omatech.com.conf
+El nslookup SI coincide con la misma IP del servidor
+kabinut.omatech.com	canonical name = omafront29.omatech.com.
+Name:	omafront29.omatech.com
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/kabinut.omatech.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+kabinut.omatech.com	canonical name = omafront29.omatech.com.
+Name:	omafront29.omatech.com
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/kabisoft.com.conf
+/etc/apache2/sites-enabled/kabisoft.com.conf
+El nslookup NO coincide con la misma IP del servidor
+www.kabisoft.com	canonical name = kabisoft.com.
+Name:	kabisoft.com
+Address: 212.32.244.78
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	kabisoft.com
+Address: 212.32.244.78
+
+/etc/apache2/sites-enabled/kabisoft.com-le-ssl.conf
+/etc/apache2/sites-enabled/kabisoft.com-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+www.kabisoft.com	canonical name = kabisoft.com.
+Name:	kabisoft.com
+Address: 212.32.244.78
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	kabisoft.com
+Address: 212.32.244.78
+
+/etc/apache2/sites-enabled/nutriassist.es.conf
+/etc/apache2/sites-enabled/nutriassist.es.conf
+El nslookup NO coincide con la misma IP del servidor
+www.nutriassist.es	canonical name = apex-loadbalancer.netlify.com.
+Name:	apex-loadbalancer.netlify.com
+Address: 99.83.231.61
+Name:	apex-loadbalancer.netlify.com
+Address: 75.2.60.5
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	nutriassist.es
+Address: 75.2.60.5
+
+/etc/apache2/sites-enabled/nutriassist.es-le-ssl.conf
+/etc/apache2/sites-enabled/nutriassist.es-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+www.nutriassist.es	canonical name = apex-loadbalancer.netlify.com.
+Name:	apex-loadbalancer.netlify.com
+Address: 99.83.231.61
+Name:	apex-loadbalancer.netlify.com
+Address: 75.2.60.5
+
+El nslookup NO coincide con la misma IP del servidor
+Name:	nutriassist.es
+Address: 75.2.60.5
+
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront29.omatech.com
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/omatechinternal-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront29.omatech.com
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/oncodomicilio.es.conf
+/etc/apache2/sites-enabled/oncodomicilio.es.conf
+El nslookup NO coincide con la misma IP del servidor
+** server can't find www.oncodomicilio.es: NXDOMAIN
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find oncodomicilio.es: NXDOMAIN
+
+/etc/apache2/sites-enabled/oncodomicilio.es-le-ssl.conf
+/etc/apache2/sites-enabled/oncodomicilio.es-le-ssl.conf
+El nslookup NO coincide con la misma IP del servidor
+** server can't find www.oncodomicilio.es: NXDOMAIN
+
+El nslookup NO coincide con la misma IP del servidor
+** server can't find oncodomicilio.es: NXDOMAIN
+
+/etc/apache2/sites-enabled/pac-es.es.conf
+/etc/apache2/sites-enabled/pac-es.es.conf
+El nslookup SI coincide con la misma IP del servidor
+www.pac-es.es	canonical name = pac-es.es.
+Name:	pac-es.es
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	pac-es.es
+Address: 5.79.110.131
+
+/etc/apache2/sites-enabled/pac-es.es-le-ssl.conf
+/etc/apache2/sites-enabled/pac-es.es-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.pac-es.es	canonical name = pac-es.es.
+Name:	pac-es.es
+Address: 5.79.110.131
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	pac-es.es
+Address: 5.79.110.131
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+aulanutricion-le-ssl.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+aulanutricion.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+disfagiaformacion-le-ssl.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+disfagiaformacion.com-le-ssl.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+disfagiaformacion.com.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+disfagiaformacion.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+disfagiasolucion.com-le-ssl.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+disfagiasolucion.com.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+disfagiasolucion.es-le-ssl.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+disfagiasolucion.es.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+disfagiawebapp-le-ssl.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+disfagiawebapp.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+disfapp.com.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+disfapp.es.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+estudiouci-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+estudiouci.conf:    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+kabi-le-ssl.conf:      SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+kabi.conf:      SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+kabi2022.omatech.com-le-ssl.conf:      SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+kabi2022.omatech.com.conf:      SetHandler "proxy:unix:/var/run/php/php8.1-fpm.sock|fcgi://localhost/"
+kabinut.omatech.com-le-ssl.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+kabinut.omatech.com.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+kabisoft.com-le-ssl.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+kabisoft.com.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+omatechinternal-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+omatechinternal.conf:    SetHandler "proxy:unix:/var/run/php/php7.3-fpm.sock|fcgi://localhost/"
+oncodomicilio.es-le-ssl.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+oncodomicilio.es.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+pac-es.es-le-ssl.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+pac-es.es.conf:      SetHandler "proxy:unix:/var/run/php/php5.6-fpm.sock|fcgi://localhost/"
+         
+##########    VERSION DE NODE     ##########
+v8.17.0
+           

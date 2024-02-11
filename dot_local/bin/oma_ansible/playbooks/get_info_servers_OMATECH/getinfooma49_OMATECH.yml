@@ -1,0 +1,231 @@
+- name: Obtención de información del host de servidores OMATECH
+  hosts: omafront49.omatech.com 
+  become: yes
+  gather_facts: true
+  tasks:
+  - name: Creación fichero versiones software
+    ansible.builtin.shell:
+      cmd: touch get_info_{{inventory_hostname}}.txt
+      chdir: /root/scripts
+      executable: /bin/bash   
+
+  - name: Creación cabecera HOSTNAME
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: '##########    HOSTNAME E IP    ##########'
+
+  - name: Inserción del nombre de host en el fichero /root/scripts/get_info_nombre_servidor.txt
+    ansible.builtin.shell: 
+      cmd: hostname >> /root/scripts/get_info_{{inventory_hostname}}.txt
+      chdir: / 
+      executable: /bin/bash 
+
+  - name: Obtener IP del server
+    ansible.builtin.shell: 
+      cmd: dig {{inventory_hostname}} +short >> /root/scripts/get_info_{{inventory_hostname}}.txt
+      executable: /bin/bash
+
+        #  - name: Crear nueva linea
+        #    lineinfile: 
+        #      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+        #      line: "{{ item }}"
+        #      insertbefore: EOF
+        #    with_items: "\n"
+
+  - name: Creación cabecera PHP
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: '##########    PHP VERSION LIST    ##########'
+  
+  - name: Escanear e insertar versiones que hay instaladas de PHP en el fichero /root/scripts/get_info_nombre_servidor.txt
+    ansible.builtin.shell: 
+      cmd: systemctl |grep php'[1-9]' |awk '{print $1}' >> /root/scripts/get_info_{{inventory_hostname}}.txt
+      executable: /bin/bash
+  
+  - name: Crear nueva linea
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: " \n     "
+     
+  - name: Creación cabecera MYSQL
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: '##########    MYSQL VERSION     ##########'
+  
+  - name: Escanear e insertar version que hay instaladas de MYSQL en el fichero /root/scripts/get_info_nombre_servidor.txt
+    ansible.builtin.shell: 
+      cmd: mysql -V >> /root/scripts/get_info_{{inventory_hostname}}.txt
+      executable: /bin/bash
+  
+  - name: Crear nueva linea
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: "     \n"
+  
+  - name: Creación cabecera OS
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: '##########    OS VERSION     ##########'
+
+  - name: Escanear e insertar distribución de S.O y su versión en el fichero /root/scripts/get_info_nombre_servidor.txt
+    ansible.builtin.shell: 
+      cmd:  hostnamectl | grep Operating >> /root/scripts/get_info_{{inventory_hostname}}.txt
+      executable: /bin/bash
+  
+  - name: Crear nueva linea
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: "\n     "
+  
+  - name: Creación cabecera CPU 
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: '##########    CPU      ##########'
+
+  - name: Escanear e insertar distribución de S.O y su versión en el fichero /root/scripts/get_info_nombre_servidor.txt
+    ansible.builtin.shell: 
+      cmd:  df -HT >> /root/scripts/get_info_{{inventory_hostname}}.txt
+      executable: /bin/bash
+  
+  - name: Crear nueva linea
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: "  \n    "
+
+  - name: Creación cabecera MEM  
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: '##########    MEM      ##########'
+
+  - name: Escanear e insertar distribución de S.O y su versión en el fichero /root/scripts/get_info_nombre_servidor.txt
+    ansible.builtin.shell: 
+      cmd:  free -m >> /root/scripts/get_info_{{inventory_hostname}}.txt
+      executable: /bin/bash
+  
+  - name: Crear nueva linea
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: "  \n   "
+
+  - name: Creación cabecera NGINX
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: '##########    NGINX VERSION     ##########'
+
+  - name: Escanear e insertar versión nginx en el fichero /root/scripts/get_info_nombre_servidor.txt
+    ansible.builtin.shell: 
+      cmd: nginx -v >> /root/scripts/get_info_{{inventory_hostname}}.txt
+      executable: /bin/bash
+  
+  - name: Crear nueva linea
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: "   \n  "
+
+  - name: Creación cabecera APACHE 
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: '##########    APACHE VERSION     ##########'
+
+  - name: Escanear e insertar versión apache en el fichero /root/scripts/get_info_nombre_server.txt
+    ansible.builtin.shell: 
+      cmd:  apache2 -v >> /root/scripts/get_info_{{inventory_hostname}}.txt
+      executable: /bin/bash
+  
+  - name: Crear nueva linea
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: "  \n   "
+
+  - name: Creación cabecera PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: '##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########'
+  
+  - name: Escanear e insertar versión apache en el fichero /root/scripts/get_info_nombre_server.txt
+    ansible.builtin.shell:
+      cmd: ls -ltr /etc/nginx/sites-enabled/ | awk '{print $9}' >> /root/scripts/get_info_{{inventory_hostname}}.txt
+      executable: /bin/bash
+  
+  - name: Crear nueva linea
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: "   \n  "
+       #  - name: Creación cabecera MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS
+       #    lineinfile: 
+       #     path: /root/scripts/get_info_{{inventory_hostname}}.txt
+       #     line: '##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########'
+       #  
+       #  - name: Traspaso ficero get_alias.sh a /root/scripts/
+       #    template: src={{ fichero_origen_get_alias }} dest={{ fichero_destino_get_alias }}
+       #  
+       #  - name: Cambio permisos de ejecución del fichero get_alias.sh
+       #    cmd: chmod 775 /home/ansible/get_alias.sh && chown ansible:ansible /home/ansible/get_alias.sh
+       #  
+       #  - name: Ejecución del script get_alias.sh para saber si los sites-enabled de apache apuntan al mismo servidor por DNS
+       #    command: bash /home/ansible/get_alias.sh
+       #  
+       #  - name: Copiar el resultado del fichero alias.log
+       #    cmd: cat alias.log >> /root/scripts/get_info_{{inventory_hostname}}.txt
+       #    args:
+       #     chdir: /home/ansible
+       #  
+       #  - name: Limpiar ficheros alias.sh alias.log
+       #    cmd: rm /home/ansible/get_alias.sh && rm /home/ansible/alias.log
+       #  
+       #  - name: Crear nueva linea
+       #    lineinfile: 
+       #     path: /root/scripts/get_info_{{inventory_hostname}}.txt
+       #     line: "        "
+       #
+  - name: Creación cabecera VERSION DE PHP CADA PROYECTO
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: '##########    VERSION DE PHP DE CADA PROYECTO     ##########'
+  
+  - name: Escanear e insertar versión PHP de cada proyecto en el fichero /root/scripts/get_info_nombre_servidor.txt
+    ansible.builtin.shell:
+      cmd: grep -Ro "php[0-9].[0-9]" >> /root/scripts/get_info_{{inventory_hostname}}.txt
+      chdir: /etc/nginx/sites-enabled
+      executable: /bin/bash
+  
+  - name: Crear nueva linea
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: "  \n   "
+
+  - name: Creación cabecera VERSION DE NODE
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: '##########    VERSION DE NODE     ##########'
+  
+  - name: Escanear e insertar versión de NODE en el fichero /root/scripts/get_info_nombre_servidor.txt
+    ansible.builtin.shell:
+      cmd: node -v >> /root/scripts/get_info_{{inventory_hostname}}.txt
+      executable: /bin/bash
+    ignore_errors: true
+  
+  - name: Escanear e insertar versión de NODE en el fichero (Equipos Antiguos) /root/scripts/get_info_nombre_servidor.txt
+    ansible.builtin.shell:
+      cmd: ls -ltr /root/.nvm/versions/node |awk '{print $9,$10,$11}' >> /root/scripts/get_info_{{inventory_hostname}}.txt
+      when: ansible_hostname == 'omafront13.omatech.com' and ansible_hostname == 'omafront43.omatech.com' and ansible_hostname == 'omafront45.omatech.com' and ansible_hostname == 'omafront47.omatech.com'
+      executable: /bin/bash 
+    ignore_errors: true
+    
+  - name: Crear nueva linea
+    lineinfile: 
+      path: /root/scripts/get_info_{{inventory_hostname}}.txt
+      line: "  \n   "
+
+  - name: Copia de fichero del servidor origen hacia local.
+    ansible.builtin.fetch:
+      src: /root/scripts/get_info_{{inventory_hostname}}.txt
+       #dest: /data/scripts-control/ansible/get_info_OMATECH/reports_servidores/
+      dest: /home/omatech/.local/bin/oma_ansible/get_info_OMATECH/reports_servidores/
+      flat: true
+  
+  - name: borrar los ficheros individuales
+    ansible.builtin.shell: 
+      cmd: rm -f get_info_{{inventory_hostname}}.txt
+      chdir: /root/scripts/
+      executable: /bin/bash   

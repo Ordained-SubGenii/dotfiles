@@ -1,0 +1,11 @@
+
+- name: Creación fichero actualizaciones
+  hosts: 192.168.0.64
+  user: ansible
+  become: true
+  gather_facts: true
+  vars:
+  tasks:
+  - name: Print all available facts
+    ansible.builtin.debug:
+      var: ansible_facts

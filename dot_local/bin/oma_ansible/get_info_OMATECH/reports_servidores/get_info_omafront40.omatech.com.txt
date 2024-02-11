@@ -1,0 +1,96 @@
+##########    HOSTNAME E IP    ##########
+omafront40.omatech.com
+212.32.244.78
+
+##########    PHP VERSION LIST    ##########
+php7.4-fpm.service
+ 
+##########    MYSQL VERSION     ##########
+mysql  Ver 14.14 Distrib 5.7.41, for Linux (x86_64) using  EditLine wrapper
+   
+##########    OS VERSION     ##########
+  Operating System: Ubuntu 18.04.6 LTS
+     
+##########    APACHE VERSION     ##########
+Server version: Apache/2.4.56 (Ubuntu)
+Server built:   2023-03-09T07:33:59
+      
+##########    PROYECTOS INSTALADOS Y OPERATIVOS A NIVEL DE /ETC/SITES-ENABLED     ##########
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+kabisoft.com.conf -> ../sites-available/kabisoft.com.conf
+kabisoft.com-le-ssl.conf -> /etc/apache2/sites-available/kabisoft.com-le-ssl.conf
+       
+##########    MIRAR SI EL VIRTUALHOST (ENABLED) ESTA APUNTANDO A LA MISMA MAQUINA VIA DNS     ##########
+omafront40.omatech.com
+212.32.244.78
+php7.4-fpm.service
+mysql  Ver 14.14 Distrib 5.7.41, for Linux (x86_64) using  EditLine wrapper
+  Operating System: Ubuntu 18.04.6 LTS
+##########    CPU      ##########
+Filesystem     Type      Size  Used Avail Use% Mounted on
+udev           devtmpfs  8.4G     0  8.4G   0% /dev
+tmpfs          tmpfs     1.7G  1.1M  1.7G   1% /run
+/dev/sda5      ext4      463G   43G  397G  10% /
+tmpfs          tmpfs     8.4G  1.3M  8.4G   1% /dev/shm
+tmpfs          tmpfs     5.3M     0  5.3M   0% /run/lock
+tmpfs          tmpfs     8.4G     0  8.4G   0% /sys/fs/cgroup
+/dev/sda2      ext2      1.1G  122M  882M  13% /boot
+/dev/sda4      ext4      4.1G   29M  3.9G   1% /tmp
+/dev/loop6     squashfs   67M   67M     0 100% /snap/core20/2015
+/dev/loop0     squashfs  112M  112M     0 100% /snap/core/16091
+/dev/loop2     squashfs  112M  112M     0 100% /snap/core/16202
+/dev/loop5     squashfs   48M   48M     0 100% /snap/certbot/3462
+/dev/loop1     squashfs   48M   48M     0 100% /snap/certbot/3566
+/dev/loop4     squashfs   68M   68M     0 100% /snap/core20/2105
+tmpfs          tmpfs     1.7G     0  1.7G   0% /run/user/0
+tmpfs          tmpfs     1.7G     0  1.7G   0% /run/user/1002
+##########    MEM      ##########
+              total        used        free      shared  buff/cache   available
+Mem:          15993        6139        1483           7        8371        9522
+Swap:          4095          10        4085
+Server version: Apache/2.4.56 (Ubuntu)
+Server built:   2023-03-09T07:33:59
+  
+000-default.conf -> ../sites-available/000-default.conf
+omatechinternal.conf -> ../sites-available/omatechinternal.conf
+kabisoft.com.conf -> ../sites-available/kabisoft.com.conf
+kabisoft.com-le-ssl.conf -> /etc/apache2/sites-available/kabisoft.com-le-ssl.conf
+/etc/apache2/sites-enabled/000-default.conf
+/etc/apache2/sites-enabled/kabisoft.com.conf
+/etc/apache2/sites-enabled/kabisoft.com.conf
+El nslookup SI coincide con la misma IP del servidor
+www.kabisoft.com	canonical name = kabisoft.com.
+Name:	kabisoft.com
+Address: 212.32.244.78
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	kabisoft.com
+Address: 212.32.244.78
+
+/etc/apache2/sites-enabled/kabisoft.com-le-ssl.conf
+/etc/apache2/sites-enabled/kabisoft.com-le-ssl.conf
+El nslookup SI coincide con la misma IP del servidor
+www.kabisoft.com	canonical name = kabisoft.com.
+Name:	kabisoft.com
+Address: 212.32.244.78
+
+El nslookup SI coincide con la misma IP del servidor
+Name:	kabisoft.com
+Address: 212.32.244.78
+
+/etc/apache2/sites-enabled/omatechinternal.conf
+El nslookup SI coincide con la misma IP del servidor
+Name:	omafront40.omatech.com
+Address: 212.32.244.78
+
+        
+##########    VERSION DE PHP DE CADA PROYECTO     ##########
+kabisoft.com-le-ssl.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+kabisoft.com.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+omatechinternal.conf:    SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+         
+##########    VERSION DE NODE     ##########
+v8.17.0
+           
